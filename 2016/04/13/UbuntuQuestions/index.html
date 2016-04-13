@@ -3,18 +3,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Data Mining | Monaen&#39;s Wiki</title>
+  <title>Ubuntu Installation Questions | Monaen&#39;s Wiki</title>
   <meta name="author" content="Monaen">
   
-  <meta name="description" content="Data Mining Software Library
-THE LUCS-KDD SOFTWARE LIBRARY
-
-Classification Association Rule Mining (CARM) software:Apriori-TFPC Classification Associa">
+  <meta name="description" content="Ubuntu 14.04.4 LTS install build-essential / g++(&amp;gt;=4.8) / update errorWhen you type:  sudo apt-get update  you get the error info:12345678910111213">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Data Mining"/>
+  <meta property="og:title" content="Ubuntu Installation Questions"/>
   <meta property="og:site_name" content="Monaen&#39;s Wiki"/>
 
   
@@ -48,7 +45,7 @@ Classification Association Rule Mining (CARM) software:Apriori-TFPC Classificati
   <div class="container" id="container">
 	<div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">Data Mining</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2015-10-06</span></h1>
+  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">Ubuntu Installation Questions</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2016-04-13</span></h1>
 </div>		
 
 <div class="row page">
@@ -70,10 +67,8 @@ Classification Association Rule Mining (CARM) software:Apriori-TFPC Classificati
 	
 
 	  <!-- content -->
-	  <h2 id="Data_Mining_Software_Library">Data Mining Software Library</h2><ul>
-<li><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/" target="_blank" rel="external">THE LUCS-KDD SOFTWARE LIBRARY</a></li>
-</ul>
-<p>Classification Association Rule Mining (CARM) software:<br><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/Apriori-TFPC/Version3/aprioriTFPC.html" target="_blank" rel="external">Apriori-TFPC</a> Classification Association Rule Mining (CARM) algorithm.<br><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/FOIL_PRM_CPAR/foilPrmCpar.html" target="_blank" rel="external">LUCS-KDD</a> implementations of FOIL, PRM and CPAR.<br><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/CMAR/cmar.html" target="_blank" rel="external">LUCS-KDD</a> implementation of CMAR.<br><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/CBA/cba.html" target="_blank" rel="external">LUCS-KDD</a> implementation of CBA.</p>
+	  <h2 id="Ubuntu_14-04-4_LTS_install_build-essential_/_g++(&gt;=4-8)_/_update_error">Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched <span class="number">32.6</span> MB <span class="keyword">in</span> <span class="number">11</span>s (<span class="number">2</span>,<span class="number">824</span> kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
+<h3 id="Solution">Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
 	  
 
 	  <div>
@@ -86,32 +81,32 @@ Classification Association Rule Mining (CARM) software:Apriori-TFPC Classificati
 	
 	
 		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
 			
 			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
 		
 	
 		
