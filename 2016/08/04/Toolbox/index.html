@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Toolbox | Monaen&#39;s Wiki</title>
+  <meta name="author" content="Monaen">
+  
+  <meta name="description" content="This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. 
+mxne">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Toolbox"/>
+  <meta property="og:site_name" content="Monaen&#39;s Wiki"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="Monaen&#39;s Wiki" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">Toolbox</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2016-08-04</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
+<h2 id="mxnet-toolbox"><a href="#mxnet-toolbox" class="headerlink" title="mxnet toolbox"></a>mxnet toolbox</h2><p>Recent updated mxnet toolbox provides some examples of ‘ipynb’ format, however, some of them cannot run directly, since the code need data, and the following several files are written in python which help to download relevant dataset and generate <strong>.rec</strong> files which are required by <a href="http://mxnet.readthedocs.io/en/latest/packages/python/io.html#how-to-get-data" target="_blank" rel="external">MXNet RecordIO</a></p>
+<h3 id="mxnet-notebook"><a href="#mxnet-notebook" class="headerlink" title="mxnet notebook"></a>mxnet notebook</h3><ul>
+<li><a href="/downloads/toolbox/get_cifar100.py">get_cifar100.py</a></li>
+<li><p><a href="/downloads/toolbox/generate_cifar100_rec.py">generate_cifar100_rec.py</a></p>
+<p>This two files should be copied to “mxnet-root/examples/notebook” and run before you want to run <strong>cifar-100.ipynb</strong>. They will help to provide the dataset, but one thing should be noticed that you may need to change the dataset path when you run <strong>cifar-100.ipynb</strong> notebook example.</p>
+</li>
+</ul>
+<h2 id="others"><a href="#others" class="headerlink" title="others"></a>others</h2><h3 id="extract-images-from-mat-file"><a href="#extract-images-from-mat-file" class="headerlink" title="extract images from .mat file"></a>extract images from .mat file</h3><ul>
+<li><a href="/downloads/toolbox/extract_image.py">extract_image.py</a><br>This python file extract image from .mat files some of it is hard-coded but maybe you can get some tricks from it(this file is used for Q-ATM dataset extraction originally.)</li>
+</ul>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+		
+			
+			
+		
+	
+		
+			
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/2016/08/04/Python_Toolbox/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2016 Monaen
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+</html>
