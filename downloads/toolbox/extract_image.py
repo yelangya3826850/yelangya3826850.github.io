@@ -28,17 +28,17 @@ def img2uint8(img):
         output:  image_uin8:   img_uint8
     '''
     try:
-        _datatype = data.dtype
+        _datatype = img.dtype
     except AttributeError:
         print 'input should be of ndarray type.'
     
     
-    if data.dtype == 'uint8':
+    if img.dtype == 'uint8':
         print 'the input is already of uint8 type.'
         return img
     
     img = Normal(img)
-    img_uint8 = (img * 256).astype('uint8')
+    img_uint8 = (img * 255).astype('uint8')
     return img_uint8
 
 
@@ -46,7 +46,7 @@ def img2uint8(img):
 ### global parameters
 path = '2016-07-28'
 prefix = 'phase'
-img_type = 'png'
+img_type = 'jpg'
 
 
 ### make storage dir
