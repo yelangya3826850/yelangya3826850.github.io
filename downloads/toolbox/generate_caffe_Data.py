@@ -9,8 +9,8 @@ import random
 
 
 ### parameters setting
-path = '2016-07-28_Images/'
-phase = 'jpg'
+path = 'phase/2016-07-28phase_Images/'
+phase = 'png'
 num_train = 1900
 num_val = 200
 num_test = 400
@@ -19,7 +19,7 @@ num_test = 400
 ### loading label file
 img_filelist = glob.glob(os.path.join(path, '*', '*.'+phase))
 classnames = np.loadtxt(os.path.join(path, 'labels.txt'), str)
-
+print 'find classes: ', classnames
 
 lab_dict = dict()
 keys = range(len(classnames))
@@ -45,43 +45,43 @@ test_data_pair  = data_lab_pairs[num_train+num_val : num_train+num_val+num_test]
 
 ##    make storage dir    ##
 ############################
-if os.path.exists(os.path.join(path, 'train')):
+if os.path.exists(os.path.join(path, '..', 'train')):
     print('The train dir is already existed.')
 else:
-    os.system("mkdir -p " + os.path.join(path, 'train'))
+    os.system("mkdir -p " + os.path.join(path, '..', 'train'))
 
 
-if os.path.exists(os.path.join(path, 'val')):
+if os.path.exists(os.path.join(path, '..', 'val')):
     print('The train dir is already existed.')
 else:
-    os.system("mkdir -p " + os.path.join(path, 'val'))
+    os.system("mkdir -p " + os.path.join(path, '..', 'val'))
 
 
-if os.path.exists(os.path.join(path, 'test')):
+if os.path.exists(os.path.join(path, '..', 'test')):
     print('The train dir is already existed.')
 else:
-    os.system("mkdir -p " + os.path.join(path, 'test'))
+    os.system("mkdir -p " + os.path.join(path, '..', 'test'))
 
 
 for _dir in lab_dict:
-    if os.path.exists(os.path.join(path, 'train', _dir)):
-        print('The {} dir is already existed in {}.'.format(_dir, os.path.join(path, 'train')))
+    if os.path.exists(os.path.join(path, '..', 'train', _dir)):
+        print('The {} dir is already existed in {}.'.format(_dir, os.path.join(path, '..', 'train')))
     else:
-        os.system("mkdir -p " + os.path.join(path, 'train', _dir))
+        os.system("mkdir -p " + os.path.join(path, '..', 'train', _dir))
 
 
 for _dir in lab_dict:
-    if os.path.exists(os.path.join(path, 'val', _dir)):
-        print('The {} dir is already existed in {}.'.format(_dir, os.path.join(path, 'val')))
+    if os.path.exists(os.path.join(path, '..', 'val', _dir)):
+        print('The {} dir is already existed in {}.'.format(_dir, os.path.join(path, '..', 'val')))
     else:
-        os.system("mkdir -p " + os.path.join(path, 'val', _dir))
+        os.system("mkdir -p " + os.path.join(path, '..', 'val', _dir))
 
 
 for _dir in lab_dict:
-    if os.path.exists(os.path.join(path, 'test', _dir)):
-        print('The {} dir is already existed in {}.'.format(_dir, os.path.join(path, 'test')))
+    if os.path.exists(os.path.join(path, '..', 'test', _dir)):
+        print('The {} dir is already existed in {}.'.format(_dir, os.path.join(path, '..', 'test')))
     else:
-        os.system("mkdir -p " + os.path.join(path, 'test', _dir))
+        os.system("mkdir -p " + os.path.join(path, '..', 'test', _dir))
 
 ##############################################################################################
 
@@ -92,28 +92,28 @@ for _dir in lab_dict:
 ## copy file to storage dir
 
 for _file, _ in train_data_pair:
-    os.system('cp ' + _file + ' ' + os.path.join(path, 'train', _file.split('/')[-2]))
+    os.system('cp ' + _file + ' ' + os.path.join(path, '..', 'train', _file.split('/')[-2]))
 for _file, _ in val_data_pair:
-    os.system('cp ' + _file + ' ' + os.path.join(path, 'val', _file.split('/')[-2]))
+    os.system('cp ' + _file + ' ' + os.path.join(path, '..', 'val', _file.split('/')[-2]))
 for _file, _ in test_data_pair:
-    os.system('cp ' + _file + ' ' + os.path.join(path, 'test', _file.split('/')[-2]))
+    os.system('cp ' + _file + ' ' + os.path.join(path, '..', 'test', _file.split('/')[-2]))
 
 
 
 
-with open(os.path.join(path, 'train.txt'), 'w') as trainlist:
+with open(os.path.join(path, '..', 'train.txt'), 'w') as trainlist:
     for im_file, lab in train_data_pair:
         savepath = os.path.join('/'.join(im_file.split('/')[-2:]))
         trainlist.write('{} {}\n'.format(savepath, lab))
 
 
-with open(os.path.join(path, 'val.txt'), 'w') as vallist:
+with open(os.path.join(path, '..', 'val.txt'), 'w') as vallist:
     for im_file, lab in val_data_pair:
         savepath = os.path.join('/'.join(im_file.split('/')[-2:]))
         vallist.write('{} {}\n'.format(savepath, lab))
 
 
-with open(os.path.join(path, 'test.txt'), 'w') as testlist:
+with open(os.path.join(path, '..', 'test.txt'), 'w') as testlist:
     for im_file, lab in test_data_pair:
         savepath = os.path.join('/'.join(im_file.split('/')[-2:]))
         testlist.write('{} {}\n'.format(savepath, lab))
@@ -121,7 +121,6 @@ with open(os.path.join(path, 'test.txt'), 'w') as testlist:
 
 ### Notice: when generating the txt file you can only use 'space' as delimiter 
 ###         of image file path and its label
-
 
 
 
