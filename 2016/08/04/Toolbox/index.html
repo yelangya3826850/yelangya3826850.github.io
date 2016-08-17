@@ -95,7 +95,11 @@ mxne">
 </ul>
 <h2 id="caffe"><a href="#caffe" class="headerlink" title="caffe"></a>caffe</h2><h3 id="generate-dataset-and-txtfiles-for-futher-caffe-lmdb-usage"><a href="#generate-dataset-and-txtfiles-for-futher-caffe-lmdb-usage" class="headerlink" title="generate dataset and txtfiles for futher caffe lmdb usage"></a>generate dataset and txtfiles for futher caffe lmdb usage</h3><ul>
 <li><p><a href="/downloads/toolbox/generate_caffe_Data.py">generate_caffe_Data.py</a></p>
-<p>This file is an example to generate dataset and files for caffe to futher getting lmdb data. Some part of it is hard-coded but it may offer some help for futher usage. You should set the parameters <code>path</code>: which represents the root of your dataset. <code>phase</code>: represents the type of your images(although kind of weird for naming it phase), and you should also set the nubmer of train, test, and validation set. You will get three folders – namely train, test, val which store the dataset extracted from all the dataset(already shuffled) and three label txt files – namely, train.txt, test.txt, and val.txt.</p>
+<p>This file is an example to generate dataset and files for caffe to futher getting lmdb data. Some part of it is hard-coded but it may offer some help for futher usage. You should set the parameters:</p>
+<ul>
+<li><code>path</code>: which represents the root of your dataset. </li>
+<li><code>phase</code>: represents the type of your images(although kind of weird for naming it phase),<br>and you should also set the nubmer of train, test, and validation set: <code>num_train</code>, <code>num_test</code>, <code>num_val</code>.<br>You will get three folders – namely <strong>train</strong>, <strong>test</strong>, <strong>val</strong> which store the dataset extracted from all the dataset(already shuffled) and three label txt files – namely, <strong>train.txt</strong>, <strong>test.txt</strong>, and <strong>val.txt</strong>.</li>
+</ul>
 </li>
 </ul>
 <h3 id="create-lmdb-dataset-for-caffe-usage"><a href="#create-lmdb-dataset-for-caffe-usage" class="headerlink" title="create lmdb dataset for caffe usage"></a>create lmdb dataset for caffe usage</h3><ul>
