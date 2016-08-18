@@ -9,7 +9,7 @@ import cv2
 
 # path = '../../../../mxnet/example/mywork'
 quality = 100
-path = './'
+path = './phase'
 def create_rec(path, quality = 100):
 	npzfiles = glob.glob(os.path.join(path, '*.npz'))
 
@@ -39,7 +39,7 @@ def create_rec(path, quality = 100):
 		print 'Start to create train.rec ...'
 
 		prefix = 'train'
-		record = mx.recordio.MXRecordIO(prefix+'.rec', 'w')
+		record = mx.recordio.MXRecordIO(os.path.join(path, prefix+'.rec'), 'w')
 
 		indice = range(len(X_train))
 		labels = np.tile(y_train, (4,1))
@@ -47,11 +47,11 @@ def create_rec(path, quality = 100):
 		    items = X_train[i,:,:,:]
 		    content = ''
 		    for j in range(len(items)):
-			_img = items[j,:,:]
-			ret, buf = cv2.imencode('.jpg', _img, encode_params)
-			assert ret, 'failed encoding image'
-			        
-			content = content + buf.tostring()
+				_img = items[j,:,:]
+				ret, buf = cv2.imencode('.jpg', _img, encode_params)
+				assert ret, 'failed encoding image'
+				        
+				content = content + buf.tostring()
 		    # _label = labels[:,i] 
 		    _label = y_train[i]
 		    header = (0, _label, indice[i], 0)
@@ -63,7 +63,7 @@ def create_rec(path, quality = 100):
 		print 'Start to create val.rec ...'
 
 		prefix = 'val'
-		record = mx.recordio.MXRecordIO(prefix+'.rec', 'w')
+		record = mx.recordio.MXRecordIO(os.path.join(path, prefix+'.rec'), 'w')
 
 		indice = range(len(X_val))
 		labels = np.tile(y_val, (4,1))
@@ -71,11 +71,11 @@ def create_rec(path, quality = 100):
 		    items = X_val[i,:,:,:]
 		    content = ''
 		    for j in range(len(items)):
-			_img = items[j,:,:]
-			ret, buf = cv2.imencode('.jpg', _img, encode_params)
-			assert ret, 'failed encoding image'
-			        
-			content = content + buf.tostring()
+				_img = items[j,:,:]
+				ret, buf = cv2.imencode('.jpg', _img, encode_params)
+				assert ret, 'failed encoding image'
+				        
+				content = content + buf.tostring()
 			        
 		    # _label = labels[:,i]
 		    _label = y_val[i]
@@ -89,7 +89,7 @@ def create_rec(path, quality = 100):
 		print 'Start to create test.rec ...'
 
 		prefix = 'test'
-		record = mx.recordio.MXRecordIO(prefix+'.rec', 'w')
+		record = mx.recordio.MXRecordIO(os.path.join(path, prefix+'.rec'), 'w')
 
 		indice = range(len(X_test))
 		labels = np.tile(y_test, (4,1))
@@ -97,11 +97,11 @@ def create_rec(path, quality = 100):
 		    items = X_test[i,:,:,:]
 		    content = ''
 		    for j in range(len(items)):
-			_img = items[j,:,:]
-			ret, buf = cv2.imencode('.jpg', _img, encode_params)
-			assert ret, 'failed encoding image'
-			        
-			content = content + buf.tostring()
+				_img = items[j,:,:]
+				ret, buf = cv2.imencode('.jpg', _img, encode_params)
+				assert ret, 'failed encoding image'
+				        
+				content = content + buf.tostring()
 			        
 		    # _label = labels[:,i]
 		    _label = y_test[i]
