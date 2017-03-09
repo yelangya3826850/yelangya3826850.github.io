@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[Software Activation]]></title>
+      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
+      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
+<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
+<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
+<li>click “Continue” and copy the request code</li>
+<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
+<li>run <code>python CalcActivationCode.py</code> to get license</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Software </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Toolbox]]></title>
+      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
+      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
+<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
+<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Toolbox]]></title>
+      <url>http://yoursite.com/2016/08/04/Toolbox/</url>
+      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
+<h2 id="mxnet-toolbox"><a href="#mxnet-toolbox" class="headerlink" title="mxnet toolbox"></a>mxnet toolbox</h2><p>Recent updated mxnet toolbox provides some examples of ‘ipynb’ format, however, some of them cannot run directly, since the code need data, and the following several files are written in python which help to download relevant dataset and generate <strong>.rec</strong> files which are required by <a href="http://mxnet.readthedocs.io/en/latest/packages/python/io.html#how-to-get-data" target="_blank" rel="external">MXNet RecordIO</a></p>
+<h3 id="mxnet-notebook"><a href="#mxnet-notebook" class="headerlink" title="mxnet notebook"></a>mxnet notebook</h3><ul>
+<li><a href="/downloads/toolbox/get_cifar100.py">get_cifar100.py</a></li>
+<li><p><a href="/downloads/toolbox/generate_cifar100_rec.py">generate_cifar100_rec.py</a></p>
+<p>This two files should be copied to “mxnet-root/examples/notebook” and run before you want to run <strong>cifar-100.ipynb</strong>. They will help to provide the dataset, but one thing should be noticed that you may need to change the dataset path when you run <strong>cifar-100.ipynb</strong> notebook example.</p>
+</li>
+</ul>
+<h3 id="mxnet-im2rec-py-and-make-list-py"><a href="#mxnet-im2rec-py-and-make-list-py" class="headerlink" title="mxnet im2rec.py and make_list.py"></a>mxnet im2rec.py and make_list.py</h3><ul>
+<li><a href="/downloads/toolbox/mxnet/im2rec.py">im2rec.py</a></li>
+<li><p><a href="/downloads/toolbox/mxnet/make_list.py">make_list.py</a></p>
+<p>This two files are original old mxnet tools. <strong>make_list.py</strong> is used to generate a <strong>.lst</strong> file which discribes where your images are stored in the form of: <strong>image_index \t label \t image_path</strong> if you store the image in subdir, you should assign <strong>–recursive</strong> to True.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## if your data are stored like this:</span></span><br><span class="line">--- data</span><br><span class="line">        ---MCF7</span><br><span class="line">               ---mcf7_1.jpg</span><br><span class="line">               ---mcf7_2.jpg</span><br><span class="line">               .......</span><br><span class="line">        ---OAC</span><br><span class="line">        ---OST</span><br><span class="line">        ---PBMC</span><br><span class="line">        ---THP1</span><br><span class="line"></span><br><span class="line"><span class="comment">## in your terminal you should type:</span></span><br><span class="line">python make_list.py data mydata --train_ratio=0.8 --recursive=True</span><br><span class="line"></span><br><span class="line"><span class="comment">## parameter: mydata is the prefix and you can use any prefix you like...</span></span><br><span class="line"><span class="comment">## parameter: data is the root path</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## likewise after you generate the .lst file, you can use im2rec.py to generate .rec database like:</span></span><br><span class="line">python im2rec.py mydata_train data --quality=100</span><br><span class="line"></span><br><span class="line"><span class="comment">## parameter: mydata_train is the name of .lst file without suffix</span></span><br><span class="line"><span class="comment">## parameter: data is the root path</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="mxnet-rec-database"><a href="#mxnet-rec-database" class="headerlink" title="mxnet rec database"></a>mxnet rec database</h3><ul>
+<li><p><a href="/downloads/toolbox/mxnet/create_rec.py">create_rec.py</a></p>
+<p>This file create mxnet rec database from .npz file. Since the file is hard-coded, you need to change a little bit according your data when using it. The npz files should be named ‘train.npz’, ‘val.npz’ or ‘test.npz’ and in each npz file there are two variables: X_train, y_train for train.npz; X_val, y_val for val.npz and X_test and y_test for test.npz. X_train.shape = (num_train, C, height, width) and y_train.shape = (num_train, )</p>
+</li>
+</ul>
+<h2 id="others"><a href="#others" class="headerlink" title="others"></a>others</h2><h3 id="extract-images-from-mat-file"><a href="#extract-images-from-mat-file" class="headerlink" title="extract images from .mat file"></a>extract images from .mat file</h3><ul>
+<li><p><a href="/downloads/toolbox/extract_image.py">extract_image.py</a></p>
+<p>This python file extract image from .mat files some of it is hard-coded but maybe you can get some tricks from it(this file is used for Q-ATM dataset extraction originally.)</p>
+</li>
+</ul>
+<h2 id="caffe"><a href="#caffe" class="headerlink" title="caffe"></a>caffe</h2><h3 id="generate-dataset-and-txtfiles-for-futher-caffe-lmdb-usage"><a href="#generate-dataset-and-txtfiles-for-futher-caffe-lmdb-usage" class="headerlink" title="generate dataset and txtfiles for futher caffe lmdb usage"></a>generate dataset and txtfiles for futher caffe lmdb usage</h3><ul>
+<li><p><a href="/downloads/toolbox/generate_caffe_Data.py">generate_caffe_Data.py</a></p>
+<p>This file is an example to generate dataset and files for caffe to futher getting lmdb data. Some part of it is hard-coded but it may offer some help for futher usage. You should set the parameters:</p>
+<ul>
+<li><code>path</code>: which represents the root of your dataset. </li>
+<li><code>phase</code>: represents the type of your images(although kind of weird for naming it phase),<br>and you should also set the nubmer of train, test, and validation set: <code>num_train</code>, <code>num_test</code>, <code>num_val</code>.<br>You will get three folders – namely <strong>train</strong>, <strong>test</strong>, <strong>val</strong> which store the dataset extracted from all the dataset(already shuffled) and three label txt files – namely, <strong>train.txt</strong>, <strong>test.txt</strong>, and <strong>val.txt</strong>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="create-lmdb-dataset-for-caffe-usage"><a href="#create-lmdb-dataset-for-caffe-usage" class="headerlink" title="create lmdb dataset for caffe usage"></a>create lmdb dataset for caffe usage</h3><ul>
+<li><p><a href="/downloads/toolbox/create_lmdb.py">create_lmdb.py</a></p>
+<p>This file is an example to generate lmdb dataset from image. Maybe your datasets are not RGB-image, or maybe your data have higher dimension but you can still use this file with small changes.</p>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Light-field DateSet]]></title>
+      <url>http://yoursite.com/2016/07/28/LightfieldDataset/</url>
+      <content type="html"><![CDATA[<h2 id="Dataset"><a href="#Dataset" class="headerlink" title="Dataset"></a>Dataset</h2><h4 id="1-SMART-–-lightfield-dataset-2016"><a href="#1-SMART-–-lightfield-dataset-2016" class="headerlink" title="1. SMART – lightfield dataset(2016)"></a>1. <a href="http://www.comlab.uniroma3.it/SMART.html" target="_blank" rel="external">SMART – lightfield dataset(2016)</a></h4><p><strong>16 LF images</strong> are included in the SMART LF dataset, from both indoor and outdoor category, and cover general image content related features (colorfulness, spatial information, and texture) but also LF specific aspects such as reflection, transparency and depth of field variation.</p>
+<ul>
+<li>SMART Dataset (7.2GB) <!-- http://www.comlab.uniroma3.it/SMART/SMART.zip --></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Dataset </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Tricks]]></title>
+      <url>http://yoursite.com/2016/06/06/Python-Tricks/</url>
+      <content type="html"><![CDATA[<h2 id="Coding-Tricks"><a href="#Coding-Tricks" class="headerlink" title="Coding Tricks"></a>Coding Tricks</h2><h3 id="change-list-of-string-to-list-of-int"><a href="#change-list-of-string-to-list-of-int" class="headerlink" title="change list of string to list of int"></a>change list of string to list of int</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## let's say fileindices is a list of string: ['1','2','3',...]</span></span><br><span class="line"><span class="comment">## and now we want to change it to [1,2,3,...]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## Using the map function:</span></span><br><span class="line"></span><br><span class="line">fileindices = map(int, fileindices)</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Coding </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ubuntu Installation Questions]]></title>
+      <url>http://yoursite.com/2016/04/13/UbuntuInstallationQuestions/</url>
+      <content type="html"><![CDATA[<h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
+<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        <categories>
+            
+            <category> OperationSystemInstallation </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Raspberry pi 3(B)]]></title>
+      <url>http://yoursite.com/2016/04/13/RaspberryPi/</url>
+      <content type="html"><![CDATA[<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Input-plugin-installation"><a href="#Input-plugin-installation" class="headerlink" title="Input-plugin installation"></a>Input-plugin installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ttf-wqy-microhei</span><br><span class="line"></span><br><span class="line"><span class="comment">## This command helps to deal with the problem that raspberry pi cannot recognize some chinese characters</span></span><br></pre></td></tr></table></figure>
+<h2 id="Raspberry-Pi-Resource"><a href="#Raspberry-Pi-Resource" class="headerlink" title="Raspberry Pi Resource"></a>Raspberry Pi Resource</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">http://www.waveshare.net/wiki/RPi_LCD_Datasheets</span><br><span class="line"></span><br><span class="line">https://www.raspberrypi.org/downloads/raspbian/</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/forum/portal.php?mod=list&amp;catid=29</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/wiki/3.5inch-RPi-LCD-A-Video</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/wiki/3.5inch_RPi_LCD_(A)</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> RaspberryPi </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Command]]></title>
+      <url>http://yoursite.com/2016/03/28/Python/</url>
+      <content type="html"><![CDATA[<h2 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h2><h3 id="Check-python-version"><a href="#Check-python-version" class="headerlink" title="Check python version"></a>Check python version</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure>
+<h3 id="Check-available-packages-version"><a href="#Check-available-packages-version" class="headerlink" title="Check available packages version"></a>Check available packages version</h3><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="keyword">cache </span>policy pakagename</span><br><span class="line"><span class="comment"># Let's say package numpy</span></span><br><span class="line"><span class="comment"># you should type:</span></span><br><span class="line">apt-<span class="keyword">cache </span>policy python-numpy</span><br><span class="line"></span><br><span class="line"><span class="comment"># for package cpython</span></span><br><span class="line"><span class="comment"># you should type: apt-cache policy cpython</span></span><br></pre></td></tr></table></figure>
+<h2 id="Install-packages"><a href="#Install-packages" class="headerlink" title="Install packages"></a>Install packages</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip &amp; matplotlib</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-pip</span><br><span class="line">sudo apt-<span class="keyword">get</span> install matplotlib</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install numpy</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-numpy</span><br></pre></td></tr></table></figure>
+<h2 id="Install-jupyter-notebook"><a href="#Install-jupyter-notebook" class="headerlink" title="Install jupyter notebook"></a>Install jupyter notebook</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip</span></span><br><span class="line"></span><br><span class="line">curl <span class="string">"https://bootstrap.pypa.io/get-pip.py"</span> -o <span class="string">"get-pip.py"</span></span><br><span class="line">sudo python <span class="keyword">get</span>-pip.py</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install jupyter notebook</span></span><br><span class="line">pip install jupyter</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Command </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mac Command]]></title>
+      <url>http://yoursite.com/2016/03/28/MacCommand/</url>
+      <content type="html"><![CDATA[<h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><h3 id="Create-a-bash-profile-on-mac"><a href="#Create-a-bash-profile-on-mac" class="headerlink" title="Create a .bash_profile on mac"></a>Create a .bash_profile on mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
+<h3 id="edit-the-bash-profile"><a href="#edit-the-bash-profile" class="headerlink" title="edit the .bash_profile"></a>edit the .bash_profile</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open <span class="_">-e</span> .bash_profile</span><br></pre></td></tr></table></figure>
+<h3 id="Reload-the-bash-profile-and-update-any-functions-you-add"><a href="#Reload-the-bash-profile-and-update-any-functions-you-add" class="headerlink" title="Reload the .bash_profile and update any functions you add"></a>Reload the .bash_profile and update any functions you add</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Command </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[DateSet]]></title>
+      <url>http://yoursite.com/2016/01/20/DataSet/</url>
+      <content type="html"><![CDATA[<h2 id="DataSet"><a href="#DataSet" class="headerlink" title="DataSet"></a>DataSet</h2><ul>
+<li><a href="http://www.cad.zju.edu.cn/home/dengcai/Data/MLData.html" target="_blank" rel="external">Zhejiang University</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Dataset </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[HKU Courses]]></title>
+      <url>http://yoursite.com/2015/11/25/HKUCourse/</url>
+      <content type="html"><![CDATA[<h2 id="Electric-and-Electronic-Engineering"><a href="#Electric-and-Electronic-Engineering" class="headerlink" title="Electric and Electronic Engineering"></a>Electric and Electronic Engineering</h2><h3 id="Digital-signal-processing"><a href="#Digital-signal-processing" class="headerlink" title="Digital signal processing"></a><a href="http://moodle.hku.hk/course/info.php?id=27564" target="_blank" rel="external">Digital signal processing</a></h3><h4 id="Appendix-Courses"><a href="#Appendix-Courses" class="headerlink" title="Appendix Courses:"></a>Appendix Courses:</h4><p><a href="http://ocw.mit.edu/resources/res-6-008-digital-signal-processing-spring-2011/index.htm" target="_blank" rel="external">Digital Signal Processing</a></p>
+<ul>
+<li><a href="http://ocw.mit.edu/resources/res-6-008-digital-signal-processing-spring-2011/video-lectures/" target="_blank" rel="external">video lectures</a></li>
+<li><a href="http://ocw.mit.edu/resources/res-6-008-digital-signal-processing-spring-2011/study-materials/" target="_blank" rel="external">lecture notes</a></li>
+</ul>
+<p><a href="http://ocw.mit.edu/resources/res-6-007-signals-and-systems-spring-2011/" target="_blank" rel="external">Signals and Systems</a></p>
+<ul>
+<li><a href="http://ocw.mit.edu/resources/res-6-007-signals-and-systems-spring-2011/video-lectures/" target="_blank" rel="external">video lectures</a></li>
+<li><a href="http://ocw.mit.edu/resources/res-6-007-signals-and-systems-spring-2011/lecture-notes/" target="_blank" rel="external">lecture notes</a></li>
+</ul>
+<p><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-341-discrete-time-signal-processing-fall-2005/" target="_blank" rel="external">Discrete-Time Signal Processing</a></p>
+<ul>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-341-discrete-time-signal-processing-fall-2005/lecture-notes/" target="_blank" rel="external">lecture notes</a></li>
+</ul>
+<p><a href="http://ocw.mit.edu/courses/mechanical-engineering/2-161-signal-processing-continuous-and-discrete-fall-2008/" target="_blank" rel="external">Signal Processing: Continuous and Discrete</a></p>
+<ul>
+<li><a href="http://ocw.mit.edu/courses/mechanical-engineering/2-161-signal-processing-continuous-and-discrete-fall-2008/lecture-notes/" target="_blank" rel="external">lecture notes</a></li>
+</ul>
+<p><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-071j-introduction-to-electronics-signals-and-measurement-spring-2006/index.htm" target="_blank" rel="external">Introduction to Electronics, Signals, and Measurement</a></p>
+<ul>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-071j-introduction-to-electronics-signals-and-measurement-spring-2006/lecture-notes/" target="_blank" rel="external">lecture notes</a></li>
+</ul>
+<p><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-011-introduction-to-communication-control-and-signal-processing-spring-2010/index.htm" target="_blank" rel="external">Introduction to Communication, Control, and Signal Processing</a></p>
+<ul>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-011-introduction-to-communication-control-and-signal-processing-spring-2010/index.htm" target="_blank" rel="external">lecture notes</a></li>
+</ul>
+<h4 id="Assignments"><a href="#Assignments" class="headerlink" title="Assignments:"></a>Assignments:</h4><h4 id="Assignments-Resources"><a href="#Assignments-Resources" class="headerlink" title="Assignments Resources:"></a>Assignments Resources:</h4><p><a href="https://www.ee.iitb.ac.in/~esgroup/es_mtech02_sem/es02_sem_rep_arojit.pdf" target="_blank" rel="external">FIR Filter Design Techniques</a><br><a href="https://en.wikipedia.org/wiki/Parks%E2%80%93McClellan_filter_design_algorithm#Explanation" target="_blank" rel="external">Parks–McClellan filter design</a></p>
+<h3 id="Computer-Science"><a href="#Computer-Science" class="headerlink" title="Computer Science"></a>Computer Science</h3><p><a href="">Theory of Computation and Algorithms Design</a><br>Appendix Courses:</p>
+<ul>
+<li><a href="http://people.seas.harvard.edu/~minilek/cs224/lec.html" target="_blank" rel="external">Harvard CS 224: Advanced Algorithms</a></li>
+</ul>
+<p>Readings:<br><a href="http://web.stanford.edu/class/cs369/files/cs369-notes" target="_blank" rel="external">Stanford CS369 - Online Algorithms</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Courses </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mathematics]]></title>
+      <url>http://yoursite.com/2015/11/25/MatrixCalculus/</url>
+      <content type="html"><![CDATA[<h2 id="Matrix-Calculus"><a href="#Matrix-Calculus" class="headerlink" title="Matrix Calculus"></a>Matrix Calculus</h2><h3 id="Matrix-Calculus-Form"><a href="#Matrix-Calculus-Form" class="headerlink" title="Matrix Calculus Form"></a>Matrix Calculus Form</h3><p><a href="http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf" target="_blank" rel="external">Matrix Calculus</a><br><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf" target="_blank" rel="external">Matrix Differentiation</a><br><a href="http://www.math.nyu.edu/~neylon/linalgfall04/project1/dj/propofmatrixmult.htm" target="_blank" rel="external">Properties of Matrix Multiplication</a></p>
+<h3 id="Relevant-PPT"><a href="#Relevant-PPT" class="headerlink" title="Relevant PPT"></a>Relevant PPT</h3><p><a href="http://select.cs.cmu.edu/class/10725-S10/recitations/r4/Matrix_Calculus_Algebra.pdf" target="_blank" rel="external">Matrix Calculus and Algebra</a></p>
+<p>### </p>
+]]></content>
+      
+        <categories>
+            
+            <category> Matrix </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[R Language Reference Card]]></title>
+      <url>http://yoursite.com/2015/10/15/RLanguage/</url>
+      <content type="html"><![CDATA[<h2 id="R-Language-Reference"><a href="#R-Language-Reference" class="headerlink" title="R - Language Reference"></a>R - Language Reference</h2><ul>
+<li><a href="https://cran.r-project.org/doc/contrib/Liu-R-refcard.pdf" target="_blank" rel="external">R Language Command Reference Card</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> RLanguage </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Matrix Factorization Resource]]></title>
+      <url>http://yoursite.com/2015/10/13/NMF/</url>
+      <content type="html"><![CDATA[<h2 id="Nonnegtive-Matrix-Factorization"><a href="#Nonnegtive-Matrix-Factorization" class="headerlink" title="Nonnegtive Matrix Factorization"></a>Nonnegtive Matrix Factorization</h2><ul>
+<li><a href="https://sites.google.com/site/igorcarron2/matrixfactorizations" target="_blank" rel="external">The Advanced Matrix Factorization Jungle</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> MatrixFactorization </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Beautiful Visualization]]></title>
+      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
+      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Visualization </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Latex Mathematical Formula]]></title>
+      <url>http://yoursite.com/2015/10/11/Latex/</url>
+      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
+<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
+<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
+</ul>
+<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
+<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Latex </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Traditional Computer Vision]]></title>
+      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
+      <content type="html"><![CDATA[<p>Thresholding</p>
+<p>Blob Detection</p>
+]]></content>
+      
+        <categories>
+            
+            <category> ComputerVision </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Computer Vision Resource]]></title>
+      <url>http://yoursite.com/2015/10/11/Computer%20Vision%20Resource/</url>
+      <content type="html"><![CDATA[<h2 id="Online-Book"><a href="#Online-Book" class="headerlink" title="Online Book"></a>Online Book</h2><h3 id="CVonline"><a href="#CVonline" class="headerlink" title="CVonline"></a>CVonline</h3><ul>
+<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/CVentry.htm" target="_blank" rel="external">CVonline</a></li>
+<li><a href="https://sites.google.com/site/cvonlinewiki/home" target="_blank" rel="external">CVonline wiki</a></li>
+<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MORSE/?C=M;O=A" target="_blank" rel="external">CVonline Basic Knowledge</a></li>
+</ul>
+<h3 id="The-Lab-Book-Pages"><a href="#The-Lab-Book-Pages" class="headerlink" title="The Lab Book Pages"></a>The Lab Book Pages</h3><ul>
+<li><a href="http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html" target="_blank" rel="external">Otsu Thresholding</a></li>
+<li><a href="http://www.labbookpages.co.uk/software/imgProc/blobDetection.html" target="_blank" rel="external">Blob Detection</a></li>
+</ul>
+<h3 id="Compressive-Sensing"><a href="#Compressive-Sensing" class="headerlink" title="Compressive Sensing"></a>Compressive Sensing</h3><ul>
+<li><a href="http://dsp.rice.edu/cs" target="_blank" rel="external">Compressive Sensing Resources</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> ComputerVision </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Data Mining]]></title>
+      <url>http://yoursite.com/2015/10/06/DataMining/</url>
+      <content type="html"><![CDATA[<h2 id="Data-Mining-Software-Library"><a href="#Data-Mining-Software-Library" class="headerlink" title="Data Mining Software Library"></a>Data Mining Software Library</h2><ul>
+<li><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/" target="_blank" rel="external">THE LUCS-KDD SOFTWARE LIBRARY</a></li>
+</ul>
+<p>Classification Association Rule Mining (CARM) software:<br><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/Apriori-TFPC/Version3/aprioriTFPC.html" target="_blank" rel="external">Apriori-TFPC</a> Classification Association Rule Mining (CARM) algorithm.<br><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/FOIL_PRM_CPAR/foilPrmCpar.html" target="_blank" rel="external">LUCS-KDD</a> implementations of FOIL, PRM and CPAR.<br><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/CMAR/cmar.html" target="_blank" rel="external">LUCS-KDD</a> implementation of CMAR.<br><a href="https://cgi.csc.liv.ac.uk/~frans/KDD/Software/CBA/cba.html" target="_blank" rel="external">LUCS-KDD</a> implementation of CBA.</p>
+]]></content>
+      
+        <categories>
+            
+            <category> DataMining </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lisp]]></title>
+      <url>http://yoursite.com/2015/09/29/Lisp/</url>
+      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
+<ul>
+<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Lisp </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ubuntu Command]]></title>
+      <url>http://yoursite.com/2015/09/29/UbuntuCommand/</url>
+      <content type="html"><![CDATA[<h2 id="Basic-Operation"><a href="#Basic-Operation" class="headerlink" title="Basic Operation"></a>Basic Operation</h2><h3 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h3><h4 id="Check-the-disk-partition"><a href="#Check-the-disk-partition" class="headerlink" title="Check the disk partition"></a>Check the disk partition</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hl</span><br></pre></td></tr></table></figure>
+<h4 id="Check-the-version-of-System"><a href="#Check-the-version-of-System" class="headerlink" title="Check the version of System"></a>Check the version of System</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsb_release <span class="_">-a</span></span><br></pre></td></tr></table></figure>
+<h4 id="Check-the-bit-32-or-64-of-System"><a href="#Check-the-bit-32-or-64-of-System" class="headerlink" title="Check the bit(32 or 64) of System"></a>Check the bit(32 or 64) of System</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">uname <span class="_">-a</span></span><br><span class="line">uname -i</span><br></pre></td></tr></table></figure>
+<h4 id="Check-GPU-information"><a href="#Check-GPU-information" class="headerlink" title="Check GPU information"></a>Check GPU information</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lspci -v <span class="_">-s</span> $(lspci | grep VGA | cut <span class="_">-d</span><span class="string">" "</span> <span class="_">-f</span> 1)</span><br></pre></td></tr></table></figure>
+<h3 id="Install-software"><a href="#Install-software" class="headerlink" title="Install software"></a>Install software</h3><h4 id="Install-the-ibus-google-input"><a href="#Install-the-ibus-google-input" class="headerlink" title="Install the ibus google input"></a>Install the ibus google input</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ibus-googlepinyin</span><br><span class="line">im-config</span><br></pre></td></tr></table></figure>
+<h4 id="Install-R-project"><a href="#Install-R-project" class="headerlink" title="Install R project"></a>Install R project</h4><p><strong>1. First: add a repository to etc/apt/sources.list </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sh -c <span class="string">'echo "deb https://&lt;my.favorite.cran.mirror&gt;/bin/linux/ubuntu trusty/"'</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="Install-wifi-adapter-A6-100"><a href="#Install-wifi-adapter-A6-100" class="headerlink" title="Install wifi adapter(A6 100)"></a>Install wifi adapter(A6 100)</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Download http://github.com/abperiasamy/rtl8812AU_8821AU_linux</span></span><br><span class="line"><span class="built_in">cd</span> Download/rtl8812AU_8821AU_linux-master</span><br><span class="line"><span class="comment">## sudo make clean</span></span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br><span class="line">sudo modprobe 8812au</span><br></pre></td></tr></table></figure>
+<p><strong>2. Second: running following command </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install r-base</span><br></pre></td></tr></table></figure></p>
+<p>reference website:<br>(<a href="https://cran.r-project.org/bin/linux/ubuntu/README" target="_blank" rel="external">https://cran.r-project.org/bin/linux/ubuntu/README</a>)</p>
+<p><strong>3. Set default CRAN mirror permanent in R </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">options(repos=structure(c(CRAN=<span class="string">"YOUR FAVORITE MIRROR"</span>)))</span><br></pre></td></tr></table></figure></p>
+<p>Then follow this <a href="http://jingyan.baidu.com/article/219f4bf7d4a183de442d38f2.html" target="_blank" rel="external">Link</a>.</p>
+<h3 id="Link-software"><a href="#Link-software" class="headerlink" title="Link software"></a>Link software</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// example: link the first path to the second one</span><br><span class="line"></span><br><span class="line">sudo ln <span class="_">-s</span> /usr/<span class="built_in">local</span>/MATLAB/R2013a/bin/matlab /usr/<span class="built_in">local</span>/bin/matlab</span><br></pre></td></tr></table></figure>
+<h3 id="Install-command"><a href="#Install-command" class="headerlink" title="Install command"></a>Install command</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//.deb file :</span></span><br><span class="line"></span><br><span class="line">sudo dpkg -<span class="selector-tag">i</span> deb_package</span><br></pre></td></tr></table></figure>
+<h3 id="Switch-multiple-gcc-and-g"><a href="#Switch-multiple-gcc-and-g" class="headerlink" title="Switch multiple gcc and g++"></a>Switch multiple gcc and g++</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## for people who using matconvnet and mxnet the first toolbox need </span></span><br><span class="line"><span class="comment">## g++ 4.7 and the second need g++ 4.8, thus sometimes we need to switch between them ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## First erased the current update-alternatives setup for gcc and g++:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --remove-all gcc </span><br><span class="line">sudo update-alternatives --remove-all g++</span><br><span class="line"></span><br><span class="line"><span class="comment">## Then Install Packages</span></span><br><span class="line">sudo apt-get install gcc-4.7 gcc-4.8 g++-4.7 g++-4.8</span><br><span class="line"></span><br><span class="line"><span class="comment">## Install Alternatives</span></span><br><span class="line"><span class="comment">### Symbolic links cc and c++ are installed by default. We will install symbol links </span></span><br><span class="line"><span class="comment">### for gcc and g++, then link cc and c++ to gcc and g++ respectively.</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30</span><br><span class="line">sudo update-alternatives --set cc /usr/bin/gcc</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30</span><br><span class="line">sudo update-alternatives --set c++ /usr/bin/g++</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Finally, Configure Alternatives</span></span><br><span class="line"><span class="comment">### The last step is configuring the default commands for gcc, g++. It's easy to switch </span></span><br><span class="line"><span class="comment">### between 4.7 and 4.8 interactively:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --config gcc</span><br><span class="line">sudo update-alternatives --config g++</span><br></pre></td></tr></table></figure>]]></content>
+      
+        <categories>
+            
+            <category> Command </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SparkReferences]]></title>
+      <url>http://yoursite.com/2015/09/29/Spark/</url>
+      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
+<ul>
+<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
+</ul>
+<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
+<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Spark </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
+      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[PDF Resources]]></title>
+      <url>http://yoursite.com/2015/09/28/PDF_Resource/</url>
+      <content type="html"><![CDATA[<h2 id="A-very-useful-PDF-online-edit-tool-smallpdf"><a href="#A-very-useful-PDF-online-edit-tool-smallpdf" class="headerlink" title="A very useful PDF online edit tool: smallpdf"></a>A very useful PDF online edit tool: <strong>smallpdf</strong></h2><h3 id="Chinese-Web-Page"><a href="#Chinese-Web-Page" class="headerlink" title="Chinese Web Page"></a>Chinese Web Page</h3><p><a href="http://smallpdf.com/cn/" target="_blank" rel="external">http://smallpdf.com/cn/</a></p>
+<h3 id="English-Web-Page"><a href="#English-Web-Page" class="headerlink" title="English Web Page"></a>English Web Page</h3><p><a href="http://smallpdf.com/" target="_blank" rel="external">http://smallpdf.com/</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> PDFResources </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Scala Resources]]></title>
+      <url>http://yoursite.com/2015/09/28/ScalaTutorial/</url>
+      <content type="html"><![CDATA[<h2 id="Scala-Tutorial"><a href="#Scala-Tutorial" class="headerlink" title="Scala Tutorial"></a>Scala Tutorial</h2><ul>
+<li><a href="http://zh.scala-tour.com/#/welcome" target="_blank" rel="external">Scala指南</a></li>
+</ul>
+<h2 id="Scala-Video-Course"><a href="#Scala-Video-Course" class="headerlink" title="Scala Video Course"></a>Scala Video Course</h2><h3 id="Coursera"><a href="#Coursera" class="headerlink" title="Coursera"></a>Coursera</h3><ul>
+<li><a href="https://www.coursera.org/course/progfun" target="_blank" rel="external">Functional Programming Principles in Scala</a></li>
+<li><a href="https://www.coursera.org/course/reactive" target="_blank" rel="external">Principles of Reactive Programming</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Scala </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Tag Plugins]]></title>
+      <url>http://yoursite.com/2015/09/26/HexoTech/</url>
+      <content type="html"><![CDATA[<h2 id="Declaration"><a href="#Declaration" class="headerlink" title="Declaration:"></a>Declaration:</h2><p><strong>Posted from <a href="http://wzpan.github.io/hexo-theme-wixo/Docs/tag-plugins/" target="_blank" rel="external">http://wzpan.github.io/hexo-theme-wixo/Docs/tag-plugins/</a></strong></p>
+<p>Like the <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> theme, you can use <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> to fully take advantages of Bootstrap. To use these tag plugins, you need to install it first. In your blog root folder, execute the following command:</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="keyword">install </span>hexo-tag-<span class="keyword">bootstrap </span>--save</span><br></pre></td></tr></table></figure>
+<p>Then you can use these tag plugins in your blog, as easily as you normally do using hexo tag plugins. </p>
+<a id="more"></a>
+<h2 id="Text-Color"><a href="#Text-Color" class="headerlink" title="Text Color"></a>Text Color</h2><p>Convey meaning through color with a handful of emphasis utility classes. These may also be applied to links and will darken on hover just like our default link styles.</p>
+<h3 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> [style] %&#125;</span><span class="xml"></span><br><span class="line">  text string</span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> muted %&#125;</span><span class="xml">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</span><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> primary %&#125;</span><span class="xml">Nullam id dolor id nibh ultricies vehicula ut id elit.</span><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> success %&#125;</span><span class="xml">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</span><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> info %&#125;</span><span class="xml">Maecenas sed diam eget risus varius blandit sit amet non magna.</span><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> warning %&#125;</span><span class="xml">Etiam porta sem malesuada magna mollis euismod.</span><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> danger %&#125;</span><span class="xml">Donec ullamcorper nulla non metus auctor fringilla.</span><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+
+<p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+
+<p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+
+<p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+<h2 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h2><p>Inserts a button with target links, text and specified color.</p>
+<h3 id="Syntax-1"><a href="#Syntax-1" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% btn url text [style] %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Examples-1"><a href="#Examples-1" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack primary %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack success %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack warning %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack danger %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack info %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h3 id="Results-1"><a href="#Results-1" class="headerlink" title="Results"></a>Results</h3><a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<h2 id="Labels"><a href="#Labels" class="headerlink" title="Labels"></a>Labels</h2><p>Inserts a label with text and specified color.</p>
+<h3 id="Syntax-2"><a href="#Syntax-2" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% label text [style] %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Examples-2"><a href="#Examples-2" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">label</span> default %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">label</span> warinng warning %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">label</span> success success %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">label</span> danger danger %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">label</span> primary primary %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">label</span> info info %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h3 id="Results-2"><a href="#Results-2" class="headerlink" title="Results"></a>Results</h3><span class="label label-default">default</span>
+<span class="label label-warning">warinng</span>
+<span class="label label-success">success</span>
+<span class="label label-danger">danger</span>
+<span class="label label-primary">primary</span>
+<span class="label label-info">info</span>
+<h2 id="Badges"><a href="#Badges" class="headerlink" title="Badges"></a>Badges</h2><p>Inserts a badge with text.</p>
+<h3 id="Syntax-3"><a href="#Syntax-3" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> text %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h3 id="Examples-3"><a href="#Examples-3" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> 42 %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h3 id="Results-3"><a href="#Results-3" class="headerlink" title="Results"></a>Results</h3><span class="badge">42</span>
+<h2 id="Alerts"><a href="#Alerts" class="headerlink" title="Alerts"></a>Alerts</h2><p>Inserts alert messages with text and specified color.</p>
+<h3 id="Syntax-4"><a href="#Syntax-4" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> [style] %&#125;</span><span class="xml"></span><br><span class="line">   Alert string</span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h3 id="Examples-4"><a href="#Examples-4" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> warning %&#125;</span><span class="xml">Best check yo self, you're not looking too good.</span><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">alert</span> danger %&#125;</span><span class="xml">Change a few things up and try submitting again.</span><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">alert</span> success %&#125;</span><span class="xml">You successfully read this important alert message.</span><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span><br><span class="line"></span><br><span class="line"></span><span class="template-tag">&#123;% <span class="name">alert</span> info %&#125;</span><span class="xml">This alert needs your attention, but it's not super important.</span><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h3 id="Results-4"><a href="#Results-4" class="headerlink" title="Results"></a>Results</h3><div class="alert alert-warning"><i class="fa fa-bell"></i>  Best check yo self, you're not looking too good.</div>
+
+<div class="alert alert-danger"><i class="fa fa-bug"></i>  Change a few things up and try submitting again.</div>
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  You successfully read this important alert message.</div>
+
+<div class="alert alert-info"><i class="fa fa-info"></i>  This alert needs your attention, but it's not super important.</div>
+]]></content>
+      
+        <categories>
+            
+            <category> HexoTrick </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Gabor Fliter]]></title>
+      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
+      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BasicKnowledge </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Clanguage </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Computer Vision Crucial Links]]></title>
+      <url>http://yoursite.com/2015/09/25/Computer%20Vision%20Crucial%20Links/</url>
+      <content type="html"><![CDATA[<h2 id="Top-tier-vision-conferences"><a href="#Top-tier-vision-conferences" class="headerlink" title="Top-tier vision conferences"></a>Top-tier vision conferences</h2><ul>
+<li><a href="http://www.pamitc.org/cvpr14/accepted_papers.php" target="_blank" rel="external">CVPR2014</a>: IEEE Conference on Computer Vision and Pattern Recognition</li>
+<li><a href="http://www.cv-foundation.org/openaccess/CVPR2015.py" target="_blank" rel="external">CVPR2015</a></li>
+<li><a href="http://www.cvpapers.com/iccv2013.html" target="_blank" rel="external">ICCV2013</a>: International Conference on Computer Vision</li>
+<li><a href="http://pamitc.org/iccv15/program.php" target="_blank" rel="external">ICCV2015</a></li>
+<li><a href="http://eccv2014.org/accepted-papers/" target="_blank" rel="external">ECCV2014</a>: European Conference on Computer Vision</li>
+<li><a href="http://nips.cc/Conferences/2014/Program/accepted-papers.php" target="_blank" rel="external">NIPS</a>: Neural Information Processing Systems</li>
+<li><a href="http://openreview.net/venue/iclr2014" target="_blank" rel="external">ICLR</a>: International Conference on Learning Representations</li>
+</ul>
+<h2 id="Challengies"><a href="#Challengies" class="headerlink" title="Challengies"></a>Challengies</h2><ul>
+<li><a href="http://www.kaggle.com/" target="_blank" rel="external">Kaggle</a>: An online machine learning competition website</li>
+</ul>
+<h2 id="Computer-Vision-Datasets"><a href="#Computer-Vision-Datasets" class="headerlink" title="Computer Vision Datasets:"></a>Computer Vision Datasets:</h2><ul>
+<li><a href="http://www.cvpapers.com/datasets.html" target="_blank" rel="external">Meta Pointer</a>: A large collection organized by CV Datasets.</li>
+<li><a href="http://riemenschneider.hayko.at/vision/dataset/" target="_blank" rel="external">Yet another Meta pointer</a></li>
+<li><a href="http://http//image-net.org/" target="_blank" rel="external">ImageNet</a>: a large-scale image dataset for visual recognition organized by <a href="http://wordnet.princeton.edu/" target="_blank" rel="external">WordNet</a> hierarchy</li>
+<li><a href="http://groups.csail.mit.edu/vision/SUN/" target="_blank" rel="external">SUN Database</a>: a benchmark for scene recognition and object detection with annotated scene categories and segmented objects</li>
+<li><a href="http://places.csail.mit.edu/" target="_blank" rel="external">Places Database</a>: a scene-centric database with 205 scene categories and 2.5 millions of labelled images</li>
+<li><a href="http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html" target="_blank" rel="external">NYU Depth Dataset v2</a>: a RGB-D dataset of segmented indoor scenes</li>
+<li><a href="http://mscoco.org/" target="_blank" rel="external">Microsoft COCO</a>: a new benchmark for image recognition, segmentation and captioning</li>
+<li><a href="http://yahoolabs.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images" target="_blank" rel="external">Flickr100M</a>: 100 million creative commons Flickr images</li>
+<li><a href="http://vis-www.cs.umass.edu/lfw/" target="_blank" rel="external">Labeled Faces in the Wild</a>: a dataset of 13,000 labeled face photographs</li>
+<li><a href="http://human-pose.mpi-inf.mpg.de/" target="_blank" rel="external">Human Pose Dataset</a>: a benchmark for articulated human pose estimation</li>
+<li><a href="http://www.cs.tau.ac.il/~wolf/ytfaces/" target="_blank" rel="external">YouTube Faces DB</a>: a face video dataset for unconstrained face recognition in videos</li>
+<li><a href="http://crcv.ucf.edu/data/UCF101.php" target="_blank" rel="external">UCF101</a>: an action recognition data set of realistic action videos with 101 action categories</li>
+<li><a href="http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/" target="_blank" rel="external">HMDB-51</a>: a large human motion dataset of 51 action classes</li>
+</ul>
+<h2 id="Computer-Vision-Lab"><a href="#Computer-Vision-Lab" class="headerlink" title="Computer Vision Lab"></a>Computer Vision Lab</h2><ul>
+<li><a href="http://vision.stanford.edu/publications.html" target="_blank" rel="external">Stanford Vision Lab</a></li>
+<li><a href="http://vision.ucsd.edu/person/serge-belongie" target="_blank" rel="external">UCSD Computer Vision</a></li>
+<li><a href="http://cvgl.stanford.edu/" target="_blank" rel="external">Computer Vision &amp; Geometry Lab</a></li>
+<li><a href="http://mocap.cs.cmu.edu/" target="_blank" rel="external">CMU Graphics Lab</a></li>
+</ul>
+<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><ul>
+<li><a href="https://github.com/dmlc/cxxnet" target="_blank" rel="external">cxxnet</a></li>
+<li><a href="https://github.com/dmlc/mxnet" target="_blank" rel="external">mxnet</a></li>
+<li><a href="http://caffe.berkeleyvision.org/" target="_blank" rel="external">caffe</a></li>
+<li><a href="http://deeplearning.net/software/theano/#" target="_blank" rel="external">theano</a></li>
+<li><a href="http://www.vlfeat.org/matconvnet/" target="_blank" rel="external">MatConvNet</a></li>
+</ul>
+<h3 id="Collaborative-Open-Computer-Science"><a href="#Collaborative-Open-Computer-Science" class="headerlink" title="Collaborative Open Computer Science"></a>Collaborative Open Computer Science</h3><ul>
+<li><a href="http://gitxiv.com/page/about" target="_blank" rel="external">GitXiv</a></li>
+</ul>
+<h3 id="Famous-blogs"><a href="#Famous-blogs" class="headerlink" title="Famous blogs"></a>Famous blogs</h3><ul>
+<li><a href="http://colah.github.io/" target="_blank" rel="external">colah’s blog</a></li>
+</ul>
+<h2 id="Person"><a href="#Person" class="headerlink" title="Person"></a>Person</h2><h3 id="CMU"><a href="#CMU" class="headerlink" title="CMU"></a>CMU</h3><ul>
+<li><a href="http://www.cs.cmu.edu/~tom/" target="_blank" rel="external">Tom Mitchell</a></li>
+<li><a href="http://www.cs.cmu.edu/~wdn/" target="_blank" rel="external">Willie Neiswanger</a></li>
+</ul>
+<h3 id="Toronto"><a href="#Toronto" class="headerlink" title="Toronto"></a>Toronto</h3><ul>
+<li><a href="http://www.cs.toronto.edu/~hinton/" target="_blank" rel="external">Geoffrey E. Hinton</a></li>
+</ul>
+<h3 id="Berkeley"><a href="#Berkeley" class="headerlink" title="Berkeley"></a>Berkeley</h3><ul>
+<li><a href="http://people.cs.uchicago.edu/~rbg/" target="_blank" rel="external">Ross B. Girshick</a></li>
+</ul>
+<h3 id="Cambridge"><a href="#Cambridge" class="headerlink" title="Cambridge"></a>Cambridge</h3><ul>
+<li><a href="http://learning.eng.cam.ac.uk/carl/" target="_blank" rel="external">Carl Edward Rasmussen</a></li>
+</ul>
+<h3 id="UCSD"><a href="#UCSD" class="headerlink" title="UCSD"></a>UCSD</h3><ul>
+<li><a href="http://vision.ucsd.edu/~pdollar/publications.html" target="_blank" rel="external">Piotr Dollár</a></li>
+</ul>
+<h3 id="WashionTon"><a href="#WashionTon" class="headerlink" title="WashionTon"></a>WashionTon</h3><ul>
+<li><a href="http://www.stat.washington.edu/~ebfox/index.html" target="_blank" rel="external">Emily B.Fox</a></li>
+</ul>
+<h3 id="Massachusetts-Amherst"><a href="#Massachusetts-Amherst" class="headerlink" title="Massachusetts Amherst"></a>Massachusetts Amherst</h3><ul>
+<li><a href="http://people.cs.umass.edu/~mccallum/pubs.html" target="_blank" rel="external">Andrew McCallum</a></li>
+</ul>
+<h3 id="Brown"><a href="#Brown" class="headerlink" title="Brown"></a>Brown</h3><ul>
+<li><a href="http://web.michaelchughes.com/" target="_blank" rel="external">Michael C.Hughes</a></li>
+</ul>
+<h3 id="Lancaster"><a href="#Lancaster" class="headerlink" title="Lancaster"></a>Lancaster</h3><ul>
+<li><a href="http://www.lancaster.ac.uk/staff/diggle/" target="_blank" rel="external">Peter J. Diggle</a></li>
+</ul>
+<h3 id="Edinburgh"><a href="#Edinburgh" class="headerlink" title="Edinburgh"></a>Edinburgh</h3><ul>
+<li><a href="http://homepages.inf.ed.ac.uk/imurray2/bio.html" target="_blank" rel="external">Iain Murray</a></li>
+</ul>
+<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul>
+<li><a href="http://www.di.ens.fr/~laptev/" target="_blank" rel="external">Ivan Laptev</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> ComputerVision </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Blog Configuration]]></title>
+      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
+      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
+<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
+<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
+<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
+<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
+<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BLOG </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+  
+  
+</search>

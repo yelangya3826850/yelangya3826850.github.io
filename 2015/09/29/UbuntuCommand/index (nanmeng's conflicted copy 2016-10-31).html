@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Ubuntu Command | Monaen&#39;s Wiki</title>
+  <meta name="author" content="Monaen">
+  
+  <meta name="description" content="Basic OperationCheckCheck the disk partition1df -hl
+Check the version of System1lsb_release -a
+Check the bit(32 or 64) of System12uname -auname -i
+Che">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Ubuntu Command"/>
+  <meta property="og:site_name" content="Monaen&#39;s Wiki"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="Monaen&#39;s Wiki" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">Ubuntu Command</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2015-09-29</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <h2 id="Basic-Operation"><a href="#Basic-Operation" class="headerlink" title="Basic Operation"></a>Basic Operation</h2><h3 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h3><h4 id="Check-the-disk-partition"><a href="#Check-the-disk-partition" class="headerlink" title="Check the disk partition"></a>Check the disk partition</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hl</span><br></pre></td></tr></table></figure>
+<h4 id="Check-the-version-of-System"><a href="#Check-the-version-of-System" class="headerlink" title="Check the version of System"></a>Check the version of System</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsb_release <span class="_">-a</span></span><br></pre></td></tr></table></figure>
+<h4 id="Check-the-bit-32-or-64-of-System"><a href="#Check-the-bit-32-or-64-of-System" class="headerlink" title="Check the bit(32 or 64) of System"></a>Check the bit(32 or 64) of System</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">uname <span class="_">-a</span></span><br><span class="line">uname -i</span><br></pre></td></tr></table></figure>
+<h4 id="Check-GPU-information"><a href="#Check-GPU-information" class="headerlink" title="Check GPU information"></a>Check GPU information</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lspci -v <span class="_">-s</span> $(lspci | grep VGA | cut <span class="_">-d</span><span class="string">" "</span> <span class="_">-f</span> 1)</span><br></pre></td></tr></table></figure>
+<h3 id="Install-software"><a href="#Install-software" class="headerlink" title="Install software"></a>Install software</h3><h4 id="Install-the-ibus-google-input"><a href="#Install-the-ibus-google-input" class="headerlink" title="Install the ibus google input"></a>Install the ibus google input</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ibus-googlepinyin</span><br><span class="line">im-config</span><br></pre></td></tr></table></figure>
+<h4 id="Install-R-project"><a href="#Install-R-project" class="headerlink" title="Install R project"></a>Install R project</h4><p><strong>1. First: add a repository to etc/apt/sources.list </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sh -c <span class="string">'echo "deb https://&lt;my.favorite.cran.mirror&gt;/bin/linux/ubuntu trusty/"'</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="Install-wifi-adapter-A6-100"><a href="#Install-wifi-adapter-A6-100" class="headerlink" title="Install wifi adapter(A6 100)"></a>Install wifi adapter(A6 100)</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Download http://github.com/abperiasamy/rtl8812AU_8821AU_linux</span></span><br><span class="line"><span class="built_in">cd</span> Download/rtl8812AU_8821AU_linux-master</span><br><span class="line"><span class="comment">## sudo make clean</span></span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br><span class="line">sudo modprobe 8812au</span><br></pre></td></tr></table></figure>
+<p><strong>2. Second: running following command </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install r-base</span><br></pre></td></tr></table></figure></p>
+<p>reference website:<br>(<a href="https://cran.r-project.org/bin/linux/ubuntu/README" target="_blank" rel="external">https://cran.r-project.org/bin/linux/ubuntu/README</a>)</p>
+<p><strong>3. Set default CRAN mirror permanent in R </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">options(repos=structure(c(CRAN=<span class="string">"YOUR FAVORITE MIRROR"</span>)))</span><br></pre></td></tr></table></figure></p>
+<p>Then follow this <a href="http://jingyan.baidu.com/article/219f4bf7d4a183de442d38f2.html" target="_blank" rel="external">Link</a>.</p>
+<h3 id="Link-software"><a href="#Link-software" class="headerlink" title="Link software"></a>Link software</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// example: link the first path to the second one</span><br><span class="line"></span><br><span class="line">sudo ln <span class="_">-s</span> /usr/<span class="built_in">local</span>/MATLAB/R2013a/bin/matlab /usr/<span class="built_in">local</span>/bin/matlab</span><br></pre></td></tr></table></figure>
+<h3 id="Install-command"><a href="#Install-command" class="headerlink" title="Install command"></a>Install command</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//.deb file :</span></span><br><span class="line"></span><br><span class="line">sudo dpkg -<span class="selector-tag">i</span> deb_package</span><br></pre></td></tr></table></figure>
+<h3 id="Switch-multiple-gcc-and-g"><a href="#Switch-multiple-gcc-and-g" class="headerlink" title="Switch multiple gcc and g++"></a>Switch multiple gcc and g++</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## for people who using matconvnet and mxnet the first toolbox need </span></span><br><span class="line"><span class="comment">## g++ 4.7 and the second need g++ 4.8, thus sometimes we need to switch between them ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## First erased the current update-alternatives setup for gcc and g++:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --remove-all gcc </span><br><span class="line">sudo update-alternatives --remove-all g++</span><br><span class="line"></span><br><span class="line"><span class="comment">## Then Install Packages</span></span><br><span class="line">sudo apt-get install gcc-4.7 gcc-4.8 g++-4.7 g++-4.8</span><br><span class="line"></span><br><span class="line"><span class="comment">## Install Alternatives</span></span><br><span class="line"><span class="comment">### Symbolic links cc and c++ are installed by default. We will install symbol links </span></span><br><span class="line"><span class="comment">### for gcc and g++, then link cc and c++ to gcc and g++ respectively.</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30</span><br><span class="line">sudo update-alternatives --set cc /usr/bin/gcc</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30</span><br><span class="line">sudo update-alternatives --set c++ /usr/bin/g++</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Finally, Configure Alternatives</span></span><br><span class="line"><span class="comment">### The last step is configuring the default commands for gcc, g++. It's easy to switch </span></span><br><span class="line"><span class="comment">### between 4.7 and 4.8 interactively:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --config gcc</span><br><span class="line">sudo update-alternatives --config g++</span><br></pre></td></tr></table></figure>	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		<li class="prev"><a href="/2016/03/28/MacCommand/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2016 Monaen
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+</html>
