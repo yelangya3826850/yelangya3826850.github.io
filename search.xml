@@ -4,46 +4,6 @@
   
     
     <entry>
-      <title><![CDATA[Software Activation]]></title>
-      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
-      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
-<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
-<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
-<li>click “Continue” and copy the request code</li>
-<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
-<li>run <code>python CalcActivationCode.py</code> to get license</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Software </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Python Toolbox]]></title>
-      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
-      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
-<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
-<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Toolbox]]></title>
       <url>http://yoursite.com/2016/08/04/Toolbox/</url>
       <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
@@ -97,6 +57,46 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Software Activation]]></title>
+      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
+      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
+<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
+<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
+<li>click “Continue” and copy the request code</li>
+<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
+<li>run <code>python CalcActivationCode.py</code> to get license</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Software </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Toolbox]]></title>
+      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
+      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
+<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
+<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Light-field DateSet]]></title>
       <url>http://yoursite.com/2016/07/28/LightfieldDataset/</url>
       <content type="html"><![CDATA[<h2 id="Dataset"><a href="#Dataset" class="headerlink" title="Dataset"></a>Dataset</h2><h4 id="1-SMART-–-lightfield-dataset-2016"><a href="#1-SMART-–-lightfield-dataset-2016" class="headerlink" title="1. SMART – lightfield dataset(2016)"></a>1. <a href="http://www.comlab.uniroma3.it/SMART.html" target="_blank" rel="external">SMART – lightfield dataset(2016)</a></h4><p><strong>16 LF images</strong> are included in the SMART LF dataset, from both indoor and outdoor category, and cover general image content related features (colorfulness, spatial information, and texture) but also LF specific aspects such as reflection, transparency and depth of field variation.</p>
@@ -130,22 +130,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Ubuntu Installation Questions]]></title>
-      <url>http://yoursite.com/2016/04/13/UbuntuInstallationQuestions/</url>
-      <content type="html"><![CDATA[<h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
-<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
-]]></content>
-      
-        <categories>
-            
-            <category> OperationSystemInstallation </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Raspberry pi 3(B)]]></title>
       <url>http://yoursite.com/2016/04/13/RaspberryPi/</url>
       <content type="html"><![CDATA[<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Input-plugin-installation"><a href="#Input-plugin-installation" class="headerlink" title="Input-plugin installation"></a>Input-plugin installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ttf-wqy-microhei</span><br><span class="line"></span><br><span class="line"><span class="comment">## This command helps to deal with the problem that raspberry pi cannot recognize some chinese characters</span></span><br></pre></td></tr></table></figure>
@@ -162,17 +146,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Python Command]]></title>
-      <url>http://yoursite.com/2016/03/28/Python/</url>
-      <content type="html"><![CDATA[<h2 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h2><h3 id="Check-python-version"><a href="#Check-python-version" class="headerlink" title="Check python version"></a>Check python version</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure>
-<h3 id="Check-available-packages-version"><a href="#Check-available-packages-version" class="headerlink" title="Check available packages version"></a>Check available packages version</h3><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="keyword">cache </span>policy pakagename</span><br><span class="line"><span class="comment"># Let's say package numpy</span></span><br><span class="line"><span class="comment"># you should type:</span></span><br><span class="line">apt-<span class="keyword">cache </span>policy python-numpy</span><br><span class="line"></span><br><span class="line"><span class="comment"># for package cpython</span></span><br><span class="line"><span class="comment"># you should type: apt-cache policy cpython</span></span><br></pre></td></tr></table></figure>
-<h2 id="Install-packages"><a href="#Install-packages" class="headerlink" title="Install packages"></a>Install packages</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip &amp; matplotlib</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-pip</span><br><span class="line">sudo apt-<span class="keyword">get</span> install matplotlib</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install numpy</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-numpy</span><br></pre></td></tr></table></figure>
-<h2 id="Install-jupyter-notebook"><a href="#Install-jupyter-notebook" class="headerlink" title="Install jupyter notebook"></a>Install jupyter notebook</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip</span></span><br><span class="line"></span><br><span class="line">curl <span class="string">"https://bootstrap.pypa.io/get-pip.py"</span> -o <span class="string">"get-pip.py"</span></span><br><span class="line">sudo python <span class="keyword">get</span>-pip.py</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install jupyter notebook</span></span><br><span class="line">pip install jupyter</span><br></pre></td></tr></table></figure>
+      <title><![CDATA[Ubuntu Installation Questions]]></title>
+      <url>http://yoursite.com/2016/04/13/UbuntuInstallationQuestions/</url>
+      <content type="html"><![CDATA[<h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
+<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
 ]]></content>
       
         <categories>
             
-            <category> Command </category>
+            <category> OperationSystemInstallation </category>
             
         </categories>
         
@@ -185,6 +167,24 @@
       <content type="html"><![CDATA[<h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><h3 id="Create-a-bash-profile-on-mac"><a href="#Create-a-bash-profile-on-mac" class="headerlink" title="Create a .bash_profile on mac"></a>Create a .bash_profile on mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
 <h3 id="edit-the-bash-profile"><a href="#edit-the-bash-profile" class="headerlink" title="edit the .bash_profile"></a>edit the .bash_profile</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open <span class="_">-e</span> .bash_profile</span><br></pre></td></tr></table></figure>
 <h3 id="Reload-the-bash-profile-and-update-any-functions-you-add"><a href="#Reload-the-bash-profile-and-update-any-functions-you-add" class="headerlink" title="Reload the .bash_profile and update any functions you add"></a>Reload the .bash_profile and update any functions you add</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Command </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Command]]></title>
+      <url>http://yoursite.com/2016/03/28/Python/</url>
+      <content type="html"><![CDATA[<h2 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h2><h3 id="Check-python-version"><a href="#Check-python-version" class="headerlink" title="Check python version"></a>Check python version</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure>
+<h3 id="Check-available-packages-version"><a href="#Check-available-packages-version" class="headerlink" title="Check available packages version"></a>Check available packages version</h3><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="keyword">cache </span>policy pakagename</span><br><span class="line"><span class="comment"># Let's say package numpy</span></span><br><span class="line"><span class="comment"># you should type:</span></span><br><span class="line">apt-<span class="keyword">cache </span>policy python-numpy</span><br><span class="line"></span><br><span class="line"><span class="comment"># for package cpython</span></span><br><span class="line"><span class="comment"># you should type: apt-cache policy cpython</span></span><br></pre></td></tr></table></figure>
+<h2 id="Install-packages"><a href="#Install-packages" class="headerlink" title="Install packages"></a>Install packages</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip &amp; matplotlib</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-pip</span><br><span class="line">sudo apt-<span class="keyword">get</span> install matplotlib</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install numpy</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-numpy</span><br></pre></td></tr></table></figure>
+<h2 id="Install-jupyter-notebook"><a href="#Install-jupyter-notebook" class="headerlink" title="Install jupyter notebook"></a>Install jupyter notebook</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip</span></span><br><span class="line"></span><br><span class="line">curl <span class="string">"https://bootstrap.pypa.io/get-pip.py"</span> -o <span class="string">"get-pip.py"</span></span><br><span class="line">sudo python <span class="keyword">get</span>-pip.py</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install jupyter notebook</span></span><br><span class="line">pip install jupyter</span><br></pre></td></tr></table></figure>
 ]]></content>
       
         <categories>
@@ -348,22 +348,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Traditional Computer Vision]]></title>
-      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
-      <content type="html"><![CDATA[<p>Thresholding</p>
-<p>Blob Detection</p>
-]]></content>
-      
-        <categories>
-            
-            <category> ComputerVision </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Computer Vision Resource]]></title>
       <url>http://yoursite.com/2015/10/11/Computer%20Vision%20Resource/</url>
       <content type="html"><![CDATA[<h2 id="Online-Book"><a href="#Online-Book" class="headerlink" title="Online Book"></a>Online Book</h2><h3 id="CVonline"><a href="#CVonline" class="headerlink" title="CVonline"></a>CVonline</h3><ul>
@@ -378,6 +362,22 @@
 <h3 id="Compressive-Sensing"><a href="#Compressive-Sensing" class="headerlink" title="Compressive Sensing"></a>Compressive Sensing</h3><ul>
 <li><a href="http://dsp.rice.edu/cs" target="_blank" rel="external">Compressive Sensing Resources</a></li>
 </ul>
+]]></content>
+      
+        <categories>
+            
+            <category> ComputerVision </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Traditional Computer Vision]]></title>
+      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
+      <content type="html"><![CDATA[<p>Thresholding</p>
+<p>Blob Detection</p>
 ]]></content>
       
         <categories>
@@ -473,15 +473,6 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
-      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[PDF Resources]]></title>
       <url>http://yoursite.com/2015/09/28/PDF_Resource/</url>
       <content type="html"><![CDATA[<h2 id="A-very-useful-PDF-online-edit-tool-smallpdf"><a href="#A-very-useful-PDF-online-edit-tool-smallpdf" class="headerlink" title="A very useful PDF online edit tool: smallpdf"></a>A very useful PDF online edit tool: <strong>smallpdf</strong></h2><h3 id="Chinese-Web-Page"><a href="#Chinese-Web-Page" class="headerlink" title="Chinese Web Page"></a>Chinese Web Page</h3><p><a href="http://smallpdf.com/cn/" target="_blank" rel="external">http://smallpdf.com/cn/</a></p>
@@ -494,6 +485,15 @@
             
         </categories>
         
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
+      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
+]]></content>
+      
         
     </entry>
     
