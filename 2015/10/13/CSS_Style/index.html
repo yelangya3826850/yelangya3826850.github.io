@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>CSS code style | Monaen&#39;s Wiki</title>
+  <meta name="author" content="Monaen">
+  
+  <meta name="description" content="CSS Style PriorityOrder MattersIt matters where you define the rules and in what order they are applied. Styles can be defined in different places and">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="CSS code style"/>
+  <meta property="og:site_name" content="Monaen&#39;s Wiki"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="Monaen&#39;s Wiki" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">CSS code style</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2015-10-13</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <h2 id="CSS-Style-Priority"><a href="#CSS-Style-Priority" class="headerlink" title="CSS Style Priority"></a>CSS Style Priority</h2><h3 id="Order-Matters"><a href="#Order-Matters" class="headerlink" title="Order Matters"></a>Order Matters</h3><p>It matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, <strong>with definitions further down the list overwriting previous definitions:</strong></p>
+<ul>
+<li>the default style of a browser (different browsers have slightly different styles)</li>
+<li>stylesheet in a separate file (this is what you will be mostly using)</li>
+<li>stylesheet inside HTML (this can be done for small projects but is not ideal)</li>
+<li>inline style in an element (this can also be done but should be avoided)</li>
+</ul>
+<h3 id="Specifics-Matter"><a href="#Specifics-Matter" class="headerlink" title="Specifics Matter"></a>Specifics Matter</h3><p>“Cascading” means that rules are applied not only to the elements they directly match, but also to all of those elements’ child elements. However, if a child element has multiple, overlapping rules defined for it, <strong>the more specific rule takes effect.</strong></p>
+<h2 id="Reference-amp-Resources"><a href="#Reference-amp-Resources" class="headerlink" title="Reference &amp; Resources"></a>Reference &amp; Resources</h2><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank" rel="external">MDN CSS Reference</a>: Where you can check and find the css properties.</li>
+</ul>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
+<li><a href="http://css-tricks.com/how-css-selectors-work/" target="_blank" rel="external">How CSS Selectors Work</a>: Beginner Concepts About How CSS Selectors Work.</li>
+</ul>
+<ul>
+<li>Default style rules for the following browsers:<ul>
+<li><a href="http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css" target="_blank" rel="external">WebKit (Chrome and Safari)</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank" rel="external">Firefox</a></li>
+<li><a href="http://www.iecss.com/" target="_blank" rel="external">Internet Explorer</a></li>
+</ul>
+</li>
+</ul>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+			
+			
+		
+	
+		
+			
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		<li class="prev"><a href="/2015/10/13/HTML_Style/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/2015/10/13/Python_Style/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2017 Monaen
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+</html>
