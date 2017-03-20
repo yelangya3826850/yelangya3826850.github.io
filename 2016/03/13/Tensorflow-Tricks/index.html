@@ -6,7 +6,9 @@
   <title>Tensorflow Tricks | Monaen&#39;s Wiki</title>
   <meta name="author" content="Monaen">
   
-  <meta name="description" content="Get Info123## get tensor shape informationx.get_shape().as_list()# print [55000, 28, 28]">
+  <meta name="description" content="Get Info123## get tensor shape informationx.get_shape().as_list()# print [55000, 28, 28]
+Training Tricks
+Dropout should only be introduced during trai">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -67,7 +69,11 @@
 	
 
 	  <!-- content -->
-	  <h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>	  
+	  <h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>
+<h2 id="Training-Tricks"><a href="#Training-Tricks" class="headerlink" title="Training Tricks"></a>Training Tricks</h2><ul>
+<li><strong>Dropout</strong> should only be introduced during training, not evaluation, otherwise your evaluation results would be stochastic as well.</li>
+</ul>
+	  
 
 	  <div>
   		<center>
@@ -83,29 +89,27 @@
 		
 	
 		
-			
-		
-	
-		
 	
 		
 			
 		
 	
 		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
 			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
 		
 	
 		
@@ -114,7 +118,9 @@
 		
 	
 		
-	
+			
+			
+			
 		
 	
 		
@@ -159,12 +165,14 @@
 	
 		
 	
+		
 	
-		<li class="prev"><a href="/2016/03/13/Tensorflow-Machine-Learning-Resource/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+		<li class="prev"><a href="/2016/08/04/Toolbox/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next"><a href="/2016/03/13/Tensorflow-Machine-Learning-Resource/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>

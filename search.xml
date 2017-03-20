@@ -4,11 +4,40 @@
   
     
     <entry>
-      <title><![CDATA[CSS Layout]]></title>
+      <title></title>
+      <url>http://yoursite.com/2017/03/20/Caffe-Tricks/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CSS Tips]]></title>
       <url>http://yoursite.com/2017/03/17/CSS_Layout/</url>
       <content type="html"><![CDATA[<h2 id="CSS-Style-Layout"><a href="#CSS-Style-Layout" class="headerlink" title="CSS Style Layout"></a>CSS Style Layout</h2><h3 id="Flexbox-Layout"><a href="#Flexbox-Layout" class="headerlink" title="Flexbox Layout"></a>Flexbox Layout</h3><p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
+<p>For examples:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>This rule as-is works with Chrome 29+, IE 11+, and Mozilla 28+. In order to support Safari, the -webkit- prefix must be added:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: -webkit-flex;  <span class="comment">/*to support Safari*/</span></span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
+<li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test- Refine routine:"></a>Code-Test- Refine routine:</h4><ol>
+<li>Look for natural boxes</li>
+<li>Look for repeated styles and semantic elements</li>
+<li>Write your HTML</li>
+<li>Apply styles (from BIGGEST to SMALLEST)</li>
+<li>Fix things</li>
+<li>repeat 3 to 5</li>
+</ol>
+<h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
+<li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
+<p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
+</li>
+</ul>
 <h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
 <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
+<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
+<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
 </ul>
 ]]></content>
       
@@ -72,29 +101,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Software Activation]]></title>
-      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
-      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
-<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
-<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
-<li>click “Continue” and copy the request code</li>
-<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
-<li>run <code>python CalcActivationCode.py</code> to get license</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Software </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Toolbox]]></title>
       <url>http://yoursite.com/2016/08/04/Toolbox/</url>
       <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
@@ -141,6 +147,29 @@
         <categories>
             
             <category> Toolbox </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Software Activation]]></title>
+      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
+      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
+<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
+<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
+<li>click “Continue” and copy the request code</li>
+<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
+<li>run <code>python CalcActivationCode.py</code> to get license</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Software </category>
             
         </categories>
         
@@ -213,23 +242,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Mac Command]]></title>
-      <url>http://yoursite.com/2016/03/28/MacCommand/</url>
-      <content type="html"><![CDATA[<h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><h3 id="Create-a-bash-profile-on-mac"><a href="#Create-a-bash-profile-on-mac" class="headerlink" title="Create a .bash_profile on mac"></a>Create a .bash_profile on mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
-<h3 id="edit-the-bash-profile"><a href="#edit-the-bash-profile" class="headerlink" title="edit the .bash_profile"></a>edit the .bash_profile</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open <span class="_">-e</span> .bash_profile</span><br></pre></td></tr></table></figure>
-<h3 id="Reload-the-bash-profile-and-update-any-functions-you-add"><a href="#Reload-the-bash-profile-and-update-any-functions-you-add" class="headerlink" title="Reload the .bash_profile and update any functions you add"></a>Reload the .bash_profile and update any functions you add</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
-]]></content>
-      
-        <categories>
-            
-            <category> Command </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Python Command]]></title>
       <url>http://yoursite.com/2016/03/28/Python/</url>
       <content type="html"><![CDATA[<h2 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h2><h3 id="Check-python-version"><a href="#Check-python-version" class="headerlink" title="Check python version"></a>Check python version</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure>
@@ -248,9 +260,30 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Tensorflow Machine Learning Resource]]></title>
-      <url>http://yoursite.com/2016/03/13/Tensorflow-Machine-Learning-Resource/</url>
-      <content type="html"></content>
+      <title><![CDATA[Mac Command]]></title>
+      <url>http://yoursite.com/2016/03/28/MacCommand/</url>
+      <content type="html"><![CDATA[<h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><h3 id="Create-a-bash-profile-on-mac"><a href="#Create-a-bash-profile-on-mac" class="headerlink" title="Create a .bash_profile on mac"></a>Create a .bash_profile on mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
+<h3 id="edit-the-bash-profile"><a href="#edit-the-bash-profile" class="headerlink" title="edit the .bash_profile"></a>edit the .bash_profile</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open <span class="_">-e</span> .bash_profile</span><br></pre></td></tr></table></figure>
+<h3 id="Reload-the-bash-profile-and-update-any-functions-you-add"><a href="#Reload-the-bash-profile-and-update-any-functions-you-add" class="headerlink" title="Reload the .bash_profile and update any functions you add"></a>Reload the .bash_profile and update any functions you add</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Command </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Tensorflow Tricks]]></title>
+      <url>http://yoursite.com/2016/03/13/Tensorflow-Tricks/</url>
+      <content type="html"><![CDATA[<h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>
+<h2 id="Training-Tricks"><a href="#Training-Tricks" class="headerlink" title="Training Tricks"></a>Training Tricks</h2><ul>
+<li><strong>Dropout</strong> should only be introduced during training, not evaluation, otherwise your evaluation results would be stochastic as well.</li>
+</ul>
+]]></content>
       
         <categories>
             
@@ -262,9 +295,9 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Tensorflow Tricks]]></title>
-      <url>http://yoursite.com/2016/03/13/Tensorflow-Tricks/</url>
-      <content type="html"><![CDATA[<h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>]]></content>
+      <title><![CDATA[Tensorflow Machine Learning Resource]]></title>
+      <url>http://yoursite.com/2016/03/13/Tensorflow-Machine-Learning-Resource/</url>
+      <content type="html"></content>
       
         <categories>
             
@@ -373,14 +406,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[PYTHON code style]]></title>
-      <url>http://yoursite.com/2015/10/13/Python_Style/</url>
-      <content type="html"><![CDATA[<p>dsaf</p>
+      <title><![CDATA[Beautiful Visualization]]></title>
+      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
+      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
 ]]></content>
       
         <categories>
             
-            <category> CodeStyle </category>
+            <category> Visualization </category>
             
         </categories>
         
@@ -405,12 +438,9 @@
     </entry>
     
     <entry>
-      <title><![CDATA[HTML code style]]></title>
-      <url>http://yoursite.com/2015/10/13/HTML_Style/</url>
-      <content type="html"><![CDATA[<h3 id="Code-Template"><a href="#Code-Template" class="headerlink" title="Code Template"></a>Code Template</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"title"</span>&gt;</span>My App<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"screenshot"</span>&gt;</span>image<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"description"</span>&gt;</span>text<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h4 id="Notices"><a href="#Notices" class="headerlink" title="Notices"></a>Notices</h4><ol>
-<li>The <code>title</code> and <code>link</code> put inside <code>&lt;head&gt;</code> tag<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>We're learning selectors!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
-</ol>
+      <title><![CDATA[PYTHON code style]]></title>
+      <url>http://yoursite.com/2015/10/13/Python_Style/</url>
+      <content type="html"><![CDATA[<p>dsaf</p>
 ]]></content>
       
         <categories>
@@ -439,14 +469,43 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Beautiful Visualization]]></title>
-      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
-      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
+      <title><![CDATA[HTML code style]]></title>
+      <url>http://yoursite.com/2015/10/13/HTML_Style/</url>
+      <content type="html"><![CDATA[<h3 id="Code-Template"><a href="#Code-Template" class="headerlink" title="Code Template"></a>Code Template</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"title"</span>&gt;</span>My App<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"screenshot"</span>&gt;</span>image<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"description"</span>&gt;</span>text<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h4 id="Notices"><a href="#Notices" class="headerlink" title="Notices"></a>Notices</h4><ol>
+<li>The <code>title</code> and <code>link</code> put inside <code>&lt;head&gt;</code> tag<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>We're learning selectors!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ol>
 ]]></content>
       
         <categories>
             
-            <category> Visualization </category>
+            <category> CodeStyle </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Computer Vision Resource]]></title>
+      <url>http://yoursite.com/2015/10/11/Computer%20Vision%20Resource/</url>
+      <content type="html"><![CDATA[<h2 id="Online-Book"><a href="#Online-Book" class="headerlink" title="Online Book"></a>Online Book</h2><h3 id="CVonline"><a href="#CVonline" class="headerlink" title="CVonline"></a>CVonline</h3><ul>
+<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/CVentry.htm" target="_blank" rel="external">CVonline</a></li>
+<li><a href="https://sites.google.com/site/cvonlinewiki/home" target="_blank" rel="external">CVonline wiki</a></li>
+<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MORSE/?C=M;O=A" target="_blank" rel="external">CVonline Basic Knowledge</a></li>
+</ul>
+<h3 id="The-Lab-Book-Pages"><a href="#The-Lab-Book-Pages" class="headerlink" title="The Lab Book Pages"></a>The Lab Book Pages</h3><ul>
+<li><a href="http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html" target="_blank" rel="external">Otsu Thresholding</a></li>
+<li><a href="http://www.labbookpages.co.uk/software/imgProc/blobDetection.html" target="_blank" rel="external">Blob Detection</a></li>
+</ul>
+<h3 id="Compressive-Sensing"><a href="#Compressive-Sensing" class="headerlink" title="Compressive Sensing"></a>Compressive Sensing</h3><ul>
+<li><a href="http://dsp.rice.edu/cs" target="_blank" rel="external">Compressive Sensing Resources</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> ComputerVision </category>
             
         </categories>
         
@@ -492,32 +551,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Computer Vision Resource]]></title>
-      <url>http://yoursite.com/2015/10/11/Computer%20Vision%20Resource/</url>
-      <content type="html"><![CDATA[<h2 id="Online-Book"><a href="#Online-Book" class="headerlink" title="Online Book"></a>Online Book</h2><h3 id="CVonline"><a href="#CVonline" class="headerlink" title="CVonline"></a>CVonline</h3><ul>
-<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/CVentry.htm" target="_blank" rel="external">CVonline</a></li>
-<li><a href="https://sites.google.com/site/cvonlinewiki/home" target="_blank" rel="external">CVonline wiki</a></li>
-<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MORSE/?C=M;O=A" target="_blank" rel="external">CVonline Basic Knowledge</a></li>
-</ul>
-<h3 id="The-Lab-Book-Pages"><a href="#The-Lab-Book-Pages" class="headerlink" title="The Lab Book Pages"></a>The Lab Book Pages</h3><ul>
-<li><a href="http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html" target="_blank" rel="external">Otsu Thresholding</a></li>
-<li><a href="http://www.labbookpages.co.uk/software/imgProc/blobDetection.html" target="_blank" rel="external">Blob Detection</a></li>
-</ul>
-<h3 id="Compressive-Sensing"><a href="#Compressive-Sensing" class="headerlink" title="Compressive Sensing"></a>Compressive Sensing</h3><ul>
-<li><a href="http://dsp.rice.edu/cs" target="_blank" rel="external">Compressive Sensing Resources</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> ComputerVision </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Data Mining]]></title>
       <url>http://yoursite.com/2015/10/06/DataMining/</url>
       <content type="html"><![CDATA[<h2 id="Data-Mining-Software-Library"><a href="#Data-Mining-Software-Library" class="headerlink" title="Data Mining Software Library"></a>Data Mining Software Library</h2><ul>
@@ -529,6 +562,24 @@
         <categories>
             
             <category> DataMining </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lisp]]></title>
+      <url>http://yoursite.com/2015/09/29/Lisp/</url>
+      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
+<ul>
+<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Lisp </category>
             
         </categories>
         
@@ -549,24 +600,6 @@
         <categories>
             
             <category> Spark </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Lisp]]></title>
-      <url>http://yoursite.com/2015/09/29/Lisp/</url>
-      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
-<ul>
-<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Lisp </category>
             
         </categories>
         
@@ -622,15 +655,6 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
-      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[PDF Resources]]></title>
       <url>http://yoursite.com/2015/09/28/PDF_Resource/</url>
       <content type="html"><![CDATA[<h2 id="A-very-useful-PDF-online-edit-tool-smallpdf"><a href="#A-very-useful-PDF-online-edit-tool-smallpdf" class="headerlink" title="A very useful PDF online edit tool: smallpdf"></a>A very useful PDF online edit tool: <strong>smallpdf</strong></h2><h3 id="Chinese-Web-Page"><a href="#Chinese-Web-Page" class="headerlink" title="Chinese Web Page"></a>Chinese Web Page</h3><p><a href="http://smallpdf.com/cn/" target="_blank" rel="external">http://smallpdf.com/cn/</a></p>
@@ -643,6 +667,15 @@
             
         </categories>
         
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
+      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
+]]></content>
+      
         
     </entry>
     
@@ -705,27 +738,6 @@
             
         </categories>
         
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Gabor Fliter]]></title>
-      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
-      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BasicKnowledge </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Clanguage </tag>
-            
-        </tags>
         
     </entry>
     
@@ -820,6 +832,27 @@
             
         </categories>
         
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Gabor Fliter]]></title>
+      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
+      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BasicKnowledge </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Clanguage </tag>
+            
+        </tags>
         
     </entry>
     
