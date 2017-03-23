@@ -13,11 +13,8 @@
     
     <entry>
       <title><![CDATA[CSS Tips]]></title>
-      <url>http://yoursite.com/2017/03/17/CSS_Layout/</url>
-      <content type="html"><![CDATA[<h2 id="CSS-Style-Layout"><a href="#CSS-Style-Layout" class="headerlink" title="CSS Style Layout"></a>CSS Style Layout</h2><h3 id="Flexbox-Layout"><a href="#Flexbox-Layout" class="headerlink" title="Flexbox Layout"></a>Flexbox Layout</h3><p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
-<p>For examples:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>This rule as-is works with Chrome 29+, IE 11+, and Mozilla 28+. In order to support Safari, the -webkit- prefix must be added:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: -webkit-flex;  <span class="comment">/*to support Safari*/</span></span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
+      <url>http://yoursite.com/2017/03/17/CSS_Tips/</url>
+      <content type="html"><![CDATA[<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
 <li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
@@ -38,6 +35,38 @@
 <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
 <li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
 <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
+</ul>
+<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
+<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> CSS </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CSS Layout]]></title>
+      <url>http://yoursite.com/2017/03/17/CSS_Layout/</url>
+      <content type="html"><![CDATA[<h2 id="CSS-Style-Layout"><a href="#CSS-Style-Layout" class="headerlink" title="CSS Style Layout"></a>CSS Style Layout</h2><h3 id="Flexbox-Layout"><a href="#Flexbox-Layout" class="headerlink" title="Flexbox Layout"></a>Flexbox Layout</h3><p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
+<p>For examples:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>This rule as-is works with Chrome 29+, IE 11+, and Mozilla 28+. In order to support Safari, the -webkit- prefix must be added:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: -webkit-flex;  <span class="comment">/*to support Safari*/</span></span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h4 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h4><h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
+<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
+<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
+</ul>
+<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
+<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
 </ul>
 ]]></content>
       
@@ -77,29 +106,6 @@
         <categories>
             
             <category> CSS </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Software Activation]]></title>
-      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
-      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
-<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
-<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
-<li>click “Continue” and copy the request code</li>
-<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
-<li>run <code>python CalcActivationCode.py</code> to get license</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Software </category>
             
         </categories>
         
@@ -160,6 +166,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Software Activation]]></title>
+      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
+      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
+<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
+<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
+<li>click “Continue” and copy the request code</li>
+<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
+<li>run <code>python CalcActivationCode.py</code> to get license</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Software </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Python Toolbox]]></title>
       <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
       <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
@@ -210,6 +239,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Ubuntu Installation Questions]]></title>
+      <url>http://yoursite.com/2016/04/13/UbuntuInstallationQuestions/</url>
+      <content type="html"><![CDATA[<h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
+<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        <categories>
+            
+            <category> OperationSystemInstallation </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Raspberry pi 3(B)]]></title>
       <url>http://yoursite.com/2016/04/13/RaspberryPi/</url>
       <content type="html"><![CDATA[<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Input-plugin-installation"><a href="#Input-plugin-installation" class="headerlink" title="Input-plugin installation"></a>Input-plugin installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ttf-wqy-microhei</span><br><span class="line"></span><br><span class="line"><span class="comment">## This command helps to deal with the problem that raspberry pi cannot recognize some chinese characters</span></span><br></pre></td></tr></table></figure>
@@ -226,15 +271,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Ubuntu Installation Questions]]></title>
-      <url>http://yoursite.com/2016/04/13/UbuntuInstallationQuestions/</url>
-      <content type="html"><![CDATA[<h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
-<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
+      <title><![CDATA[Mac Command]]></title>
+      <url>http://yoursite.com/2016/03/28/MacCommand/</url>
+      <content type="html"><![CDATA[<h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><h3 id="Create-a-bash-profile-on-mac"><a href="#Create-a-bash-profile-on-mac" class="headerlink" title="Create a .bash_profile on mac"></a>Create a .bash_profile on mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
+<h3 id="edit-the-bash-profile"><a href="#edit-the-bash-profile" class="headerlink" title="edit the .bash_profile"></a>edit the .bash_profile</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open <span class="_">-e</span> .bash_profile</span><br></pre></td></tr></table></figure>
+<h3 id="Reload-the-bash-profile-and-update-any-functions-you-add"><a href="#Reload-the-bash-profile-and-update-any-functions-you-add" class="headerlink" title="Reload the .bash_profile and update any functions you add"></a>Reload the .bash_profile and update any functions you add</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
 ]]></content>
       
         <categories>
             
-            <category> OperationSystemInstallation </category>
+            <category> Command </category>
             
         </categories>
         
@@ -260,26 +306,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Mac Command]]></title>
-      <url>http://yoursite.com/2016/03/28/MacCommand/</url>
-      <content type="html"><![CDATA[<h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><h3 id="Create-a-bash-profile-on-mac"><a href="#Create-a-bash-profile-on-mac" class="headerlink" title="Create a .bash_profile on mac"></a>Create a .bash_profile on mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
-<h3 id="edit-the-bash-profile"><a href="#edit-the-bash-profile" class="headerlink" title="edit the .bash_profile"></a>edit the .bash_profile</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open <span class="_">-e</span> .bash_profile</span><br></pre></td></tr></table></figure>
-<h3 id="Reload-the-bash-profile-and-update-any-functions-you-add"><a href="#Reload-the-bash-profile-and-update-any-functions-you-add" class="headerlink" title="Reload the .bash_profile and update any functions you add"></a>Reload the .bash_profile and update any functions you add</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
+      <title><![CDATA[Tensorflow Tricks]]></title>
+      <url>http://yoursite.com/2016/03/13/Tensorflow-Tricks/</url>
+      <content type="html"><![CDATA[<h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>
+<h2 id="Training-Tricks"><a href="#Training-Tricks" class="headerlink" title="Training Tricks"></a>Training Tricks</h2><ul>
+<li><strong>Dropout</strong> should only be introduced during training, not evaluation, otherwise your evaluation results would be stochastic as well.</li>
+</ul>
 ]]></content>
-      
-        <categories>
-            
-            <category> Command </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Tensorflow Machine Learning Resource]]></title>
-      <url>http://yoursite.com/2016/03/13/Tensorflow-Machine-Learning-Resource/</url>
-      <content type="html"></content>
       
         <categories>
             
@@ -291,13 +324,9 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Tensorflow Tricks]]></title>
-      <url>http://yoursite.com/2016/03/13/Tensorflow-Tricks/</url>
-      <content type="html"><![CDATA[<h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>
-<h2 id="Training-Tricks"><a href="#Training-Tricks" class="headerlink" title="Training Tricks"></a>Training Tricks</h2><ul>
-<li><strong>Dropout</strong> should only be introduced during training, not evaluation, otherwise your evaluation results would be stochastic as well.</li>
-</ul>
-]]></content>
+      <title><![CDATA[Tensorflow Machine Learning Resource]]></title>
+      <url>http://yoursite.com/2016/03/13/Tensorflow-Machine-Learning-Resource/</url>
+      <content type="html"></content>
       
         <categories>
             
@@ -422,23 +451,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Matrix Factorization Resource]]></title>
-      <url>http://yoursite.com/2015/10/13/NMF/</url>
-      <content type="html"><![CDATA[<h2 id="Nonnegtive-Matrix-Factorization"><a href="#Nonnegtive-Matrix-Factorization" class="headerlink" title="Nonnegtive Matrix Factorization"></a>Nonnegtive Matrix Factorization</h2><ul>
-<li><a href="https://sites.google.com/site/igorcarron2/matrixfactorizations" target="_blank" rel="external">The Advanced Matrix Factorization Jungle</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> MatrixFactorization </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[HTML code style]]></title>
       <url>http://yoursite.com/2015/10/13/HTML_Style/</url>
       <content type="html"><![CDATA[<h3 id="Code-Template"><a href="#Code-Template" class="headerlink" title="Code Template"></a>Code Template</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"title"</span>&gt;</span>My App<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"screenshot"</span>&gt;</span>image<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"description"</span>&gt;</span>text<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -450,6 +462,23 @@
         <categories>
             
             <category> CodeStyle </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Matrix Factorization Resource]]></title>
+      <url>http://yoursite.com/2015/10/13/NMF/</url>
+      <content type="html"><![CDATA[<h2 id="Nonnegtive-Matrix-Factorization"><a href="#Nonnegtive-Matrix-Factorization" class="headerlink" title="Nonnegtive Matrix Factorization"></a>Nonnegtive Matrix Factorization</h2><ul>
+<li><a href="https://sites.google.com/site/igorcarron2/matrixfactorizations" target="_blank" rel="external">The Advanced Matrix Factorization Jungle</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> MatrixFactorization </category>
             
         </categories>
         
@@ -487,25 +516,21 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Computer Vision Resource]]></title>
-      <url>http://yoursite.com/2015/10/11/Computer%20Vision%20Resource/</url>
-      <content type="html"><![CDATA[<h2 id="Online-Book"><a href="#Online-Book" class="headerlink" title="Online Book"></a>Online Book</h2><h3 id="CVonline"><a href="#CVonline" class="headerlink" title="CVonline"></a>CVonline</h3><ul>
-<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/CVentry.htm" target="_blank" rel="external">CVonline</a></li>
-<li><a href="https://sites.google.com/site/cvonlinewiki/home" target="_blank" rel="external">CVonline wiki</a></li>
-<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MORSE/?C=M;O=A" target="_blank" rel="external">CVonline Basic Knowledge</a></li>
+      <title><![CDATA[Latex Mathematical Formula]]></title>
+      <url>http://yoursite.com/2015/10/11/Latex/</url>
+      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
+<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
+<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
 </ul>
-<h3 id="The-Lab-Book-Pages"><a href="#The-Lab-Book-Pages" class="headerlink" title="The Lab Book Pages"></a>The Lab Book Pages</h3><ul>
-<li><a href="http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html" target="_blank" rel="external">Otsu Thresholding</a></li>
-<li><a href="http://www.labbookpages.co.uk/software/imgProc/blobDetection.html" target="_blank" rel="external">Blob Detection</a></li>
-</ul>
-<h3 id="Compressive-Sensing"><a href="#Compressive-Sensing" class="headerlink" title="Compressive Sensing"></a>Compressive Sensing</h3><ul>
-<li><a href="http://dsp.rice.edu/cs" target="_blank" rel="external">Compressive Sensing Resources</a></li>
+<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
+<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> ComputerVision </category>
+            <category> Latex </category>
             
         </categories>
         
@@ -529,21 +554,25 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Latex Mathematical Formula]]></title>
-      <url>http://yoursite.com/2015/10/11/Latex/</url>
-      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
-<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
-<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
-<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
+      <title><![CDATA[Computer Vision Resource]]></title>
+      <url>http://yoursite.com/2015/10/11/Computer%20Vision%20Resource/</url>
+      <content type="html"><![CDATA[<h2 id="Online-Book"><a href="#Online-Book" class="headerlink" title="Online Book"></a>Online Book</h2><h3 id="CVonline"><a href="#CVonline" class="headerlink" title="CVonline"></a>CVonline</h3><ul>
+<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/CVentry.htm" target="_blank" rel="external">CVonline</a></li>
+<li><a href="https://sites.google.com/site/cvonlinewiki/home" target="_blank" rel="external">CVonline wiki</a></li>
+<li><a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MORSE/?C=M;O=A" target="_blank" rel="external">CVonline Basic Knowledge</a></li>
 </ul>
-<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
-<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
+<h3 id="The-Lab-Book-Pages"><a href="#The-Lab-Book-Pages" class="headerlink" title="The Lab Book Pages"></a>The Lab Book Pages</h3><ul>
+<li><a href="http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html" target="_blank" rel="external">Otsu Thresholding</a></li>
+<li><a href="http://www.labbookpages.co.uk/software/imgProc/blobDetection.html" target="_blank" rel="external">Blob Detection</a></li>
+</ul>
+<h3 id="Compressive-Sensing"><a href="#Compressive-Sensing" class="headerlink" title="Compressive Sensing"></a>Compressive Sensing</h3><ul>
+<li><a href="http://dsp.rice.edu/cs" target="_blank" rel="external">Compressive Sensing Resources</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> Latex </category>
+            <category> ComputerVision </category>
             
         </categories>
         
@@ -587,26 +616,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[SparkReferences]]></title>
-      <url>http://yoursite.com/2015/09/29/Spark/</url>
-      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
-<ul>
-<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
-</ul>
-<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
-<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Spark </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Ubuntu Command]]></title>
       <url>http://yoursite.com/2015/09/29/UbuntuCommand/</url>
       <content type="html"><![CDATA[<h2 id="Basic-Operation"><a href="#Basic-Operation" class="headerlink" title="Basic Operation"></a>Basic Operation</h2><h3 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h3><h4 id="Check-the-disk-partition"><a href="#Check-the-disk-partition" class="headerlink" title="Check the disk partition"></a>Check the disk partition</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hl</span><br></pre></td></tr></table></figure>
@@ -622,11 +631,32 @@
 <p>Then follow this <a href="http://jingyan.baidu.com/article/219f4bf7d4a183de442d38f2.html" target="_blank" rel="external">Link</a>.</p>
 <h3 id="Link-software"><a href="#Link-software" class="headerlink" title="Link software"></a>Link software</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// example: link the first path to the second one</span><br><span class="line"></span><br><span class="line">sudo ln <span class="_">-s</span> /usr/<span class="built_in">local</span>/MATLAB/R2013a/bin/matlab /usr/<span class="built_in">local</span>/bin/matlab</span><br></pre></td></tr></table></figure>
 <h3 id="Install-command"><a href="#Install-command" class="headerlink" title="Install command"></a>Install command</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//.deb file :</span></span><br><span class="line"></span><br><span class="line">sudo dpkg -<span class="selector-tag">i</span> deb_package</span><br></pre></td></tr></table></figure>
-<h3 id="Switch-multiple-gcc-and-g"><a href="#Switch-multiple-gcc-and-g" class="headerlink" title="Switch multiple gcc and g++"></a>Switch multiple gcc and g++</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## for people who using matconvnet and mxnet the first toolbox need </span></span><br><span class="line"><span class="comment">## g++ 4.7 and the second need g++ 4.8, thus sometimes we need to switch between them ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## First erased the current update-alternatives setup for gcc and g++:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --remove-all gcc </span><br><span class="line">sudo update-alternatives --remove-all g++</span><br><span class="line"></span><br><span class="line"><span class="comment">## Then Install Packages</span></span><br><span class="line">sudo apt-get install gcc-4.7 gcc-4.8 g++-4.7 g++-4.8</span><br><span class="line"></span><br><span class="line"><span class="comment">## Install Alternatives</span></span><br><span class="line"><span class="comment">### Symbolic links cc and c++ are installed by default. We will install symbol links </span></span><br><span class="line"><span class="comment">### for gcc and g++, then link cc and c++ to gcc and g++ respectively.</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30</span><br><span class="line">sudo update-alternatives --set cc /usr/bin/gcc</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30</span><br><span class="line">sudo update-alternatives --set c++ /usr/bin/g++</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Finally, Configure Alternatives</span></span><br><span class="line"><span class="comment">### The last step is configuring the default commands for gcc, g++. It's easy to switch </span></span><br><span class="line"><span class="comment">### between 4.7 and 4.8 interactively:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --config gcc</span><br><span class="line">sudo update-alternatives --config g++</span><br></pre></td></tr></table></figure>]]></content>
+<h3 id="Switch-multiple-gcc-and-g"><a href="#Switch-multiple-gcc-and-g" class="headerlink" title="Switch multiple gcc and g++"></a>Switch multiple gcc and g++</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## for people who using matconvnet and mxnet the first toolbox need</span></span><br><span class="line"><span class="comment">## g++ 4.7 and the second need g++ 4.8, thus sometimes we need to switch between them ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## First erased the current update-alternatives setup for gcc and g++:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --remove-all gcc</span><br><span class="line">sudo update-alternatives --remove-all g++</span><br><span class="line"></span><br><span class="line"><span class="comment">## Then Install Packages</span></span><br><span class="line">sudo apt-get install gcc-4.7 gcc-4.8 g++-4.7 g++-4.8</span><br><span class="line"></span><br><span class="line"><span class="comment">## Install Alternatives</span></span><br><span class="line"><span class="comment">### Symbolic links cc and c++ are installed by default. We will install symbol links</span></span><br><span class="line"><span class="comment">### for gcc and g++, then link cc and c++ to gcc and g++ respectively.</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30</span><br><span class="line">sudo update-alternatives --set cc /usr/bin/gcc</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30</span><br><span class="line">sudo update-alternatives --set c++ /usr/bin/g++</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Finally, Configure Alternatives</span></span><br><span class="line"><span class="comment">### The last step is configuring the default commands for gcc, g++. It's easy to switch</span></span><br><span class="line"><span class="comment">### between 4.7 and 4.8 interactively:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --config gcc</span><br><span class="line">sudo update-alternatives --config g++</span><br></pre></td></tr></table></figure>
+<h3 id="Create-symbolic-link-of-folder"><a href="#Create-symbolic-link-of-folder" class="headerlink" title="Create symbolic link of folder"></a>Create symbolic link of folder</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln <span class="_">-s</span> -T /usr/<span class="built_in">local</span>/cuda-8.0/ /usr/<span class="built_in">local</span>/cuda/</span><br></pre></td></tr></table></figure>]]></content>
       
         <categories>
             
             <category> Command </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SparkReferences]]></title>
+      <url>http://yoursite.com/2015/09/29/Spark/</url>
+      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
+<ul>
+<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
+</ul>
+<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
+<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Spark </category>
             
         </categories>
         
@@ -742,55 +772,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Gabor Fliter]]></title>
-      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
-      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BasicKnowledge </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Clanguage </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Blog Configuration]]></title>
-      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
-      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
-<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
-<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
-<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
-<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
-<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
-<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
-<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BLOG </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Computer Vision Crucial Links]]></title>
       <url>http://yoursite.com/2015/09/25/Computer%20Vision%20Crucial%20Links/</url>
       <content type="html"><![CDATA[<h2 id="Top-tier-vision-conferences"><a href="#Top-tier-vision-conferences" class="headerlink" title="Top-tier vision conferences"></a>Top-tier vision conferences</h2><ul>
@@ -878,6 +859,55 @@
         <categories>
             
             <category> ComputerVision </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Gabor Fliter]]></title>
+      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
+      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BasicKnowledge </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Clanguage </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Blog Configuration]]></title>
+      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
+      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
+<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
+<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
+<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
+<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
+<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BLOG </category>
             
         </categories>
         

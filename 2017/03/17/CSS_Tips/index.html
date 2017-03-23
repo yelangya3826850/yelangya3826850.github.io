@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>CSS Layout | Monaen&#39;s Wiki</title>
+  <title>CSS Tips | Monaen&#39;s Wiki</title>
   <meta name="author" content="Monaen">
   
-  <meta name="description" content="CSS Style LayoutFlexbox LayoutFlexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout i">
+  <meta name="description" content="Some TricksFor debuggering
+You can change the border color to red for debuggering, just add one sentence123*&amp;#123;  outline: 1px solid red !important;">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="CSS Layout"/>
+  <meta property="og:title" content="CSS Tips"/>
   <meta property="og:site_name" content="Monaen&#39;s Wiki"/>
 
   
@@ -45,7 +46,7 @@
   <div class="container" id="container">
 	<div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">CSS Layout</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-03-17</span></h1>
+  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">CSS Tips</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-03-17</span></h1>
 </div>		
 
 <div class="row page">
@@ -67,10 +68,24 @@
 	
 
 	  <!-- content -->
-	  <h2 id="CSS-Style-Layout"><a href="#CSS-Style-Layout" class="headerlink" title="CSS Style Layout"></a>CSS Style Layout</h2><h3 id="Flexbox-Layout"><a href="#Flexbox-Layout" class="headerlink" title="Flexbox Layout"></a>Flexbox Layout</h3><p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
-<p>For examples:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>This rule as-is works with Chrome 29+, IE 11+, and Mozilla 28+. In order to support Safari, the -webkit- prefix must be added:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: -webkit-flex;  <span class="comment">/*to support Safari*/</span></span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h4 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h4><h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
+	  <h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
+<li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test- Refine routine:"></a>Code-Test- Refine routine:</h4><ol>
+<li>Look for natural boxes</li>
+<li>Look for repeated styles and semantic elements</li>
+<li>Write your HTML</li>
+<li>Apply styles (from BIGGEST to SMALLEST)</li>
+<li>Fix things</li>
+<li>repeat 3 to 5</li>
+</ol>
+<h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
+<li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
+<p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
+</li>
+</ul>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
 <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
 <li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
 <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
@@ -95,16 +110,14 @@
 	
 		
 			
-		
-	
-		
-			
 			
 		
 	
 		
 			
 			
+			
+		
 			
 		
 	
@@ -174,12 +187,14 @@
 	
 		
 	
+		
 	
-		<li class="prev"><a href="/2017/03/17/CSS_Tips/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next"><a href="/2017/03/13/CSS_Style/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next"><a href="/2017/03/17/CSS_Layout/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>
