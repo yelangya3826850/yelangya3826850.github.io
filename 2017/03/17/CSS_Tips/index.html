@@ -6,8 +6,10 @@
   <title>CSS Tips | Monaen&#39;s Wiki</title>
   <meta name="author" content="Monaen">
   
-  <meta name="description" content="Some TricksFor debuggering
-You can change the border color to red for debuggering, just add one sentence123*&amp;#123;  outline: 1px solid red !important;">
+  <meta name="description" content="Concepts:
+negative space: space that doesn’t contain anything, used for solve the space is too small between texts.
+
+element.style part: In browser de">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -68,7 +70,31 @@ You can change the border color to red for debuggering, just add one sentence123
 	
 
 	  <!-- content -->
-	  <h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
+	  <h2 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts:"></a>Concepts:</h2><ol>
+<li><p>negative space: space that doesn’t contain anything, used for solve the space is too small between texts.</p>
+</li>
+<li><p>element.style part: In browser devtools, this part only going to affect the tag you choose!</p>
+</li>
+<li><p>padding is on the inside of the tag, margins are on the outside of the tag.</p>
+</li>
+</ol>
+<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="General-Tricks"><a href="#General-Tricks" class="headerlink" title="General Tricks"></a>General Tricks</h3><ol>
+<li>If you want to add many words in a small area, please set<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.*** &#123;</span><br><span class="line">   <span class="attribute">overflow</span>: auto</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>and you will find a scorebar on the corresponding area.</p>
+<ol>
+<li><p>Use <strong>Media Queries</strong> to change CSS properties depending on device, screen size and color as screen got resized. Just add the <strong>Media Query</strong> like:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) &#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>start off every media query with <code>@media</code>.</li>
+<li>key word ‘’only’’: is going to help us with older browsers.</li>
+<li>key word ‘’screen’’: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
+<li>max-width: the condition tells us that the media query should apply only if the width of the screen is smaller than 300px.</li>
+</ol>
+</li>
+</ol>
+<h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
 <li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
