@@ -85,20 +85,23 @@ element.style part: In browser de">
 <p>and you will find a scorebar on the corresponding area.</p>
 <ol>
 <li><p>Use <strong>Media Queries</strong> to change CSS properties depending on device, screen size and color as screen got resized. Just add the <strong>Media Query</strong> like:</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) &#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) and (orientation: landscape)&#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <ol>
 <li>start off every media query with <code>@media</code>.</li>
-<li>key word ‘’only’’: is going to help us with older browsers.</li>
-<li>key word ‘’screen’’: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
+<li>key word “only”: is going to help us with older browsers.</li>
+<li>key word “screen”: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
 <li>max-width: the condition tells us that the media query should apply only if the width of the screen is smaller than 300px.</li>
+<li>key word “orientation”: only correct when your screen has a landscape orientation (this happens when the width is bigger than the height).</li>
 </ol>
+</li>
+<li><p>To make the website looks same regardless browsers or operating systems: add <code>normalize.css</code> file.</p>
 </li>
 </ol>
 <h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
 <li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test- Refine routine:"></a>Code-Test- Refine routine:</h4><ol>
+<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test-Refine routine:"></a>Code-Test-Refine routine:</h4><ol>
 <li>Look for natural boxes</li>
 <li>Look for repeated styles and semantic elements</li>
 <li>Write your HTML</li>
@@ -106,6 +109,10 @@ element.style part: In browser de">
 <li>Fix things</li>
 <li>repeat 3 to 5</li>
 </ol>
+<h4 id="Image-placeholder"><a href="#Image-placeholder" class="headerlink" title="Image placeholder"></a>Image placeholder</h4><ul>
+<li>If you cannot provide the images you currently use, you can use an image placeholder to replace the image from website <a href="http://placehold.it/" target="_blank" rel="external">PLACEHOLD.IT</a> or <a href="http://placekitten.com" target="_blank" rel="external">PLACEKITTEN</a> or <a href="http://placepuppy.it" target="_blank" rel="external">PLACEPUPPY</a><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/* For example */</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placehold.it/960x360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placekitten.com/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placepuppy.it/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 <h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
 <li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
 <p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
@@ -133,6 +140,14 @@ element.style part: In browser de">
 	
 	
 		
+			
+		
+	
+		
+			
+		
+	
+		
 	
 		
 			
@@ -216,7 +231,7 @@ element.style part: In browser de">
 		
 	
 	
-		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+		<li class="prev"><a href="/2017/03/24/CSS_Fonts/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
