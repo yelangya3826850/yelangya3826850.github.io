@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Latex Beamer | Monaen&#39;s Wiki</title>
+  <meta name="author" content="Monaen">
+  
+  <meta name="description" content="LateX BeamerCommon Error
+Font Warning
+Font Warning: Font shape `OT1/cmss/m/n’  LaTeX Font Warning: Font shape `OT1/cmss/m/n&#39; in size  not available(Fo">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Latex Beamer"/>
+  <meta property="og:site_name" content="Monaen&#39;s Wiki"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="Monaen&#39;s Wiki" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">Latex Beamer</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-03-26</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <h2 id="LateX-Beamer"><a href="#LateX-Beamer" class="headerlink" title="LateX Beamer"></a>LateX Beamer</h2><h3 id="Common-Error"><a href="#Common-Error" class="headerlink" title="Common Error"></a>Common Error</h3><p><br></p>
+<h4 id="Font-Warning"><a href="#Font-Warning" class="headerlink" title="Font Warning"></a>Font Warning</h4><ul>
+<li>Font Warning: Font shape `OT1/cmss/m/n’<div class="alert alert-warning"><i class="fa fa-bell"></i>  LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available(Font) size <5> substituded on input line 65</5></4></div>
+<strong>Solution:</strong> Add <code>\usepackage{lmodern}</code></li>
+</ul>
+<p><br></p>
+<h4 id="Token-not-allowed"><a href="#Token-not-allowed" class="headerlink" title="Token not allowed"></a>Token not allowed</h4><ul>
+<li>Token not allowed<div class="alert alert-warning"><i class="fa fa-bell"></i>  Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):(hyperref) removing `\\' on input line 48</div>
+<strong>Solution:</strong> Add a definition before the <code>\begin{document}</code><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">% define the line <span class="keyword">break</span> <span class="string">\\</span></span><br><span class="line"><span class="string">\pdfstringdefDisableCommands&#123;</span></span><br><span class="line">    <span class="string">\def\\&#123;&#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><br></p>
+<ul>
+<li>Token not allowed<div class="alert alert-warning"><i class="fa fa-bell"></i>  Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):(hyperref) removing `\new@ifnextchar' on input line 48</div>
+<strong>Solution:</strong> Add a definition before the <code>\begin{document}</code><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% define the commands</span></span><br><span class="line"><span class="tag">\<span class="name">pdfstringdefDisableCommands</span><span class="string">&#123;</span><br><span class="line">    \def\\&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">texttt</span></span>#1&#123;&lt;#1&gt;&#125;</span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">medskip</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">smallskip</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">vspace</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+		
+	
+		
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/2015/10/11/Latex/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2017 Monaen
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+</html>
