@@ -92,6 +92,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[CSS Fonts]]></title>
+      <url>http://yoursite.com/2017/03/24/CSS_Fonts/</url>
+      <content type="html"><![CDATA[<h2 id="CSS-Style-Fonts"><a href="#CSS-Style-Fonts" class="headerlink" title="CSS Style Fonts"></a>CSS Style Fonts</h2><p>There might be an easy way to find what fonts you want using <a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>.</p>
+<ol>
+<li>Search or pick your desire fonts (you can select more than one).</li>
+<li>Copy the link information in your html file.</li>
+<li>Spercific the fonts type in the part you want in CSS file.</li>
+</ol>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
+<li><a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>: where you can find your desire fonts.</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> CSS </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Bootstraps]]></title>
       <url>http://yoursite.com/2017/03/24/Bootstraps/</url>
       <content type="html"><![CDATA[<h2 id="Framework"><a href="#Framework" class="headerlink" title="Framework"></a>Framework</h2><h3 id="Bootstrap"><a href="#Bootstrap" class="headerlink" title="Bootstrap"></a>Bootstrap</h3><ul>
@@ -127,16 +150,79 @@
     </entry>
     
     <entry>
-      <title><![CDATA[CSS Fonts]]></title>
-      <url>http://yoursite.com/2017/03/24/CSS_Fonts/</url>
-      <content type="html"><![CDATA[<h2 id="CSS-Style-Fonts"><a href="#CSS-Style-Fonts" class="headerlink" title="CSS Style Fonts"></a>CSS Style Fonts</h2><p>There might be an easy way to find what fonts you want using <a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>.</p>
-<ol>
-<li>Search or pick your desire fonts (you can select more than one).</li>
-<li>Copy the link information in your html file.</li>
-<li>Spercific the fonts type in the part you want in CSS file.</li>
+      <title></title>
+      <url>http://yoursite.com/2017/03/20/Caffe-Tricks/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CSS Tips]]></title>
+      <url>http://yoursite.com/2017/03/17/CSS_Tips/</url>
+      <content type="html"><![CDATA[<h2 id="Suggest-Writing-Style"><a href="#Suggest-Writing-Style" class="headerlink" title="Suggest Writing Style"></a>Suggest Writing Style</h2><ul>
+<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a>: This is a writing style suggested by Udacity</p>
+</li>
+<li><p>We do suggest that first use bootstrap css style to set up your webpage framework and add some customer css style by adding your own css file (traditionally <code>css/style.css</code>) and style !</p>
+</li>
+</ul>
+<h2 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts:"></a>Concepts:</h2><ol>
+<li><p>Negative space: space that doesn’t contain anything, used for solve the space is too small between texts.</p>
+</li>
+<li><p>Element.style part: In browser devtools, this part only going to affect the tag you choose!</p>
+</li>
+<li><p>Padding is on the inside of the tag, margins are on the outside of the tag.</p>
+</li>
 </ol>
+<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="General-Tricks"><a href="#General-Tricks" class="headerlink" title="General Tricks"></a>General Tricks</h3><ol>
+<li>If you want to add many words in a small area, please set<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.*** &#123;</span><br><span class="line">   <span class="attribute">overflow</span>: auto</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>and you will find a scorebar on the corresponding area.</p>
+<ol>
+<li><p>Use <strong>Media Queries</strong> to change CSS properties depending on device, screen size and color as screen got resized. Just add the <strong>Media Query</strong> like:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) and (orientation: landscape)&#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>start off every media query with <code>@media</code>.</li>
+<li>key word “only”: is going to help us with older browsers.</li>
+<li>key word “screen”: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
+<li>max-width: the condition tells us that the media query should apply only if the width of the screen is smaller than 300px.</li>
+<li>key word “orientation”: only correct when your screen has a landscape orientation (this happens when the width is bigger than the height).</li>
+</ol>
+</li>
+<li><p>To make the website looks same regardless browsers or operating systems: add <code>normalize.css</code> file.</p>
+</li>
+</ol>
+<h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
+<li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test-Refine routine:"></a>Code-Test-Refine routine:</h4><ol>
+<li>Look for natural boxes</li>
+<li>Look for repeated styles and semantic elements</li>
+<li>Write your HTML</li>
+<li>Apply styles (from BIGGEST to SMALLEST)</li>
+<li>Fix things</li>
+<li>repeat 3 to 5</li>
+</ol>
+<h4 id="Image-placeholder"><a href="#Image-placeholder" class="headerlink" title="Image placeholder"></a>Image placeholder</h4><ul>
+<li>If you cannot provide the images you currently use, you can use an image placeholder to replace the image from website <a href="http://placehold.it/" target="_blank" rel="external">PLACEHOLD.IT</a> or <a href="http://placekitten.com" target="_blank" rel="external">PLACEKITTEN</a> or <a href="http://placepuppy.it" target="_blank" rel="external">PLACEPUPPY</a><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/* For example */</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placehold.it/960x360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placekitten.com/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placepuppy.it/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
+<li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
+<p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
+</li>
+</ul>
 <h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
-<li><a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>: where you can find your desire fonts.</li>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
+<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
+<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
+</ul>
+<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
+<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
 </ul>
 ]]></content>
       
@@ -146,14 +232,6 @@
             
         </categories>
         
-        
-    </entry>
-    
-    <entry>
-      <title></title>
-      <url>http://yoursite.com/2017/03/20/Caffe-Tricks/</url>
-      <content type="html"></content>
-      
         
     </entry>
     
@@ -246,84 +324,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[CSS Tips]]></title>
-      <url>http://yoursite.com/2017/03/17/CSS_Tips/</url>
-      <content type="html"><![CDATA[<h2 id="Suggest-Writing-Style"><a href="#Suggest-Writing-Style" class="headerlink" title="Suggest Writing Style"></a>Suggest Writing Style</h2><ul>
-<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a>: This is a writing style suggested by Udacity</p>
-</li>
-<li><p>We do suggest that first use bootstrap css style to set up your webpage framework and add some customer css style by adding your own css file (traditionally <code>css/style.css</code>) and style !</p>
-</li>
-</ul>
-<h2 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts:"></a>Concepts:</h2><ol>
-<li><p>Negative space: space that doesn’t contain anything, used for solve the space is too small between texts.</p>
-</li>
-<li><p>Element.style part: In browser devtools, this part only going to affect the tag you choose!</p>
-</li>
-<li><p>Padding is on the inside of the tag, margins are on the outside of the tag.</p>
-</li>
-</ol>
-<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="General-Tricks"><a href="#General-Tricks" class="headerlink" title="General Tricks"></a>General Tricks</h3><ol>
-<li>If you want to add many words in a small area, please set<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.*** &#123;</span><br><span class="line">   <span class="attribute">overflow</span>: auto</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>and you will find a scorebar on the corresponding area.</p>
-<ol>
-<li><p>Use <strong>Media Queries</strong> to change CSS properties depending on device, screen size and color as screen got resized. Just add the <strong>Media Query</strong> like:</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) and (orientation: landscape)&#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>start off every media query with <code>@media</code>.</li>
-<li>key word “only”: is going to help us with older browsers.</li>
-<li>key word “screen”: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
-<li>max-width: the condition tells us that the media query should apply only if the width of the screen is smaller than 300px.</li>
-<li>key word “orientation”: only correct when your screen has a landscape orientation (this happens when the width is bigger than the height).</li>
-</ol>
-</li>
-<li><p>To make the website looks same regardless browsers or operating systems: add <code>normalize.css</code> file.</p>
-</li>
-</ol>
-<h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
-<li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test-Refine routine:"></a>Code-Test-Refine routine:</h4><ol>
-<li>Look for natural boxes</li>
-<li>Look for repeated styles and semantic elements</li>
-<li>Write your HTML</li>
-<li>Apply styles (from BIGGEST to SMALLEST)</li>
-<li>Fix things</li>
-<li>repeat 3 to 5</li>
-</ol>
-<h4 id="Image-placeholder"><a href="#Image-placeholder" class="headerlink" title="Image placeholder"></a>Image placeholder</h4><ul>
-<li>If you cannot provide the images you currently use, you can use an image placeholder to replace the image from website <a href="http://placehold.it/" target="_blank" rel="external">PLACEHOLD.IT</a> or <a href="http://placekitten.com" target="_blank" rel="external">PLACEKITTEN</a> or <a href="http://placepuppy.it" target="_blank" rel="external">PLACEPUPPY</a><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/* For example */</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placehold.it/960x360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placekitten.com/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placepuppy.it/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
-<li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
-<p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
-</li>
-</ul>
-<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
-<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
-<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
-</ul>
-<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
-<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> CSS </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[CSS Style Priority]]></title>
       <url>http://yoursite.com/2017/03/13/CSS_Style/</url>
       <content type="html"><![CDATA[<h2 id="CSS-Style-Priority"><a href="#CSS-Style-Priority" class="headerlink" title="CSS Style Priority"></a>CSS Style Priority</h2><h3 id="Order-Matters"><a href="#Order-Matters" class="headerlink" title="Order Matters"></a>Order Matters</h3><p>It matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, <strong>with definitions further down the list overwriting previous definitions:</strong></p>
@@ -350,6 +350,46 @@
         <categories>
             
             <category> CSS </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Software Activation]]></title>
+      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
+      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
+<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
+<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
+<li>click “Continue” and copy the request code</li>
+<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
+<li>run <code>python CalcActivationCode.py</code> to get license</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Software </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Toolbox]]></title>
+      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
+      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
+<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
+<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
             
         </categories>
         
@@ -398,46 +438,6 @@
 <p>This file is an example to generate lmdb dataset from image. Maybe your datasets are not RGB-image, or maybe your data have higher dimension but you can still use this file with small changes.</p>
 </li>
 </ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Software Activation]]></title>
-      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
-      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
-<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
-<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
-<li>click “Continue” and copy the request code</li>
-<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
-<li>run <code>python CalcActivationCode.py</code> to get license</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Software </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Python Toolbox]]></title>
-      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
-      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
-<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
-<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
 ]]></content>
       
         <categories>
@@ -550,13 +550,9 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Tensorflow Tricks]]></title>
-      <url>http://yoursite.com/2016/03/13/Tensorflow-Tricks/</url>
-      <content type="html"><![CDATA[<h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>
-<h2 id="Training-Tricks"><a href="#Training-Tricks" class="headerlink" title="Training Tricks"></a>Training Tricks</h2><ul>
-<li><strong>Dropout</strong> should only be introduced during training, not evaluation, otherwise your evaluation results would be stochastic as well.</li>
-</ul>
-]]></content>
+      <title><![CDATA[Tensorflow Machine Learning Resource]]></title>
+      <url>http://yoursite.com/2016/03/13/Tensorflow-Machine-Learning-Resource/</url>
+      <content type="html"></content>
       
         <categories>
             
@@ -568,9 +564,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Tensorflow Machine Learning Resource]]></title>
-      <url>http://yoursite.com/2016/03/13/Tensorflow-Machine-Learning-Resource/</url>
-      <content type="html"></content>
+      <title><![CDATA[Tensorflow Tricks]]></title>
+      <url>http://yoursite.com/2016/03/13/Tensorflow-Tricks/</url>
+      <content type="html"><![CDATA[<h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>
+<h2 id="Training-Tricks"><a href="#Training-Tricks" class="headerlink" title="Training Tricks"></a>Training Tricks</h2><ul>
+<li><strong>Dropout</strong> should only be introduced during training, not evaluation, otherwise your evaluation results would be stochastic as well.</li>
+</ul>
+]]></content>
       
         <categories>
             
@@ -592,6 +592,23 @@
         <categories>
             
             <category> Dataset </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mathematics]]></title>
+      <url>http://yoursite.com/2015/11/25/MatrixCalculus/</url>
+      <content type="html"><![CDATA[<h2 id="Matrix-Calculus"><a href="#Matrix-Calculus" class="headerlink" title="Matrix Calculus"></a>Matrix Calculus</h2><h3 id="Matrix-Calculus-Form"><a href="#Matrix-Calculus-Form" class="headerlink" title="Matrix Calculus Form"></a>Matrix Calculus Form</h3><p><a href="http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf" target="_blank" rel="external">Matrix Calculus</a><br><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf" target="_blank" rel="external">Matrix Differentiation</a><br><a href="http://www.math.nyu.edu/~neylon/linalgfall04/project1/dj/propofmatrixmult.htm" target="_blank" rel="external">Properties of Matrix Multiplication</a></p>
+<h3 id="Relevant-PPT"><a href="#Relevant-PPT" class="headerlink" title="Relevant PPT"></a>Relevant PPT</h3><p><a href="http://select.cs.cmu.edu/class/10725-S10/recitations/r4/Matrix_Calculus_Algebra.pdf" target="_blank" rel="external">Matrix Calculus and Algebra</a></p>
+<p>### </p>
+]]></content>
+      
+        <categories>
+            
+            <category> Matrix </category>
             
         </categories>
         
@@ -645,23 +662,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Mathematics]]></title>
-      <url>http://yoursite.com/2015/11/25/MatrixCalculus/</url>
-      <content type="html"><![CDATA[<h2 id="Matrix-Calculus"><a href="#Matrix-Calculus" class="headerlink" title="Matrix Calculus"></a>Matrix Calculus</h2><h3 id="Matrix-Calculus-Form"><a href="#Matrix-Calculus-Form" class="headerlink" title="Matrix Calculus Form"></a>Matrix Calculus Form</h3><p><a href="http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf" target="_blank" rel="external">Matrix Calculus</a><br><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf" target="_blank" rel="external">Matrix Differentiation</a><br><a href="http://www.math.nyu.edu/~neylon/linalgfall04/project1/dj/propofmatrixmult.htm" target="_blank" rel="external">Properties of Matrix Multiplication</a></p>
-<h3 id="Relevant-PPT"><a href="#Relevant-PPT" class="headerlink" title="Relevant PPT"></a>Relevant PPT</h3><p><a href="http://select.cs.cmu.edu/class/10725-S10/recitations/r4/Matrix_Calculus_Algebra.pdf" target="_blank" rel="external">Matrix Calculus and Algebra</a></p>
-<p>### </p>
-]]></content>
-      
-        <categories>
-            
-            <category> Matrix </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[R Language Reference Card]]></title>
       <url>http://yoursite.com/2015/10/15/RLanguage/</url>
       <content type="html"><![CDATA[<h2 id="R-Language-Reference"><a href="#R-Language-Reference" class="headerlink" title="R - Language Reference"></a>R - Language Reference</h2><ul>
@@ -672,6 +672,21 @@
         <categories>
             
             <category> RLanguage </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[PYTHON code style]]></title>
+      <url>http://yoursite.com/2015/10/13/Python_Style/</url>
+      <content type="html"><![CDATA[<p>dsaf</p>
+]]></content>
+      
+        <categories>
+            
+            <category> CodeStyle </category>
             
         </categories>
         
@@ -696,29 +711,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[PYTHON code style]]></title>
-      <url>http://yoursite.com/2015/10/13/Python_Style/</url>
-      <content type="html"><![CDATA[<p>dsaf</p>
+      <title><![CDATA[The template file]]></title>
+      <url>http://yoursite.com/2015/10/13/Template/</url>
+      <content type="html"><![CDATA[<p>TO DO: add title</p>
+<h1 id="Title-1"><a href="#Title-1" class="headerlink" title="Title 1"></a>Title 1</h1><h2 id="Title-2"><a href="#Title-2" class="headerlink" title="Title 2"></a>Title 2</h2><h3 id="Title-3"><a href="#Title-3" class="headerlink" title="Title 3"></a>Title 3</h3><p>TO DO: add code<br><code>inline code</code><br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">code</span> block</span><br></pre></td></tr></table></figure></p>
 ]]></content>
       
         <categories>
             
-            <category> CodeStyle </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Beautiful Visualization]]></title>
-      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
-      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Visualization </category>
+            <category> Others </category>
             
         </categories>
         
@@ -744,31 +745,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[The template file]]></title>
-      <url>http://yoursite.com/2015/10/13/Template/</url>
-      <content type="html"><![CDATA[<p>TO DO: add title</p>
-<h1 id="Title-1"><a href="#Title-1" class="headerlink" title="Title 1"></a>Title 1</h1><h2 id="Title-2"><a href="#Title-2" class="headerlink" title="Title 2"></a>Title 2</h2><h3 id="Title-3"><a href="#Title-3" class="headerlink" title="Title 3"></a>Title 3</h3><p>TO DO: add code<br><code>inline code</code><br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">code</span> block</span><br></pre></td></tr></table></figure></p>
+      <title><![CDATA[Beautiful Visualization]]></title>
+      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
+      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
 ]]></content>
       
         <categories>
             
-            <category> Others </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Traditional Computer Vision]]></title>
-      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
-      <content type="html"><![CDATA[<p>Thresholding</p>
-<p>Blob Detection</p>
-]]></content>
-      
-        <categories>
-            
-            <category> ComputerVision </category>
+            <category> Visualization </category>
             
         </categories>
         
@@ -824,6 +808,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Traditional Computer Vision]]></title>
+      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
+      <content type="html"><![CDATA[<p>Thresholding</p>
+<p>Blob Detection</p>
+]]></content>
+      
+        <categories>
+            
+            <category> ComputerVision </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Data Mining]]></title>
       <url>http://yoursite.com/2015/10/06/DataMining/</url>
       <content type="html"><![CDATA[<h2 id="Data-Mining-Software-Library"><a href="#Data-Mining-Software-Library" class="headerlink" title="Data Mining Software Library"></a>Data Mining Software Library</h2><ul>
@@ -835,44 +835,6 @@
         <categories>
             
             <category> DataMining </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[SparkReferences]]></title>
-      <url>http://yoursite.com/2015/09/29/Spark/</url>
-      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
-<ul>
-<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
-</ul>
-<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
-<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Spark </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Lisp]]></title>
-      <url>http://yoursite.com/2015/09/29/Lisp/</url>
-      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
-<ul>
-<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Lisp </category>
             
         </categories>
         
@@ -908,15 +870,37 @@
     </entry>
     
     <entry>
-      <title><![CDATA[PDF Resources]]></title>
-      <url>http://yoursite.com/2015/09/28/PDF_Resource/</url>
-      <content type="html"><![CDATA[<h2 id="A-very-useful-PDF-online-edit-tool-smallpdf"><a href="#A-very-useful-PDF-online-edit-tool-smallpdf" class="headerlink" title="A very useful PDF online edit tool: smallpdf"></a>A very useful PDF online edit tool: <strong>smallpdf</strong></h2><h3 id="Chinese-Web-Page"><a href="#Chinese-Web-Page" class="headerlink" title="Chinese Web Page"></a>Chinese Web Page</h3><p><a href="http://smallpdf.com/cn/" target="_blank" rel="external">http://smallpdf.com/cn/</a></p>
-<h3 id="English-Web-Page"><a href="#English-Web-Page" class="headerlink" title="English Web Page"></a>English Web Page</h3><p><a href="http://smallpdf.com/" target="_blank" rel="external">http://smallpdf.com/</a></p>
+      <title><![CDATA[Lisp]]></title>
+      <url>http://yoursite.com/2015/09/29/Lisp/</url>
+      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
+<ul>
+<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
+</ul>
 ]]></content>
       
         <categories>
             
-            <category> PDFResources </category>
+            <category> Lisp </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SparkReferences]]></title>
+      <url>http://yoursite.com/2015/09/29/Spark/</url>
+      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
+<ul>
+<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
+</ul>
+<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
+<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Spark </category>
             
         </categories>
         
@@ -929,6 +913,22 @@
       <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
 ]]></content>
       
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[PDF Resources]]></title>
+      <url>http://yoursite.com/2015/09/28/PDF_Resource/</url>
+      <content type="html"><![CDATA[<h2 id="A-very-useful-PDF-online-edit-tool-smallpdf"><a href="#A-very-useful-PDF-online-edit-tool-smallpdf" class="headerlink" title="A very useful PDF online edit tool: smallpdf"></a>A very useful PDF online edit tool: <strong>smallpdf</strong></h2><h3 id="Chinese-Web-Page"><a href="#Chinese-Web-Page" class="headerlink" title="Chinese Web Page"></a>Chinese Web Page</h3><p><a href="http://smallpdf.com/cn/" target="_blank" rel="external">http://smallpdf.com/cn/</a></p>
+<h3 id="English-Web-Page"><a href="#English-Web-Page" class="headerlink" title="English Web Page"></a>English Web Page</h3><p><a href="http://smallpdf.com/" target="_blank" rel="external">http://smallpdf.com/</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> PDFResources </category>
+            
+        </categories>
+        
         
     </entry>
     
@@ -1110,6 +1110,27 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Gabor Fliter]]></title>
+      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
+      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BasicKnowledge </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Clanguage </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Blog Configuration]]></title>
       <url>http://yoursite.com/2015/09/25/blog-setting/</url>
       <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
@@ -1134,27 +1155,6 @@
             
         </categories>
         
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Gabor Fliter]]></title>
-      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
-      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BasicKnowledge </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Clanguage </tag>
-            
-        </tags>
         
     </entry>
     
