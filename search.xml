@@ -4,34 +4,22 @@
   
     
     <entry>
-      <title><![CDATA[Anaconda]]></title>
-      <url>http://yoursite.com/2017/03/26/Anaconda/</url>
-      <content type="html"><![CDATA[<h2 id="Anaconda-Installation"><a href="#Anaconda-Installation" class="headerlink" title="Anaconda Installation"></a>Anaconda Installation</h2><h2 id="Anaconda-Command"><a href="#Anaconda-Command" class="headerlink" title="Anaconda Command"></a>Anaconda Command</h2><ol>
-<li>Use <code>conda</code> to create virtual environment<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda <span class="built_in">create</span> -n py2 python=<span class="number">2</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">2.</span>* installed</span><br><span class="line"></span><br><span class="line">conda <span class="built_in">create</span> -n py3 python=<span class="number">3</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">3.</span>* installed</span><br></pre></td></tr></table></figure>
+      <title><![CDATA[Udacity Materials]]></title>
+      <url>http://yoursite.com/2017/03/26/Udacity/</url>
+      <content type="html"><![CDATA[<h2 id="Udacity-Materials"><a href="#Udacity-Materials" class="headerlink" title="Udacity Materials"></a>Udacity Materials</h2><ul>
+<li><p><a href="https://docs.google.com/document/d/1np1OCVktcEkiNC3vhSoNJPZi3OoTb_ZvOtWK6aEMzP0/pub?embedded=true" target="_blank" rel="external">Nanodegree Student Handbook</a></p>
 </li>
-</ol>
-<h2 id="Environments"><a href="#Environments" class="headerlink" title="Environments"></a>Environments</h2><h3 id="share-environments"><a href="#share-environments" class="headerlink" title="share environments"></a>share environments</h3><ol>
-<li><p>Generate your own <code>environment.yaml</code> file</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env <span class="keyword">export</span> &gt; environment.yaml</span><br></pre></td></tr></table></figure>
+<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a></p>
 </li>
-<li><p>For people not using conda, share the pip <code>requirements.txt</code> file: <a href="https://pip.pypa.io/en/stable/reference/pip_freeze/" target="_blank" rel="external">more information</a></p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">pip</span> <span class="selector-tag">freeze</span> &gt; <span class="selector-tag">requirements</span><span class="selector-class">.txt</span></span><br></pre></td></tr></table></figure>
+<li><p><a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank" rel="external">A Primer on Using LaTeX in Jupyter Notebooks</a></p>
 </li>
-</ol>
-<h3 id="Listing-environments"><a href="#Listing-environments" class="headerlink" title="Listing environments"></a>Listing environments</h3><ul>
-<li>Use <code>conda env list</code> to list out all the environments you’ve created. You should see a list of environments, there will be an <strong>asterisk</strong> next to the environment you’re currently in. The default environment, the environment used when you aren’t in one, is called <code>root</code>.</li>
-</ul>
-<h3 id="Removing-environments"><a href="#Removing-environments" class="headerlink" title="Removing environments"></a>Removing environments</h3><ul>
-<li>Use <code>conda env remove -n env_name</code> will remove the specified environment (here, named <code>env_name</code>).</li>
-</ul>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><a href="http://conda.pydata.org/docs/using/index.html" target="_blank" rel="external">conda documentation</a></li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="external">Markdown cheatsheet</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> Toolbox Udacity </category>
+            <category> Udacity </category>
             
         </categories>
         
@@ -69,22 +57,34 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Udacity Materials]]></title>
-      <url>http://yoursite.com/2017/03/26/Udacity/</url>
-      <content type="html"><![CDATA[<h2 id="Udacity-Materials"><a href="#Udacity-Materials" class="headerlink" title="Udacity Materials"></a>Udacity Materials</h2><ul>
-<li><p><a href="https://docs.google.com/document/d/1np1OCVktcEkiNC3vhSoNJPZi3OoTb_ZvOtWK6aEMzP0/pub?embedded=true" target="_blank" rel="external">Nanodegree Student Handbook</a></p>
+      <title><![CDATA[Anaconda]]></title>
+      <url>http://yoursite.com/2017/03/26/Anaconda/</url>
+      <content type="html"><![CDATA[<h2 id="Anaconda-Installation"><a href="#Anaconda-Installation" class="headerlink" title="Anaconda Installation"></a>Anaconda Installation</h2><h2 id="Anaconda-Command"><a href="#Anaconda-Command" class="headerlink" title="Anaconda Command"></a>Anaconda Command</h2><ol>
+<li>Use <code>conda</code> to create virtual environment<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda <span class="built_in">create</span> -n py2 python=<span class="number">2</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">2.</span>* installed</span><br><span class="line"></span><br><span class="line">conda <span class="built_in">create</span> -n py3 python=<span class="number">3</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">3.</span>* installed</span><br></pre></td></tr></table></figure>
 </li>
-<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a></p>
+</ol>
+<h2 id="Environments"><a href="#Environments" class="headerlink" title="Environments"></a>Environments</h2><h3 id="share-environments"><a href="#share-environments" class="headerlink" title="share environments"></a>share environments</h3><ol>
+<li><p>Generate your own <code>environment.yaml</code> file</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env <span class="keyword">export</span> &gt; environment.yaml</span><br></pre></td></tr></table></figure>
 </li>
-<li><p><a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank" rel="external">A Primer on Using LaTeX in Jupyter Notebooks</a></p>
+<li><p>For people not using conda, share the pip <code>requirements.txt</code> file: <a href="https://pip.pypa.io/en/stable/reference/pip_freeze/" target="_blank" rel="external">more information</a></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">pip</span> <span class="selector-tag">freeze</span> &gt; <span class="selector-tag">requirements</span><span class="selector-class">.txt</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="external">Markdown cheatsheet</a></li>
+</ol>
+<h3 id="Listing-environments"><a href="#Listing-environments" class="headerlink" title="Listing environments"></a>Listing environments</h3><ul>
+<li>Use <code>conda env list</code> to list out all the environments you’ve created. You should see a list of environments, there will be an <strong>asterisk</strong> next to the environment you’re currently in. The default environment, the environment used when you aren’t in one, is called <code>root</code>.</li>
+</ul>
+<h3 id="Removing-environments"><a href="#Removing-environments" class="headerlink" title="Removing environments"></a>Removing environments</h3><ul>
+<li>Use <code>conda env remove -n env_name</code> will remove the specified environment (here, named <code>env_name</code>).</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="http://conda.pydata.org/docs/using/index.html" target="_blank" rel="external">conda documentation</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> Udacity </category>
+            <category> Toolbox Udacity </category>
             
         </categories>
         
@@ -357,46 +357,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Software Activation]]></title>
-      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
-      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
-<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
-<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
-<li>click “Continue” and copy the request code</li>
-<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
-<li>run <code>python CalcActivationCode.py</code> to get license</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Software </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Python Toolbox]]></title>
-      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
-      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
-<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
-<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Toolbox]]></title>
       <url>http://yoursite.com/2016/08/04/Toolbox/</url>
       <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
@@ -450,6 +410,46 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Software Activation]]></title>
+      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
+      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
+<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
+<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
+<li>click “Continue” and copy the request code</li>
+<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
+<li>run <code>python CalcActivationCode.py</code> to get license</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Software </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Toolbox]]></title>
+      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
+      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
+<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
+<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Light-field DateSet]]></title>
       <url>http://yoursite.com/2016/07/28/LightfieldDataset/</url>
       <content type="html"><![CDATA[<h2 id="Dataset"><a href="#Dataset" class="headerlink" title="Dataset"></a>Dataset</h2><h4 id="1-SMART-–-lightfield-dataset-2016"><a href="#1-SMART-–-lightfield-dataset-2016" class="headerlink" title="1. SMART – lightfield dataset(2016)"></a>1. <a href="http://www.comlab.uniroma3.it/SMART.html" target="_blank" rel="external">SMART – lightfield dataset(2016)</a></h4><p><strong>16 LF images</strong> are included in the SMART LF dataset, from both indoor and outdoor category, and cover general image content related features (colorfulness, spatial information, and texture) but also LF specific aspects such as reflection, transparency and depth of field variation.</p>
@@ -483,22 +483,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Ubuntu Installation Questions]]></title>
-      <url>http://yoursite.com/2016/04/13/UbuntuInstallationQuestions/</url>
-      <content type="html"><![CDATA[<h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
-<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
-]]></content>
-      
-        <categories>
-            
-            <category> OperationSystemInstallation </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Raspberry pi 3(B)]]></title>
       <url>http://yoursite.com/2016/04/13/RaspberryPi/</url>
       <content type="html"><![CDATA[<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Input-plugin-installation"><a href="#Input-plugin-installation" class="headerlink" title="Input-plugin installation"></a>Input-plugin installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ttf-wqy-microhei</span><br><span class="line"></span><br><span class="line"><span class="comment">## This command helps to deal with the problem that raspberry pi cannot recognize some chinese characters</span></span><br></pre></td></tr></table></figure>
@@ -508,6 +492,22 @@
         <categories>
             
             <category> RaspberryPi </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ubuntu Installation Questions]]></title>
+      <url>http://yoursite.com/2016/04/13/UbuntuInstallationQuestions/</url>
+      <content type="html"><![CDATA[<h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
+<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        <categories>
+            
+            <category> OperationSystemInstallation </category>
             
         </categories>
         
@@ -679,9 +679,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[PYTHON code style]]></title>
-      <url>http://yoursite.com/2015/10/13/Python_Style/</url>
-      <content type="html"><![CDATA[<p>dsaf</p>
+      <title><![CDATA[HTML code style]]></title>
+      <url>http://yoursite.com/2015/10/13/HTML_Style/</url>
+      <content type="html"><![CDATA[<h3 id="Code-Template"><a href="#Code-Template" class="headerlink" title="Code Template"></a>Code Template</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"title"</span>&gt;</span>My App<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"screenshot"</span>&gt;</span>image<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"description"</span>&gt;</span>text<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h4 id="Notices"><a href="#Notices" class="headerlink" title="Notices"></a>Notices</h4><ol>
+<li>The <code>title</code> and <code>link</code> put inside <code>&lt;head&gt;</code> tag<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>We're learning selectors!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ol>
 ]]></content>
       
         <categories>
@@ -711,6 +714,21 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Beautiful Visualization]]></title>
+      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
+      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Visualization </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[The template file]]></title>
       <url>http://yoursite.com/2015/10/13/Template/</url>
       <content type="html"><![CDATA[<p>TO DO: add title</p>
@@ -727,12 +745,9 @@
     </entry>
     
     <entry>
-      <title><![CDATA[HTML code style]]></title>
-      <url>http://yoursite.com/2015/10/13/HTML_Style/</url>
-      <content type="html"><![CDATA[<h3 id="Code-Template"><a href="#Code-Template" class="headerlink" title="Code Template"></a>Code Template</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"title"</span>&gt;</span>My App<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"screenshot"</span>&gt;</span>image<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"description"</span>&gt;</span>text<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h4 id="Notices"><a href="#Notices" class="headerlink" title="Notices"></a>Notices</h4><ol>
-<li>The <code>title</code> and <code>link</code> put inside <code>&lt;head&gt;</code> tag<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>We're learning selectors!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
-</ol>
+      <title><![CDATA[PYTHON code style]]></title>
+      <url>http://yoursite.com/2015/10/13/Python_Style/</url>
+      <content type="html"><![CDATA[<p>dsaf</p>
 ]]></content>
       
         <categories>
@@ -745,36 +760,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Beautiful Visualization]]></title>
-      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
-      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
+      <title><![CDATA[Traditional Computer Vision]]></title>
+      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
+      <content type="html"><![CDATA[<p>Thresholding</p>
+<p>Blob Detection</p>
 ]]></content>
       
         <categories>
             
-            <category> Visualization </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Latex Mathematical Formula]]></title>
-      <url>http://yoursite.com/2015/10/11/Latex/</url>
-      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
-<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
-<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
-<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
-</ul>
-<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
-<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> LateX </category>
+            <category> ComputerVision </category>
             
         </categories>
         
@@ -808,15 +802,21 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Traditional Computer Vision]]></title>
-      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
-      <content type="html"><![CDATA[<p>Thresholding</p>
-<p>Blob Detection</p>
+      <title><![CDATA[Latex Mathematical Formula]]></title>
+      <url>http://yoursite.com/2015/10/11/Latex/</url>
+      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
+<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
+<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
+</ul>
+<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
+<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
+</ul>
 ]]></content>
       
         <categories>
             
-            <category> ComputerVision </category>
+            <category> LateX </category>
             
         </categories>
         
@@ -835,6 +835,44 @@
         <categories>
             
             <category> DataMining </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SparkReferences]]></title>
+      <url>http://yoursite.com/2015/09/29/Spark/</url>
+      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
+<ul>
+<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
+</ul>
+<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
+<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Spark </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lisp]]></title>
+      <url>http://yoursite.com/2015/09/29/Lisp/</url>
+      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
+<ul>
+<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Lisp </category>
             
         </categories>
         
@@ -866,53 +904,6 @@
             
         </categories>
         
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Lisp]]></title>
-      <url>http://yoursite.com/2015/09/29/Lisp/</url>
-      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
-<ul>
-<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Lisp </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[SparkReferences]]></title>
-      <url>http://yoursite.com/2015/09/29/Spark/</url>
-      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
-<ul>
-<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
-</ul>
-<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
-<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Spark </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title></title>
-      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
-      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
-]]></content>
-      
         
     </entry>
     
@@ -950,6 +941,15 @@
             
         </categories>
         
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
+      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
+]]></content>
+      
         
     </entry>
     
@@ -1009,6 +1009,34 @@
         <categories>
             
             <category> HexoTrick </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Blog Configuration]]></title>
+      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
+      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
+<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
+<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
+<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
+<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
+<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BLOG </category>
             
         </categories>
         
@@ -1127,34 +1155,6 @@
             <tag> Clanguage </tag>
             
         </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Blog Configuration]]></title>
-      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
-      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
-<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
-<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
-<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
-<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
-<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
-<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
-<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BLOG </category>
-            
-        </categories>
-        
         
     </entry>
     
