@@ -106,7 +106,32 @@ Install the Udacity Front End Feedback Extension from the Chrome Web Store or">
 <li><p><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag" target="_blank" rel="external">Here’s what the Mozilla Developer Network has to say</a></p>
 </li>
 <li><p><strong>Notice that</strong> CSS does allow content to overflow it’s container. You can avoid this happening by adding the following part into your css file.</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span>, embed, <span class="selector-tag">object</span>, <span class="selector-tag">video</span> &#123;</span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span>, embed, <span class="selector-tag">object</span>, <span class="selector-tag">video</span> &#123;</span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="Media-query"><a href="#Media-query" class="headerlink" title="Media query"></a>Media query</h3><h4 id="Several-ways-to-setup-media-query"><a href="#Several-ways-to-setup-media-query" class="headerlink" title="Several ways to setup media query"></a>Several ways to setup media query</h4><ol>
+<li><p>add <code>link</code> tags</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">media</span>=<span class="string">"screen and (min-width: 500px)"</span> <span class="attr">herf</span>=<span class="string">"yes.css"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>add <code>@media</code> tag</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">media</span> screen and (min-width: <span class="number">500px</span>) &#123;</span><br><span class="line">  <span class="selector-tag">body</span> &#123;<span class="attribute">background-color</span>: green; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>add <code>@import</code> tag – not suggested</p>
+<figure class="highlight hsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@import url(<span class="string">"example.css"</span>) only <span class="keyword">screen</span> <span class="keyword">and</span> (min-<span class="keyword">width</span>: <span class="number">500</span>px)</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><strong>Notice that:</strong></p>
+<ol>
+<li>For performance reason, it is not suggested to use <code>@import</code>, it pretty expensive and perf matters.</li>
+<li>Difference between <code>linked CSS</code> file and <code>@media</code>: With <code>linked CSS</code>, one got many small files, but many HTTP requests while as with <code>@media</code>, one got fewer requests but a little bit bigger files.</li>
+</ol>
+<h3 id="For-developers"><a href="#For-developers" class="headerlink" title="For developers"></a>For developers</h3><p>How to pick breakpoints:</p>
+<ol>
+<li>Start in desktop browser with the viewport set as small as possible</li>
+<li>Keep resize the webpage to find one or two (maybe more) breakpoints you think is appreperate.</li>
+</ol>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank" rel="external">Guidance for Using media queries</a>: A <strong>media query</strong> consists of an optional media type and zero or more expressions that limit the style sheets’ scope by using media features, such as width, height, and color</li>
 </ul>
 	  
 
@@ -138,15 +163,17 @@ Install the Udacity Front End Feedback Extension from the Chrome Web Store or">
 		
 	
 		
+	
+		
+			
+		
+	
+		
 			
 			
 		
 	
 		
-			
-			
-			
-		
 	
 		
 	
@@ -216,14 +243,12 @@ Install the Udacity Front End Feedback Extension from the Chrome Web Store or">
 	
 		
 	
-		
 	
-	
-		<li class="prev"><a href="/2017/03/26/Udacity/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+		<li class="prev"><a href="/2017/03/17/Responsive-Images/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next"><a href="/2017/03/17/Responsive-Images/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>
