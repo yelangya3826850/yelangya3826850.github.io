@@ -4,34 +4,22 @@
   
     
     <entry>
-      <title><![CDATA[Anaconda]]></title>
-      <url>http://yoursite.com/2017/03/26/Anaconda/</url>
-      <content type="html"><![CDATA[<h2 id="Anaconda-Installation"><a href="#Anaconda-Installation" class="headerlink" title="Anaconda Installation"></a>Anaconda Installation</h2><h2 id="Anaconda-Command"><a href="#Anaconda-Command" class="headerlink" title="Anaconda Command"></a>Anaconda Command</h2><ol>
-<li>Use <code>conda</code> to create virtual environment<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda <span class="built_in">create</span> -n py2 python=<span class="number">2</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">2.</span>* installed</span><br><span class="line"></span><br><span class="line">conda <span class="built_in">create</span> -n py3 python=<span class="number">3</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">3.</span>* installed</span><br></pre></td></tr></table></figure>
+      <title><![CDATA[Udacity Materials]]></title>
+      <url>http://yoursite.com/2017/03/26/Udacity/</url>
+      <content type="html"><![CDATA[<h2 id="Udacity-Materials"><a href="#Udacity-Materials" class="headerlink" title="Udacity Materials"></a>Udacity Materials</h2><ul>
+<li><p><a href="https://docs.google.com/document/d/1np1OCVktcEkiNC3vhSoNJPZi3OoTb_ZvOtWK6aEMzP0/pub?embedded=true" target="_blank" rel="external">Nanodegree Student Handbook</a></p>
 </li>
-</ol>
-<h2 id="Environments"><a href="#Environments" class="headerlink" title="Environments"></a>Environments</h2><h3 id="share-environments"><a href="#share-environments" class="headerlink" title="share environments"></a>share environments</h3><ol>
-<li><p>Generate your own <code>environment.yaml</code> file</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env <span class="keyword">export</span> &gt; environment.yaml</span><br></pre></td></tr></table></figure>
+<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a></p>
 </li>
-<li><p>For people not using conda, share the pip <code>requirements.txt</code> file: <a href="https://pip.pypa.io/en/stable/reference/pip_freeze/" target="_blank" rel="external">more information</a></p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">pip</span> <span class="selector-tag">freeze</span> &gt; <span class="selector-tag">requirements</span><span class="selector-class">.txt</span></span><br></pre></td></tr></table></figure>
+<li><p><a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank" rel="external">A Primer on Using LaTeX in Jupyter Notebooks</a></p>
 </li>
-</ol>
-<h3 id="Listing-environments"><a href="#Listing-environments" class="headerlink" title="Listing environments"></a>Listing environments</h3><ul>
-<li>Use <code>conda env list</code> to list out all the environments you’ve created. You should see a list of environments, there will be an <strong>asterisk</strong> next to the environment you’re currently in. The default environment, the environment used when you aren’t in one, is called <code>root</code>.</li>
-</ul>
-<h3 id="Removing-environments"><a href="#Removing-environments" class="headerlink" title="Removing environments"></a>Removing environments</h3><ul>
-<li>Use <code>conda env remove -n env_name</code> will remove the specified environment (here, named <code>env_name</code>).</li>
-</ul>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><a href="http://conda.pydata.org/docs/using/index.html" target="_blank" rel="external">conda documentation</a></li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="external">Markdown cheatsheet</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> Toolbox Udacity </category>
+            <category> Udacity </category>
             
         </categories>
         
@@ -69,22 +57,57 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Udacity Materials]]></title>
-      <url>http://yoursite.com/2017/03/26/Udacity/</url>
-      <content type="html"><![CDATA[<h2 id="Udacity-Materials"><a href="#Udacity-Materials" class="headerlink" title="Udacity Materials"></a>Udacity Materials</h2><ul>
-<li><p><a href="https://docs.google.com/document/d/1np1OCVktcEkiNC3vhSoNJPZi3OoTb_ZvOtWK6aEMzP0/pub?embedded=true" target="_blank" rel="external">Nanodegree Student Handbook</a></p>
+      <title><![CDATA[Anaconda]]></title>
+      <url>http://yoursite.com/2017/03/26/Anaconda/</url>
+      <content type="html"><![CDATA[<h2 id="Anaconda-Installation"><a href="#Anaconda-Installation" class="headerlink" title="Anaconda Installation"></a>Anaconda Installation</h2><h2 id="Anaconda-Command"><a href="#Anaconda-Command" class="headerlink" title="Anaconda Command"></a>Anaconda Command</h2><ol>
+<li>Use <code>conda</code> to create virtual environment<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda <span class="built_in">create</span> -n py2 python=<span class="number">2</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">2.</span>* installed</span><br><span class="line"></span><br><span class="line">conda <span class="built_in">create</span> -n py3 python=<span class="number">3</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">3.</span>* installed</span><br></pre></td></tr></table></figure>
 </li>
-<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a></p>
+</ol>
+<h2 id="Environments"><a href="#Environments" class="headerlink" title="Environments"></a>Environments</h2><h3 id="share-environments"><a href="#share-environments" class="headerlink" title="share environments"></a>share environments</h3><ol>
+<li><p>Generate your own <code>environment.yaml</code> file</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env <span class="keyword">export</span> &gt; environment.yaml</span><br></pre></td></tr></table></figure>
 </li>
-<li><p><a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank" rel="external">A Primer on Using LaTeX in Jupyter Notebooks</a></p>
+<li><p>For people not using conda, share the pip <code>requirements.txt</code> file: <a href="https://pip.pypa.io/en/stable/reference/pip_freeze/" target="_blank" rel="external">more information</a></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">pip</span> <span class="selector-tag">freeze</span> &gt; <span class="selector-tag">requirements</span><span class="selector-class">.txt</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="external">Markdown cheatsheet</a></li>
+</ol>
+<h3 id="Listing-environments"><a href="#Listing-environments" class="headerlink" title="Listing environments"></a>Listing environments</h3><ul>
+<li>Use <code>conda env list</code> to list out all the environments you’ve created. You should see a list of environments, there will be an <strong>asterisk</strong> next to the environment you’re currently in. The default environment, the environment used when you aren’t in one, is called <code>root</code>.</li>
+</ul>
+<h3 id="Removing-environments"><a href="#Removing-environments" class="headerlink" title="Removing environments"></a>Removing environments</h3><ul>
+<li>Use <code>conda env remove -n env_name</code> will remove the specified environment (here, named <code>env_name</code>).</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="http://conda.pydata.org/docs/using/index.html" target="_blank" rel="external">conda documentation</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> Udacity </category>
+            <category> Toolbox Udacity </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CSS Fonts]]></title>
+      <url>http://yoursite.com/2017/03/24/CSS_Fonts/</url>
+      <content type="html"><![CDATA[<h2 id="CSS-Style-Fonts"><a href="#CSS-Style-Fonts" class="headerlink" title="CSS Style Fonts"></a>CSS Style Fonts</h2><p>There might be an easy way to find what fonts you want using <a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>.</p>
+<ol>
+<li>Search or pick your desire fonts (you can select more than one).</li>
+<li>Copy the link information in your html file.</li>
+<li>Spercific the fonts type in the part you want in CSS file.</li>
+</ol>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
+<li><a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>: where you can find your desire fonts.</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> CSS </category>
             
         </categories>
         
@@ -127,22 +150,87 @@
     </entry>
     
     <entry>
-      <title><![CDATA[CSS Fonts]]></title>
-      <url>http://yoursite.com/2017/03/24/CSS_Fonts/</url>
-      <content type="html"><![CDATA[<h2 id="CSS-Style-Fonts"><a href="#CSS-Style-Fonts" class="headerlink" title="CSS Style Fonts"></a>CSS Style Fonts</h2><p>There might be an easy way to find what fonts you want using <a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>.</p>
+      <title></title>
+      <url>http://yoursite.com/2017/03/20/Caffe-Tricks/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Responsive Web Design]]></title>
+      <url>http://yoursite.com/2017/03/17/Responsive-Web-Design/</url>
+      <content type="html"><![CDATA[<h2 id="Suggest-Writing-Style"><a href="#Suggest-Writing-Style" class="headerlink" title="Suggest Writing Style"></a>Suggest Writing Style</h2><ul>
+<li><a href="http://labs.udacity.com/udacity-feedback-extension/" target="_blank" rel="external">Udacity Front End Feedback Extension</a></li>
+</ul>
+<p>How to use:</p>
 <ol>
-<li>Search or pick your desire fonts (you can select more than one).</li>
-<li>Copy the link information in your html file.</li>
-<li>Spercific the fonts type in the part you want in CSS file.</li>
+<li><p>Install the Udacity Front End Feedback Extension from the Chrome Web Store or from Mozilla’s Add-ons for Firefox (it’s free).</p>
+</li>
+<li><p>If you’re using Google Chrome, go to the Chrome extensions menu (chrome://extensions) and give the extension permission to run against file URLs. Click this checkbox in the chrome extensions menu that says “allow access to file urls”</p>
+</li>
+<li><p>To use the extension, open the webpage you want to edit, click on the extension icon, and check “Allow feedback on this domain”.</p>
+</li>
+<li><p>As edits are made, changes are reflected in the Udacity Front End Feedback dialogue box.</p>
+</li>
 </ol>
-<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
-<li><a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>: where you can find your desire fonts.</li>
+<ul>
+<li><a href="http://udacity.github.io/RWDF-samples/quizzes/custom-device-quiz.html" target="_blank" rel="external">A good site to show the width of screen</a></li>
+</ul>
+<h3 id="Test-on-Mobile-devices"><a href="#Test-on-Mobile-devices" class="headerlink" title="Test on Mobile devices"></a>Test on Mobile devices</h3><p>Setup For Mobile</p>
+<ul>
+<li><a href="https://www.google.com/chrome/browser/canary.html" target="_blank" rel="external">Download Chrome Canary</a>: (it won’t affect your existing Chrome installation)</li>
+<li>On Linux, the <a href="http://www.chromium.org/getting-involved/dev-channel" target="_blank" rel="external">Chromium Dev channel</a> is similar to Canary.</li>
+<li><a href="https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging?hl=en" target="_blank" rel="external">Remote debugging Android devices with Chrome</a></li>
+<li>How to do it: <a href="https://classroom.udacity.com/nanodegrees/nd004/parts/0041345402/modules/004134540275461/lessons/3523969367/concepts/4222787740923" target="_blank" rel="external">Udacity course</a></li>
+<li>Learn about <a href="https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging" target="_blank" rel="external">Remote Debugging on Android with Chrome</a></li>
+<li><a href="https://github.com/google/ios-webkit-debug-proxy" target="_blank" rel="external">iOS WebKit Debug Proxy</a>: The ios_webkit_debug_proxy (<em>aka iwdp</em>) proxies requests from usbmuxd daemon over a websocket connection, allowing developers to send commands to MobileSafari and UIWebViews on real and simulated iOS devices.</li>
+<li><a href="https://www.smashingmagazine.com/2014/09/testing-mobile-emulators-simulators-remote-debugging/2/" target="_blank" rel="external">Testing Mobile: Emulators, Simulators And Remote Debugging</a>: Some instructions.</li>
+</ul>
+<h3 id="Setting-Viewport"><a href="#Setting-Viewport" class="headerlink" title="Setting Viewport"></a>Setting Viewport</h3><ul>
+<li><p>Add the <code>meta</code> tag</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta <span class="built_in">name</span>=<span class="string">"viewport"</span> content=<span class="string">"width=device-width, initial-scale=1"</span>&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag" target="_blank" rel="external">Here’s what the Mozilla Developer Network has to say</a></p>
+</li>
+<li><p><strong>Notice that</strong> CSS does allow content to overflow it’s container. You can avoid this happening by adding the following part into your css file.</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span>, embed, <span class="selector-tag">object</span>, <span class="selector-tag">video</span> &#123;</span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="Media-query"><a href="#Media-query" class="headerlink" title="Media query"></a>Media query</h3><h4 id="Several-ways-to-setup-media-query"><a href="#Several-ways-to-setup-media-query" class="headerlink" title="Several ways to setup media query"></a>Several ways to setup media query</h4><ol>
+<li><p>add <code>link</code> tags</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">media</span>=<span class="string">"screen and (min-width: 500px)"</span> <span class="attr">herf</span>=<span class="string">"yes.css"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>add <code>@media</code> tag</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">media</span> screen and (min-width: <span class="number">500px</span>) &#123;</span><br><span class="line">  <span class="selector-tag">body</span> &#123;<span class="attribute">background-color</span>: green; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>add <code>@import</code> tag – not suggested</p>
+<figure class="highlight hsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@import url(<span class="string">"example.css"</span>) only <span class="keyword">screen</span> <span class="keyword">and</span> (min-<span class="keyword">width</span>: <span class="number">500</span>px)</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><strong>Notice that:</strong></p>
+<ol>
+<li>For performance reason, it is not suggested to use <code>@import</code>, it pretty expensive and perf matters.</li>
+<li>Difference between <code>linked CSS</code> file and <code>@media</code>: With <code>linked CSS</code>, one got many small files, but many HTTP requests while as with <code>@media</code>, one got fewer requests but a little bit bigger files.</li>
+</ol>
+<h3 id="For-developers"><a href="#For-developers" class="headerlink" title="For developers"></a>For developers</h3><p>How to pick breakpoints:</p>
+<ol>
+<li>Start in desktop browser with the viewport set as small as possible</li>
+<li>Keep resize the webpage to find one or two (maybe more) breakpoints you think is appreperate.</li>
+</ol>
+<h3 id="Mobile-browsers"><a href="#Mobile-browsers" class="headerlink" title="Mobile browsers"></a>Mobile browsers</h3><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag" target="_blank" rel="external">Using the viewport meta tag to control layout on mobile browsers</a></li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank" rel="external">Guidance for Using media queries</a>: A <strong>media query</strong> consists of an optional media type and zero or more expressions that limit the style sheets’ scope by using media features, such as width, height, and color</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag" target="_blank" rel="external">Using the viewport meta tag to control layout on mobile browsers</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Examples#Example_5:_Event_Propagation" target="_blank" rel="external">Read more about events and event propagation on MDN</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> CSS </category>
+            <category> Udacity </category>
             
         </categories>
         
@@ -150,10 +238,72 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>http://yoursite.com/2017/03/20/Caffe-Tricks/</url>
-      <content type="html"></content>
+      <title><![CDATA[Responsive Images]]></title>
+      <url>http://yoursite.com/2017/03/17/Responsive-Images/</url>
+      <content type="html"><![CDATA[<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li>HTTP Archive: <a href="http://httparchive.org/interesting.php#bytesperpage" target="_blank" rel="external">Average bytes to open a web page</a></li>
+<li><a href="http://www.w3.org/TR/NOTE-imagemap" target="_blank" rel="external">W3C web page from 1996</a></li>
+<li>Brian Fling: <a href="http://goo.gl/dylCty" target="_blank" rel="external">‘Great mobile products are created, never ported.’</a></li>
+</ul>
+]]></content>
       
+        <categories>
+            
+            <category> Udacity </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Jupyter Notebook]]></title>
+      <url>http://yoursite.com/2017/03/17/JupyterNotebooks/</url>
+      <content type="html"><![CDATA[<h2 id="Keyboard-shortcuts"><a href="#Keyboard-shortcuts" class="headerlink" title="Keyboard shortcuts"></a>Keyboard shortcuts</h2><ul>
+<li><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474229_keyboard-shortcuts/keyboard-shortcuts.ipynb" target="_blank" rel="external">Keyboard Shortcuts ipynb</a></li>
+</ul>
+<h2 id="Magic-keywords"><a href="#Magic-keywords" class="headerlink" title="Magic keywords"></a>Magic keywords</h2><ul>
+<li><code>%timeit</code>: Magic command to time how long it takes for a single line function to run.</li>
+<li><code>%%timeit</code>: Magic command to time how long it takes for a whole cell to run.</li>
+<li><code>%matplotlib inline</code>: To render figures directly in the notebook, you should use the inline backend with the command.<ul>
+<li><strong>Tip:</strong> On higher resolution screens such as Retina displays, the default images in notebooks can look blurry. Use <code>%config InlineBackend.figure_format = &#39;retina&#39;</code> after <code>%matplotlib inline</code> to render higher resolution images.</li>
+<li>To select a specific <strong><a href="http://matplotlib.org/faq/usage_faq.html#what-is-a-backend" target="_blank" rel="external">backend</a></strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><ul>
+<li><code>%pdb</code>: Magic command to set up debugging environment.<ul>
+<li>[pdb documentation](<a href="https://docs.python.org/3/library/pdb.html" target="_blank" rel="external">https://docs.python.org/3/library/pdb.html</a>: Read more about <code>pdb</code> in the pdb documentation. To quit the debugger, simply enter <code>q</code> in the prompt.</li>
+</ul>
+</li>
+</ul>
+<h2 id="Convert"><a href="#Convert" class="headerlink" title="Convert"></a>Convert</h2><h3 id="Convert-ipynb-to-html"><a href="#Convert-ipynb-to-html" class="headerlink" title="Convert .ipynb to html"></a>Convert <code>.ipynb</code> to <code>html</code></h3><ul>
+<li><p>To convert a notebook to an HTML file, in your terminal use</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert --to <span class="selector-tag">html</span> notebook.ipynb</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>learn more about <code>nbconvert</code> from the <a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">documentation</a>.</p>
+</li>
+</ul>
+<h3 id="Convert-ipynb-to-slides"><a href="#Convert-ipynb-to-slides" class="headerlink" title="Convert .ipynb to slides"></a>Convert <code>.ipynb</code> to <code>slides</code></h3><ul>
+<li><p>To convert a notebook to slide file, in your terminal use</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook<span class="selector-class">.ipynb</span> --to slides</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>To convert it and immediately see it, use</p>
+<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook.ipynb --<span class="keyword">to</span> slides --post serve  <span class="comment">## This will open up the slideshow in your browser so you can present it.</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html" target="_blank" rel="external">List of all available magic commands</a></li>
+<li><a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">nbconvert Documentation</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
+            
+        </categories>
+        
         
     </entry>
     
@@ -275,151 +425,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Jupyter Notebook]]></title>
-      <url>http://yoursite.com/2017/03/17/JupyterNotebooks/</url>
-      <content type="html"><![CDATA[<h2 id="Keyboard-shortcuts"><a href="#Keyboard-shortcuts" class="headerlink" title="Keyboard shortcuts"></a>Keyboard shortcuts</h2><ul>
-<li><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474229_keyboard-shortcuts/keyboard-shortcuts.ipynb" target="_blank" rel="external">Keyboard Shortcuts ipynb</a></li>
-</ul>
-<h2 id="Magic-keywords"><a href="#Magic-keywords" class="headerlink" title="Magic keywords"></a>Magic keywords</h2><ul>
-<li><code>%timeit</code>: Magic command to time how long it takes for a single line function to run.</li>
-<li><code>%%timeit</code>: Magic command to time how long it takes for a whole cell to run.</li>
-<li><code>%matplotlib inline</code>: To render figures directly in the notebook, you should use the inline backend with the command.<ul>
-<li><strong>Tip:</strong> On higher resolution screens such as Retina displays, the default images in notebooks can look blurry. Use <code>%config InlineBackend.figure_format = &#39;retina&#39;</code> after <code>%matplotlib inline</code> to render higher resolution images.</li>
-<li>To select a specific <strong><a href="http://matplotlib.org/faq/usage_faq.html#what-is-a-backend" target="_blank" rel="external">backend</a></strong></li>
-</ul>
-</li>
-</ul>
-<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><ul>
-<li><code>%pdb</code>: Magic command to set up debugging environment.<ul>
-<li>[pdb documentation](<a href="https://docs.python.org/3/library/pdb.html" target="_blank" rel="external">https://docs.python.org/3/library/pdb.html</a>: Read more about <code>pdb</code> in the pdb documentation. To quit the debugger, simply enter <code>q</code> in the prompt.</li>
-</ul>
-</li>
-</ul>
-<h2 id="Convert"><a href="#Convert" class="headerlink" title="Convert"></a>Convert</h2><h3 id="Convert-ipynb-to-html"><a href="#Convert-ipynb-to-html" class="headerlink" title="Convert .ipynb to html"></a>Convert <code>.ipynb</code> to <code>html</code></h3><ul>
-<li><p>To convert a notebook to an HTML file, in your terminal use</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert --to <span class="selector-tag">html</span> notebook.ipynb</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>learn more about <code>nbconvert</code> from the <a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">documentation</a>.</p>
-</li>
-</ul>
-<h3 id="Convert-ipynb-to-slides"><a href="#Convert-ipynb-to-slides" class="headerlink" title="Convert .ipynb to slides"></a>Convert <code>.ipynb</code> to <code>slides</code></h3><ul>
-<li><p>To convert a notebook to slide file, in your terminal use</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook<span class="selector-class">.ipynb</span> --to slides</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>To convert it and immediately see it, use</p>
-<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook.ipynb --<span class="keyword">to</span> slides --post serve  <span class="comment">## This will open up the slideshow in your browser so you can present it.</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html" target="_blank" rel="external">List of all available magic commands</a></li>
-<li><a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">nbconvert Documentation</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Responsive Images]]></title>
-      <url>http://yoursite.com/2017/03/17/Responsive-Images/</url>
-      <content type="html"><![CDATA[<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li>HTTP Archive: <a href="http://httparchive.org/interesting.php#bytesperpage" target="_blank" rel="external">Average bytes to open a web page</a></li>
-<li><a href="http://www.w3.org/TR/NOTE-imagemap" target="_blank" rel="external">W3C web page from 1996</a></li>
-<li>Brian Fling: <a href="http://goo.gl/dylCty" target="_blank" rel="external">‘Great mobile products are created, never ported.’</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Udacity </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Responsive Web Design]]></title>
-      <url>http://yoursite.com/2017/03/17/Responsive-Web-Design/</url>
-      <content type="html"><![CDATA[<h2 id="Suggest-Writing-Style"><a href="#Suggest-Writing-Style" class="headerlink" title="Suggest Writing Style"></a>Suggest Writing Style</h2><ul>
-<li><a href="http://labs.udacity.com/udacity-feedback-extension/" target="_blank" rel="external">Udacity Front End Feedback Extension</a></li>
-</ul>
-<p>How to use:</p>
-<ol>
-<li><p>Install the Udacity Front End Feedback Extension from the Chrome Web Store or from Mozilla’s Add-ons for Firefox (it’s free).</p>
-</li>
-<li><p>If you’re using Google Chrome, go to the Chrome extensions menu (chrome://extensions) and give the extension permission to run against file URLs. Click this checkbox in the chrome extensions menu that says “allow access to file urls”</p>
-</li>
-<li><p>To use the extension, open the webpage you want to edit, click on the extension icon, and check “Allow feedback on this domain”.</p>
-</li>
-<li><p>As edits are made, changes are reflected in the Udacity Front End Feedback dialogue box.</p>
-</li>
-</ol>
-<ul>
-<li><a href="http://udacity.github.io/RWDF-samples/quizzes/custom-device-quiz.html" target="_blank" rel="external">A good site to show the width of screen</a></li>
-</ul>
-<h3 id="Test-on-Mobile-devices"><a href="#Test-on-Mobile-devices" class="headerlink" title="Test on Mobile devices"></a>Test on Mobile devices</h3><p>Setup For Mobile</p>
-<ul>
-<li><a href="https://www.google.com/chrome/browser/canary.html" target="_blank" rel="external">Download Chrome Canary</a>: (it won’t affect your existing Chrome installation)</li>
-<li>On Linux, the <a href="http://www.chromium.org/getting-involved/dev-channel" target="_blank" rel="external">Chromium Dev channel</a> is similar to Canary.</li>
-<li><a href="https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging?hl=en" target="_blank" rel="external">Remote debugging Android devices with Chrome</a></li>
-<li>How to do it: <a href="https://classroom.udacity.com/nanodegrees/nd004/parts/0041345402/modules/004134540275461/lessons/3523969367/concepts/4222787740923" target="_blank" rel="external">Udacity course</a></li>
-<li>Learn about <a href="https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging" target="_blank" rel="external">Remote Debugging on Android with Chrome</a></li>
-<li><a href="https://github.com/google/ios-webkit-debug-proxy" target="_blank" rel="external">iOS WebKit Debug Proxy</a>: The ios_webkit_debug_proxy (<em>aka iwdp</em>) proxies requests from usbmuxd daemon over a websocket connection, allowing developers to send commands to MobileSafari and UIWebViews on real and simulated iOS devices.</li>
-<li><a href="https://www.smashingmagazine.com/2014/09/testing-mobile-emulators-simulators-remote-debugging/2/" target="_blank" rel="external">Testing Mobile: Emulators, Simulators And Remote Debugging</a>: Some instructions.</li>
-</ul>
-<h3 id="Setting-Viewport"><a href="#Setting-Viewport" class="headerlink" title="Setting Viewport"></a>Setting Viewport</h3><ul>
-<li><p>Add the <code>meta</code> tag</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta <span class="built_in">name</span>=<span class="string">"viewport"</span> content=<span class="string">"width=device-width, initial-scale=1"</span>&gt;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag" target="_blank" rel="external">Here’s what the Mozilla Developer Network has to say</a></p>
-</li>
-<li><p><strong>Notice that</strong> CSS does allow content to overflow it’s container. You can avoid this happening by adding the following part into your css file.</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span>, embed, <span class="selector-tag">object</span>, <span class="selector-tag">video</span> &#123;</span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Media-query"><a href="#Media-query" class="headerlink" title="Media query"></a>Media query</h3><h4 id="Several-ways-to-setup-media-query"><a href="#Several-ways-to-setup-media-query" class="headerlink" title="Several ways to setup media query"></a>Several ways to setup media query</h4><ol>
-<li><p>add <code>link</code> tags</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">media</span>=<span class="string">"screen and (min-width: 500px)"</span> <span class="attr">herf</span>=<span class="string">"yes.css"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>add <code>@media</code> tag</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">media</span> screen and (min-width: <span class="number">500px</span>) &#123;</span><br><span class="line">  <span class="selector-tag">body</span> &#123;<span class="attribute">background-color</span>: green; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>add <code>@import</code> tag – not suggested</p>
-<figure class="highlight hsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@import url(<span class="string">"example.css"</span>) only <span class="keyword">screen</span> <span class="keyword">and</span> (min-<span class="keyword">width</span>: <span class="number">500</span>px)</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><strong>Notice that:</strong></p>
-<ol>
-<li>For performance reason, it is not suggested to use <code>@import</code>, it pretty expensive and perf matters.</li>
-<li>Difference between <code>linked CSS</code> file and <code>@media</code>: With <code>linked CSS</code>, one got many small files, but many HTTP requests while as with <code>@media</code>, one got fewer requests but a little bit bigger files.</li>
-</ol>
-<h3 id="For-developers"><a href="#For-developers" class="headerlink" title="For developers"></a>For developers</h3><p>How to pick breakpoints:</p>
-<ol>
-<li>Start in desktop browser with the viewport set as small as possible</li>
-<li>Keep resize the webpage to find one or two (maybe more) breakpoints you think is appreperate.</li>
-</ol>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank" rel="external">Guidance for Using media queries</a>: A <strong>media query</strong> consists of an optional media type and zero or more expressions that limit the style sheets’ scope by using media features, such as width, height, and color</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Udacity </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[CSS Style Priority]]></title>
       <url>http://yoursite.com/2017/03/13/CSS_Style/</url>
       <content type="html"><![CDATA[<h2 id="CSS-Style-Priority"><a href="#CSS-Style-Priority" class="headerlink" title="CSS Style Priority"></a>CSS Style Priority</h2><h3 id="Order-Matters"><a href="#Order-Matters" class="headerlink" title="Order Matters"></a>Order Matters</h3><p>It matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, <strong>with definitions further down the list overwriting previous definitions:</strong></p>
@@ -446,23 +451,6 @@
         <categories>
             
             <category> CSS </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Python Toolbox]]></title>
-      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
-      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
-<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
-<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox </category>
             
         </categories>
         
@@ -539,6 +527,23 @@
         <categories>
             
             <category> Software </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Toolbox]]></title>
+      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
+      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
+<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
+<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
             
         </categories>
         
@@ -646,13 +651,9 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Tensorflow Tricks]]></title>
-      <url>http://yoursite.com/2016/03/13/Tensorflow-Tricks/</url>
-      <content type="html"><![CDATA[<h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>
-<h2 id="Training-Tricks"><a href="#Training-Tricks" class="headerlink" title="Training Tricks"></a>Training Tricks</h2><ul>
-<li><strong>Dropout</strong> should only be introduced during training, not evaluation, otherwise your evaluation results would be stochastic as well.</li>
-</ul>
-]]></content>
+      <title><![CDATA[Tensorflow Machine Learning Resource]]></title>
+      <url>http://yoursite.com/2016/03/13/Tensorflow-Machine-Learning-Resource/</url>
+      <content type="html"></content>
       
         <categories>
             
@@ -664,9 +665,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Tensorflow Machine Learning Resource]]></title>
-      <url>http://yoursite.com/2016/03/13/Tensorflow-Machine-Learning-Resource/</url>
-      <content type="html"></content>
+      <title><![CDATA[Tensorflow Tricks]]></title>
+      <url>http://yoursite.com/2016/03/13/Tensorflow-Tricks/</url>
+      <content type="html"><![CDATA[<h2 id="Get-Info"><a href="#Get-Info" class="headerlink" title="Get Info"></a>Get Info</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## get tensor shape information</span></span><br><span class="line">x.get_shape().as_list()</span><br><span class="line"><span class="comment"># print [55000, 28, 28]</span></span><br></pre></td></tr></table></figure>
+<h2 id="Training-Tricks"><a href="#Training-Tricks" class="headerlink" title="Training Tricks"></a>Training Tricks</h2><ul>
+<li><strong>Dropout</strong> should only be introduced during training, not evaluation, otherwise your evaluation results would be stochastic as well.</li>
+</ul>
+]]></content>
       
         <categories>
             
@@ -688,6 +693,23 @@
         <categories>
             
             <category> Dataset </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mathematics]]></title>
+      <url>http://yoursite.com/2015/11/25/MatrixCalculus/</url>
+      <content type="html"><![CDATA[<h2 id="Matrix-Calculus"><a href="#Matrix-Calculus" class="headerlink" title="Matrix Calculus"></a>Matrix Calculus</h2><h3 id="Matrix-Calculus-Form"><a href="#Matrix-Calculus-Form" class="headerlink" title="Matrix Calculus Form"></a>Matrix Calculus Form</h3><p><a href="http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf" target="_blank" rel="external">Matrix Calculus</a><br><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf" target="_blank" rel="external">Matrix Differentiation</a><br><a href="http://www.math.nyu.edu/~neylon/linalgfall04/project1/dj/propofmatrixmult.htm" target="_blank" rel="external">Properties of Matrix Multiplication</a></p>
+<h3 id="Relevant-PPT"><a href="#Relevant-PPT" class="headerlink" title="Relevant PPT"></a>Relevant PPT</h3><p><a href="http://select.cs.cmu.edu/class/10725-S10/recitations/r4/Matrix_Calculus_Algebra.pdf" target="_blank" rel="external">Matrix Calculus and Algebra</a></p>
+<p>### </p>
+]]></content>
+      
+        <categories>
+            
+            <category> Matrix </category>
             
         </categories>
         
@@ -741,23 +763,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Mathematics]]></title>
-      <url>http://yoursite.com/2015/11/25/MatrixCalculus/</url>
-      <content type="html"><![CDATA[<h2 id="Matrix-Calculus"><a href="#Matrix-Calculus" class="headerlink" title="Matrix Calculus"></a>Matrix Calculus</h2><h3 id="Matrix-Calculus-Form"><a href="#Matrix-Calculus-Form" class="headerlink" title="Matrix Calculus Form"></a>Matrix Calculus Form</h3><p><a href="http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf" target="_blank" rel="external">Matrix Calculus</a><br><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf" target="_blank" rel="external">Matrix Differentiation</a><br><a href="http://www.math.nyu.edu/~neylon/linalgfall04/project1/dj/propofmatrixmult.htm" target="_blank" rel="external">Properties of Matrix Multiplication</a></p>
-<h3 id="Relevant-PPT"><a href="#Relevant-PPT" class="headerlink" title="Relevant PPT"></a>Relevant PPT</h3><p><a href="http://select.cs.cmu.edu/class/10725-S10/recitations/r4/Matrix_Calculus_Algebra.pdf" target="_blank" rel="external">Matrix Calculus and Algebra</a></p>
-<p>### </p>
-]]></content>
-      
-        <categories>
-            
-            <category> Matrix </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[R Language Reference Card]]></title>
       <url>http://yoursite.com/2015/10/15/RLanguage/</url>
       <content type="html"><![CDATA[<h2 id="R-Language-Reference"><a href="#R-Language-Reference" class="headerlink" title="R - Language Reference"></a>R - Language Reference</h2><ul>
@@ -775,14 +780,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[PYTHON code style]]></title>
-      <url>http://yoursite.com/2015/10/13/Python_Style/</url>
-      <content type="html"><![CDATA[<p>dsaf</p>
+      <title><![CDATA[Beautiful Visualization]]></title>
+      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
+      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
 ]]></content>
       
         <categories>
             
-            <category> CodeStyle </category>
+            <category> Visualization </category>
             
         </categories>
         
@@ -808,14 +813,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Beautiful Visualization]]></title>
-      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
-      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
+      <title><![CDATA[Matrix Factorization Resource]]></title>
+      <url>http://yoursite.com/2015/10/13/NMF/</url>
+      <content type="html"><![CDATA[<h2 id="Nonnegtive-Matrix-Factorization"><a href="#Nonnegtive-Matrix-Factorization" class="headerlink" title="Nonnegtive Matrix Factorization"></a>Nonnegtive Matrix Factorization</h2><ul>
+<li><a href="https://sites.google.com/site/igorcarron2/matrixfactorizations" target="_blank" rel="external">The Advanced Matrix Factorization Jungle</a></li>
+</ul>
 ]]></content>
       
         <categories>
             
-            <category> Visualization </category>
+            <category> MatrixFactorization </category>
             
         </categories>
         
@@ -839,54 +846,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Matrix Factorization Resource]]></title>
-      <url>http://yoursite.com/2015/10/13/NMF/</url>
-      <content type="html"><![CDATA[<h2 id="Nonnegtive-Matrix-Factorization"><a href="#Nonnegtive-Matrix-Factorization" class="headerlink" title="Nonnegtive Matrix Factorization"></a>Nonnegtive Matrix Factorization</h2><ul>
-<li><a href="https://sites.google.com/site/igorcarron2/matrixfactorizations" target="_blank" rel="external">The Advanced Matrix Factorization Jungle</a></li>
-</ul>
+      <title><![CDATA[PYTHON code style]]></title>
+      <url>http://yoursite.com/2015/10/13/Python_Style/</url>
+      <content type="html"><![CDATA[<p>dsaf</p>
 ]]></content>
       
         <categories>
             
-            <category> MatrixFactorization </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Latex Mathematical Formula]]></title>
-      <url>http://yoursite.com/2015/10/11/Latex/</url>
-      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
-<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
-<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
-<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
-</ul>
-<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
-<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> LateX </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Traditional Computer Vision]]></title>
-      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
-      <content type="html"><![CDATA[<p>Thresholding</p>
-<p>Blob Detection</p>
-]]></content>
-      
-        <categories>
-            
-            <category> ComputerVision </category>
+            <category> CodeStyle </category>
             
         </categories>
         
@@ -920,6 +887,44 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Traditional Computer Vision]]></title>
+      <url>http://yoursite.com/2015/10/11/Traditional%20Computer%20Vision%20Method/</url>
+      <content type="html"><![CDATA[<p>Thresholding</p>
+<p>Blob Detection</p>
+]]></content>
+      
+        <categories>
+            
+            <category> ComputerVision </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Latex Mathematical Formula]]></title>
+      <url>http://yoursite.com/2015/10/11/Latex/</url>
+      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
+<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
+<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
+</ul>
+<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
+<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> LateX </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Data Mining]]></title>
       <url>http://yoursite.com/2015/10/06/DataMining/</url>
       <content type="html"><![CDATA[<h2 id="Data-Mining-Software-Library"><a href="#Data-Mining-Software-Library" class="headerlink" title="Data Mining Software Library"></a>Data Mining Software Library</h2><ul>
@@ -931,6 +936,24 @@
         <categories>
             
             <category> DataMining </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lisp]]></title>
+      <url>http://yoursite.com/2015/09/29/Lisp/</url>
+      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
+<ul>
+<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Lisp </category>
             
         </categories>
         
@@ -979,24 +1002,6 @@
         <categories>
             
             <category> Command </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Lisp]]></title>
-      <url>http://yoursite.com/2015/09/29/Lisp/</url>
-      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
-<ul>
-<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Lisp </category>
             
         </categories>
         
@@ -1112,6 +1117,55 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Gabor Fliter]]></title>
+      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
+      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BasicKnowledge </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Clanguage </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Blog Configuration]]></title>
+      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
+      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
+<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
+<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
+<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
+<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
+<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BLOG </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Computer Vision Crucial Links]]></title>
       <url>http://yoursite.com/2015/09/25/Computer%20Vision%20Crucial%20Links/</url>
       <content type="html"><![CDATA[<h2 id="Top-tier-vision-conferences"><a href="#Top-tier-vision-conferences" class="headerlink" title="Top-tier vision conferences"></a>Top-tier vision conferences</h2><ul>
@@ -1199,55 +1253,6 @@
         <categories>
             
             <category> ComputerVision </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Gabor Fliter]]></title>
-      <url>http://yoursite.com/2015/09/25/Gabor%20Fliter/</url>
-      <content type="html"><![CDATA[<h2 id="Gabor-Fliter"><a href="#Gabor-Fliter" class="headerlink" title="Gabor Fliter"></a>Gabor Fliter</h2><p><a href="http://www.cnblogs.com/emouse/p/3611256.htmlcc" target="_blank" rel="external">http://www.cnblogs.com/emouse/p/3611256.htmlcc</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BasicKnowledge </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Clanguage </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Blog Configuration]]></title>
-      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
-      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
-<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
-<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
-<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
-<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
-<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
-<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
-<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BLOG </category>
             
         </categories>
         
