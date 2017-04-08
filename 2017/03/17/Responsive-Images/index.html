@@ -6,10 +6,8 @@
   <title>Responsive Images | Monaen&#39;s Wiki</title>
   <meta name="author" content="Monaen">
   
-  <meta name="description" content="Resources
-HTTP Archive: Average bytes to open a web page
-W3C web page from 1996
-Brian Fling: ‘Great mobile products are created, never ported.’">
+  <meta name="description" content="Suggestions
+Note: There MUST be a space on each side of the + and - operators. (A space is not required around * and / as the problem is an ambiguity ">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -41,6 +39,19 @@ Brian Fling: ‘Great mobile products are created, never ported.’">
 
   <!-- analytics -->
   
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-97047136-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
 
 </head>
 
@@ -70,10 +81,67 @@ Brian Fling: ‘Great mobile products are created, never ported.’">
 	
 
 	  <!-- content -->
-	  <h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+	  <h2 id="Suggestions"><a href="#Suggestions" class="headerlink" title="Suggestions"></a>Suggestions</h2><ol>
+<li><p><strong>Note:</strong> There MUST be a space on each side of the <code>+</code> and <code>-</code> operators. (A space is not required around <code>*</code> and <code>/</code> as the problem is an ambiguity around negation.) For example: <code>calc(100px - 10%)</code> will work. <code>calc(100px-10%)</code> will not.</p>
+</li>
+<li><p><code>100vh</code>, <code>100vw</code>, corresponding to the 100 percent of the viewport height or viewport width.</p>
+</li>
+</ol>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><ol>
+<li>The way to show three images in a row with 10px gap between each two of them.<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span><br><span class="line">    <span class="selector-tag">body</span> &#123;</span><br><span class="line">      <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="selector-tag">img</span> &#123;</span><br><span class="line">      <span class="attribute">float</span>: left;</span><br><span class="line">      <span class="attribute">width</span>: <span class="built_in">calc</span>((100% - 20px)/<span class="number">3</span>);</span><br><span class="line">      <span class="attribute">margin-right</span>: <span class="number">10px</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="selector-tag">img</span><span class="selector-pseudo">:last-of-type</span>&#123;</span><br><span class="line">      <span class="attribute">margin-right</span>: <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="How-to-choose-the-right-image-format"><a href="#How-to-choose-the-right-image-format" class="headerlink" title="How to choose the right image format"></a>How to choose the right image format</h2><ol>
+<li><a href="https://litmus.com/blog/png-gif-or-jpeg-which-ones-should-you-use-in-email" target="_blank" rel="external">Image formats</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization" target="_blank" rel="external">Image optimization</a></li>
+<li><a href="https://developers.google.com/speed/webp/?csw=1" target="_blank" rel="external">More about WebP</a></li>
+<li><a href="http://caniuse.com/#feat=webp" target="_blank" rel="external">Browser support for WebP</a></li>
+</ol>
+<h2 id="Image-process-for-webpage"><a href="#Image-process-for-webpage" class="headerlink" title="Image process for webpage"></a>Image process for webpage</h2><ol>
+<li>ImageMagick:</li>
+</ol>
+<ul>
+<li><a href="http://www.imagemagick.org/" target="_blank" rel="external">ImageMagick</a></li>
+<li><a href="http://cactuslab.com/imagemagick/" target="_blank" rel="external">Simple ImageMagick installer for Mac</a></li>
+<li><a href="http://www.graphicsmagick.org/" target="_blank" rel="external">GraphicsMagick</a> (a fork of ImageMagick)</li>
+</ul>
+<ol>
+<li>Grunt:</li>
+</ol>
+<ul>
+<li>Udacity webcast for setting up Grunt: <a href="https://classroom.udacity.com/nanodegrees/nd001/parts/0011345404/modules/273669854375463/lessons/5827851013/concepts/58278802730923" target="_blank" rel="external">Front End version</a> and <a href="https://classroom.udacity.com/nanodegrees/nd004/parts/0041345402/modules/004134540275463/lessons/5827851013/concepts/58278802730923" target="_blank" rel="external">Full Stack version</a>.</li>
+<li><a href="http://gruntjs.com/getting-started" target="_blank" rel="external">Getting started with Grunt</a></li>
+<li><a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/" target="_blank" rel="external">Grunt for People Who Think Things Like Grunt are Weird and Hard</a></li>
+<li><a href="http://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/" target="_blank" rel="external">Generate multi-resolution images with Grunt</a></li>
+<li><a href="https://github.com/andismith/grunt-responsive-images" target="_blank" rel="external">grunt-responsive-images plugin for generating multiple images</a></li>
+<li><a href="https://www.npmjs.com/package/grunt-respimg" target="_blank" rel="external">grunt-respimg plugin for a responsive image workflow</a></li>
+</ul>
+<ol>
+<li>Files used in scripting examples:</li>
+</ol>
+<ul>
+<li><a href="http://udacity.github.io/responsive-images/convert.sh" target="_blank" rel="external">convert.sh</a> (includes instructions)</li>
+<li><a href="http://udacity.github.io/responsive-images/Gruntfile.js" target="_blank" rel="external">Gruntfile.js</a> (remove line 7, <code>engine: &#39;im&#39;,</code> on Windows)</li>
+<li><a href="https://github.com/BBC-News/Imager.js/" target="_blank" rel="external">Imager.js</a>: responsive image loading developed for BBC News</li>
+</ul>
+<ol>
+<li>Image processing tools:</li>
+</ol>
+<ul>
+<li><a href="http://imageoptim.com/" target="_blank" rel="external">ImageOptim</a> (Mac only)</li>
+<li><a href="http://trimage.org/" target="_blank" rel="external">Trimage</a> - Similar to ImageOptim (Windows, Mac, Linux)</li>
+<li><a href="https://github.com/pornel/ImageAlpha" target="_blank" rel="external">ImageAlpha</a></li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
 <li>HTTP Archive: <a href="http://httparchive.org/interesting.php#bytesperpage" target="_blank" rel="external">Average bytes to open a web page</a></li>
 <li><a href="http://www.w3.org/TR/NOTE-imagemap" target="_blank" rel="external">W3C web page from 1996</a></li>
 <li>Brian Fling: <a href="http://goo.gl/dylCty" target="_blank" rel="external">‘Great mobile products are created, never ported.’</a></li>
+</ul>
+<h3 id="Relative-Sizing"><a href="#Relative-Sizing" class="headerlink" title="Relative Sizing"></a>Relative Sizing</h3><p>Here are some examples compared to know the properties of responsive images</p>
+<ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/1-07/singleImage640x360/" target="_blank" rel="external">Fixed size image</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/1-07/singleImageNotBigEnough100pc/" target="_blank" rel="external">width: 100%</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/1-07/singleImageMaxWidth100pc/" target="_blank" rel="external">max width: 100%</a></li>
 </ul>
 	  
 
@@ -103,6 +171,14 @@ Brian Fling: ‘Great mobile products are created, never ported.’">
 		
 	
 		
+	
+		
+	
+		
+			
+		
+	
+		
 			
 			
 		
@@ -110,10 +186,6 @@ Brian Fling: ‘Great mobile products are created, never ported.’">
 		
 	
 		
-			
-			
-			
-		
 	
 		
 	
@@ -183,14 +255,12 @@ Brian Fling: ‘Great mobile products are created, never ported.’">
 	
 		
 	
-		
 	
-	
-		<li class="prev"><a href="/2017/03/26/Udacity/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+		<li class="prev"><a href="/2017/03/17/Responsive-Web-Design/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next"><a href="/2017/03/17/Responsive-Web-Design/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>
