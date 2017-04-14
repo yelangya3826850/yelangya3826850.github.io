@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title><![CDATA[Udacity Materials]]></title>
+      <url>http://yoursite.com/2017/03/26/Udacity/</url>
+      <content type="html"><![CDATA[<h2 id="Udacity-Materials"><a href="#Udacity-Materials" class="headerlink" title="Udacity Materials"></a>Udacity Materials</h2><ul>
+<li><p><a href="https://docs.google.com/document/d/1np1OCVktcEkiNC3vhSoNJPZi3OoTb_ZvOtWK6aEMzP0/pub?embedded=true" target="_blank" rel="external">Nanodegree Student Handbook</a></p>
+</li>
+<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a></p>
+</li>
+<li><p><a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank" rel="external">A Primer on Using LaTeX in Jupyter Notebooks</a></p>
+</li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="external">Markdown cheatsheet</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Udacity </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Webcast Materials]]></title>
       <url>http://yoursite.com/2017/03/26/Webcast-Materials/</url>
       <content type="html"><![CDATA[<h2 id="Webcast-Materials"><a href="#Webcast-Materials" class="headerlink" title="Webcast Materials"></a>Webcast Materials</h2>]]></content>
@@ -89,29 +112,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Udacity Materials]]></title>
-      <url>http://yoursite.com/2017/03/26/Udacity/</url>
-      <content type="html"><![CDATA[<h2 id="Udacity-Materials"><a href="#Udacity-Materials" class="headerlink" title="Udacity Materials"></a>Udacity Materials</h2><ul>
-<li><p><a href="https://docs.google.com/document/d/1np1OCVktcEkiNC3vhSoNJPZi3OoTb_ZvOtWK6aEMzP0/pub?embedded=true" target="_blank" rel="external">Nanodegree Student Handbook</a></p>
-</li>
-<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a></p>
-</li>
-<li><p><a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank" rel="external">A Primer on Using LaTeX in Jupyter Notebooks</a></p>
-</li>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="external">Markdown cheatsheet</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Udacity </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[CSS Fonts]]></title>
       <url>http://yoursite.com/2017/03/24/CSS_Fonts/</url>
       <content type="html"><![CDATA[<h2 id="CSS-Style-Fonts"><a href="#CSS-Style-Fonts" class="headerlink" title="CSS Style Fonts"></a>CSS Style Fonts</h2><p>There might be an easy way to find what fonts you want using <a href="http://www.google.com/fonts" target="_blank" rel="external">Google Fonts</a>.</p>
@@ -174,6 +174,57 @@
       <url>http://yoursite.com/2017/03/20/Caffe-Tricks/</url>
       <content type="html"></content>
       
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Jupyter Notebook]]></title>
+      <url>http://yoursite.com/2017/03/17/JupyterNotebooks/</url>
+      <content type="html"><![CDATA[<h2 id="Keyboard-shortcuts"><a href="#Keyboard-shortcuts" class="headerlink" title="Keyboard shortcuts"></a>Keyboard shortcuts</h2><ul>
+<li><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474229_keyboard-shortcuts/keyboard-shortcuts.ipynb" target="_blank" rel="external">Keyboard Shortcuts ipynb</a></li>
+</ul>
+<h2 id="Magic-keywords"><a href="#Magic-keywords" class="headerlink" title="Magic keywords"></a>Magic keywords</h2><ul>
+<li><code>%timeit</code>: Magic command to time how long it takes for a single line function to run.</li>
+<li><code>%%timeit</code>: Magic command to time how long it takes for a whole cell to run.</li>
+<li><code>%matplotlib inline</code>: To render figures directly in the notebook, you should use the inline backend with the command.<ul>
+<li><strong>Tip:</strong> On higher resolution screens such as Retina displays, the default images in notebooks can look blurry. Use <code>%config InlineBackend.figure_format = &#39;retina&#39;</code> after <code>%matplotlib inline</code> to render higher resolution images.</li>
+<li>To select a specific <strong><a href="http://matplotlib.org/faq/usage_faq.html#what-is-a-backend" target="_blank" rel="external">backend</a></strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><ul>
+<li><code>%pdb</code>: Magic command to set up debugging environment.<ul>
+<li>[pdb documentation](<a href="https://docs.python.org/3/library/pdb.html" target="_blank" rel="external">https://docs.python.org/3/library/pdb.html</a>: Read more about <code>pdb</code> in the pdb documentation. To quit the debugger, simply enter <code>q</code> in the prompt.</li>
+</ul>
+</li>
+</ul>
+<h2 id="Convert"><a href="#Convert" class="headerlink" title="Convert"></a>Convert</h2><h3 id="Convert-ipynb-to-html"><a href="#Convert-ipynb-to-html" class="headerlink" title="Convert .ipynb to html"></a>Convert <code>.ipynb</code> to <code>html</code></h3><ul>
+<li><p>To convert a notebook to an HTML file, in your terminal use</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert --to <span class="selector-tag">html</span> notebook.ipynb</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>learn more about <code>nbconvert</code> from the <a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">documentation</a>.</p>
+</li>
+</ul>
+<h3 id="Convert-ipynb-to-slides"><a href="#Convert-ipynb-to-slides" class="headerlink" title="Convert .ipynb to slides"></a>Convert <code>.ipynb</code> to <code>slides</code></h3><ul>
+<li><p>To convert a notebook to slide file, in your terminal use</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook<span class="selector-class">.ipynb</span> --to slides</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>To convert it and immediately see it, use</p>
+<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook.ipynb --<span class="keyword">to</span> slides --post serve  <span class="comment">## This will open up the slideshow in your browser so you can present it.</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html" target="_blank" rel="external">List of all available magic commands</a></li>
+<li><a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">nbconvert Documentation</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
+            
+        </categories>
+        
         
     </entry>
     
@@ -247,6 +298,86 @@
         <categories>
             
             <category> Udacity </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CSS Tips]]></title>
+      <url>http://yoursite.com/2017/03/17/CSS_Tips/</url>
+      <content type="html"><![CDATA[<h2 id="Suggest-Writing-Style"><a href="#Suggest-Writing-Style" class="headerlink" title="Suggest Writing Style"></a>Suggest Writing Style</h2><ul>
+<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a>: This is a writing style suggested by Udacity</p>
+</li>
+<li><p>We do suggest that first use bootstrap css style to set up your webpage framework and add some customer css style by adding your own css file (traditionally <code>css/style.css</code>) and style !</p>
+</li>
+</ul>
+<h2 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts:"></a>Concepts:</h2><ol>
+<li><p>Negative space: space that doesn’t contain anything, used for solve the space is too small between texts.</p>
+</li>
+<li><p>Element.style part: In browser devtools, this part only going to affect the tag you choose!</p>
+</li>
+<li><p>Padding is on the inside of the tag, margins are on the outside of the tag.</p>
+</li>
+</ol>
+<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="General-Tricks"><a href="#General-Tricks" class="headerlink" title="General Tricks"></a>General Tricks</h3><ol>
+<li>If you want to add many words in a small area, please set<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.*** &#123;</span><br><span class="line">   <span class="attribute">overflow</span>: auto</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>and you will find a scorebar on the corresponding area.</p>
+<ol>
+<li><p>Use <strong>Media Queries</strong> to change CSS properties depending on device, screen size and color as screen got resized. Just add the <strong>Media Query</strong> like:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) and (orientation: landscape)&#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>start off every media query with <code>@media</code>.</li>
+<li>key word “only”: is going to help us with older browsers.</li>
+<li>key word “screen”: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
+<li>max-width: the condition tells us that the media query should apply only if the width of the screen is smaller than 300px.</li>
+<li>key word “orientation”: only correct when your screen has a landscape orientation (this happens when the width is bigger than the height).</li>
+</ol>
+</li>
+<li><p>To make the website looks same regardless browsers or operating systems: add <code>normalize.css</code> file.</p>
+</li>
+</ol>
+<h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
+<li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test-Refine routine:"></a>Code-Test-Refine routine:</h4><ol>
+<li>Look for natural boxes</li>
+<li>Look for repeated styles and semantic elements</li>
+<li>Write your HTML</li>
+<li>Apply styles (from BIGGEST to SMALLEST)</li>
+<li>Fix things</li>
+<li>repeat 3 to 5</li>
+</ol>
+<h4 id="Image-placeholder"><a href="#Image-placeholder" class="headerlink" title="Image placeholder"></a>Image placeholder</h4><ul>
+<li>If you cannot provide the images you currently use, you can use an image placeholder to replace the image from website <a href="http://placehold.it/" target="_blank" rel="external">PLACEHOLD.IT</a> or <a href="http://placekitten.com" target="_blank" rel="external">PLACEKITTEN</a> or <a href="http://placepuppy.it" target="_blank" rel="external">PLACEPUPPY</a><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/* For example */</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placehold.it/960x360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placekitten.com/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placepuppy.it/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
+<li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
+<p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
+</li>
+</ul>
+<h4 id="For-cellphone"><a href="#For-cellphone" class="headerlink" title="For cellphone"></a>For cellphone</h4><p>The button should be at least 48px(suggestions).</p>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
+<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
+<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
+<li><a href="http://www.w3.org/community/webed/wiki/CSS/Properties" target="_blank" rel="external">this big list of CSS properties</a></li>
+</ul>
+<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
+<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> CSS </category>
             
         </categories>
         
@@ -353,86 +484,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[CSS Tips]]></title>
-      <url>http://yoursite.com/2017/03/17/CSS_Tips/</url>
-      <content type="html"><![CDATA[<h2 id="Suggest-Writing-Style"><a href="#Suggest-Writing-Style" class="headerlink" title="Suggest Writing Style"></a>Suggest Writing Style</h2><ul>
-<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a>: This is a writing style suggested by Udacity</p>
-</li>
-<li><p>We do suggest that first use bootstrap css style to set up your webpage framework and add some customer css style by adding your own css file (traditionally <code>css/style.css</code>) and style !</p>
-</li>
-</ul>
-<h2 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts:"></a>Concepts:</h2><ol>
-<li><p>Negative space: space that doesn’t contain anything, used for solve the space is too small between texts.</p>
-</li>
-<li><p>Element.style part: In browser devtools, this part only going to affect the tag you choose!</p>
-</li>
-<li><p>Padding is on the inside of the tag, margins are on the outside of the tag.</p>
-</li>
-</ol>
-<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="General-Tricks"><a href="#General-Tricks" class="headerlink" title="General Tricks"></a>General Tricks</h3><ol>
-<li>If you want to add many words in a small area, please set<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.*** &#123;</span><br><span class="line">   <span class="attribute">overflow</span>: auto</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>and you will find a scorebar on the corresponding area.</p>
-<ol>
-<li><p>Use <strong>Media Queries</strong> to change CSS properties depending on device, screen size and color as screen got resized. Just add the <strong>Media Query</strong> like:</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) and (orientation: landscape)&#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>start off every media query with <code>@media</code>.</li>
-<li>key word “only”: is going to help us with older browsers.</li>
-<li>key word “screen”: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
-<li>max-width: the condition tells us that the media query should apply only if the width of the screen is smaller than 300px.</li>
-<li>key word “orientation”: only correct when your screen has a landscape orientation (this happens when the width is bigger than the height).</li>
-</ol>
-</li>
-<li><p>To make the website looks same regardless browsers or operating systems: add <code>normalize.css</code> file.</p>
-</li>
-</ol>
-<h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
-<li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test-Refine routine:"></a>Code-Test-Refine routine:</h4><ol>
-<li>Look for natural boxes</li>
-<li>Look for repeated styles and semantic elements</li>
-<li>Write your HTML</li>
-<li>Apply styles (from BIGGEST to SMALLEST)</li>
-<li>Fix things</li>
-<li>repeat 3 to 5</li>
-</ol>
-<h4 id="Image-placeholder"><a href="#Image-placeholder" class="headerlink" title="Image placeholder"></a>Image placeholder</h4><ul>
-<li>If you cannot provide the images you currently use, you can use an image placeholder to replace the image from website <a href="http://placehold.it/" target="_blank" rel="external">PLACEHOLD.IT</a> or <a href="http://placekitten.com" target="_blank" rel="external">PLACEKITTEN</a> or <a href="http://placepuppy.it" target="_blank" rel="external">PLACEPUPPY</a><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/* For example */</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placehold.it/960x360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placekitten.com/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placepuppy.it/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
-<li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
-<p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
-</li>
-</ul>
-<h4 id="For-cellphone"><a href="#For-cellphone" class="headerlink" title="For cellphone"></a>For cellphone</h4><p>The button should be at least 48px(suggestions).</p>
-<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
-<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
-<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
-<li><a href="http://www.w3.org/community/webed/wiki/CSS/Properties" target="_blank" rel="external">this big list of CSS properties</a></li>
-</ul>
-<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
-<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> CSS </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[CSS Layout]]></title>
       <url>http://yoursite.com/2017/03/17/CSS_Layout/</url>
       <content type="html"><![CDATA[<h2 id="CSS-Style-Layout"><a href="#CSS-Style-Layout" class="headerlink" title="CSS Style Layout"></a>CSS Style Layout</h2><h3 id="Flexbox-Layout"><a href="#Flexbox-Layout" class="headerlink" title="Flexbox Layout"></a>Flexbox Layout</h3><h4 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h4><p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
@@ -470,57 +521,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Jupyter Notebook]]></title>
-      <url>http://yoursite.com/2017/03/17/JupyterNotebooks/</url>
-      <content type="html"><![CDATA[<h2 id="Keyboard-shortcuts"><a href="#Keyboard-shortcuts" class="headerlink" title="Keyboard shortcuts"></a>Keyboard shortcuts</h2><ul>
-<li><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474229_keyboard-shortcuts/keyboard-shortcuts.ipynb" target="_blank" rel="external">Keyboard Shortcuts ipynb</a></li>
-</ul>
-<h2 id="Magic-keywords"><a href="#Magic-keywords" class="headerlink" title="Magic keywords"></a>Magic keywords</h2><ul>
-<li><code>%timeit</code>: Magic command to time how long it takes for a single line function to run.</li>
-<li><code>%%timeit</code>: Magic command to time how long it takes for a whole cell to run.</li>
-<li><code>%matplotlib inline</code>: To render figures directly in the notebook, you should use the inline backend with the command.<ul>
-<li><strong>Tip:</strong> On higher resolution screens such as Retina displays, the default images in notebooks can look blurry. Use <code>%config InlineBackend.figure_format = &#39;retina&#39;</code> after <code>%matplotlib inline</code> to render higher resolution images.</li>
-<li>To select a specific <strong><a href="http://matplotlib.org/faq/usage_faq.html#what-is-a-backend" target="_blank" rel="external">backend</a></strong></li>
-</ul>
-</li>
-</ul>
-<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><ul>
-<li><code>%pdb</code>: Magic command to set up debugging environment.<ul>
-<li>[pdb documentation](<a href="https://docs.python.org/3/library/pdb.html" target="_blank" rel="external">https://docs.python.org/3/library/pdb.html</a>: Read more about <code>pdb</code> in the pdb documentation. To quit the debugger, simply enter <code>q</code> in the prompt.</li>
-</ul>
-</li>
-</ul>
-<h2 id="Convert"><a href="#Convert" class="headerlink" title="Convert"></a>Convert</h2><h3 id="Convert-ipynb-to-html"><a href="#Convert-ipynb-to-html" class="headerlink" title="Convert .ipynb to html"></a>Convert <code>.ipynb</code> to <code>html</code></h3><ul>
-<li><p>To convert a notebook to an HTML file, in your terminal use</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert --to <span class="selector-tag">html</span> notebook.ipynb</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>learn more about <code>nbconvert</code> from the <a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">documentation</a>.</p>
-</li>
-</ul>
-<h3 id="Convert-ipynb-to-slides"><a href="#Convert-ipynb-to-slides" class="headerlink" title="Convert .ipynb to slides"></a>Convert <code>.ipynb</code> to <code>slides</code></h3><ul>
-<li><p>To convert a notebook to slide file, in your terminal use</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook<span class="selector-class">.ipynb</span> --to slides</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>To convert it and immediately see it, use</p>
-<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook.ipynb --<span class="keyword">to</span> slides --post serve  <span class="comment">## This will open up the slideshow in your browser so you can present it.</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html" target="_blank" rel="external">List of all available magic commands</a></li>
-<li><a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">nbconvert Documentation</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[CSS Style Priority]]></title>
       <url>http://yoursite.com/2017/03/13/CSS_Style/</url>
       <content type="html"><![CDATA[<h2 id="CSS-Style-Priority"><a href="#CSS-Style-Priority" class="headerlink" title="CSS Style Priority"></a>CSS Style Priority</h2><h3 id="Order-Matters"><a href="#Order-Matters" class="headerlink" title="Order Matters"></a>Order Matters</h3><p>It matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, <strong>with definitions further down the list overwriting previous definitions:</strong></p>
@@ -547,6 +547,29 @@
         <categories>
             
             <category> CSS </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Software Activation]]></title>
+      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
+      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
+<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
+<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
+<li>click “Continue” and copy the request code</li>
+<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
+<li>run <code>python CalcActivationCode.py</code> to get license</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Software </category>
             
         </categories>
         
@@ -624,29 +647,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Software Activation]]></title>
-      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
-      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
-<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
-<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
-<li>click “Continue” and copy the request code</li>
-<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
-<li>run <code>python CalcActivationCode.py</code> to get license</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Software </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Light-field DateSet]]></title>
       <url>http://yoursite.com/2016/07/28/LightfieldDataset/</url>
       <content type="html"><![CDATA[<h2 id="Dataset"><a href="#Dataset" class="headerlink" title="Dataset"></a>Dataset</h2><h4 id="1-SMART-–-lightfield-dataset-2016"><a href="#1-SMART-–-lightfield-dataset-2016" class="headerlink" title="1. SMART – lightfield dataset(2016)"></a>1. <a href="http://www.comlab.uniroma3.it/SMART.html" target="_blank" rel="external">SMART – lightfield dataset(2016)</a></h4><p><strong>16 LF images</strong> are included in the SMART LF dataset, from both indoor and outdoor category, and cover general image content related features (colorfulness, spatial information, and texture) but also LF specific aspects such as reflection, transparency and depth of field variation.</p>
@@ -680,22 +680,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Raspberry pi 3(B)]]></title>
-      <url>http://yoursite.com/2016/04/13/RaspberryPi/</url>
-      <content type="html"><![CDATA[<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Input-plugin-installation"><a href="#Input-plugin-installation" class="headerlink" title="Input-plugin installation"></a>Input-plugin installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ttf-wqy-microhei</span><br><span class="line"></span><br><span class="line"><span class="comment">## This command helps to deal with the problem that raspberry pi cannot recognize some chinese characters</span></span><br></pre></td></tr></table></figure>
-<h2 id="Raspberry-Pi-Resource"><a href="#Raspberry-Pi-Resource" class="headerlink" title="Raspberry Pi Resource"></a>Raspberry Pi Resource</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">http://www.waveshare.net/wiki/RPi_LCD_Datasheets</span><br><span class="line"></span><br><span class="line">https://www.raspberrypi.org/downloads/raspbian/</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/forum/portal.php?mod=list&amp;catid=29</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/wiki/3.5inch-RPi-LCD-A-Video</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/wiki/3.5inch_RPi_LCD_(A)</span><br></pre></td></tr></table></figure>
-]]></content>
-      
-        <categories>
-            
-            <category> RaspberryPi </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Ubuntu Installation Questions]]></title>
       <url>http://yoursite.com/2016/04/13/UbuntuInstallationQuestions/</url>
       <content type="html"><![CDATA[<h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
@@ -705,6 +689,22 @@
         <categories>
             
             <category> OperationSystemInstallation </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Raspberry pi 3(B)]]></title>
+      <url>http://yoursite.com/2016/04/13/RaspberryPi/</url>
+      <content type="html"><![CDATA[<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Input-plugin-installation"><a href="#Input-plugin-installation" class="headerlink" title="Input-plugin installation"></a>Input-plugin installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ttf-wqy-microhei</span><br><span class="line"></span><br><span class="line"><span class="comment">## This command helps to deal with the problem that raspberry pi cannot recognize some chinese characters</span></span><br></pre></td></tr></table></figure>
+<h2 id="Raspberry-Pi-Resource"><a href="#Raspberry-Pi-Resource" class="headerlink" title="Raspberry Pi Resource"></a>Raspberry Pi Resource</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">http://www.waveshare.net/wiki/RPi_LCD_Datasheets</span><br><span class="line"></span><br><span class="line">https://www.raspberrypi.org/downloads/raspbian/</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/forum/portal.php?mod=list&amp;catid=29</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/wiki/3.5inch-RPi-LCD-A-Video</span><br><span class="line"></span><br><span class="line">http://www.waveshare.net/wiki/3.5inch_RPi_LCD_(A)</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> RaspberryPi </category>
             
         </categories>
         
@@ -891,6 +891,23 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Matrix Factorization Resource]]></title>
+      <url>http://yoursite.com/2015/10/13/NMF/</url>
+      <content type="html"><![CDATA[<h2 id="Nonnegtive-Matrix-Factorization"><a href="#Nonnegtive-Matrix-Factorization" class="headerlink" title="Nonnegtive Matrix Factorization"></a>Nonnegtive Matrix Factorization</h2><ul>
+<li><a href="https://sites.google.com/site/igorcarron2/matrixfactorizations" target="_blank" rel="external">The Advanced Matrix Factorization Jungle</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> MatrixFactorization </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[The template file]]></title>
       <url>http://yoursite.com/2015/10/13/Template/</url>
       <content type="html"><![CDATA[<p>TO DO: add title</p>
@@ -940,16 +957,21 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Matrix Factorization Resource]]></title>
-      <url>http://yoursite.com/2015/10/13/NMF/</url>
-      <content type="html"><![CDATA[<h2 id="Nonnegtive-Matrix-Factorization"><a href="#Nonnegtive-Matrix-Factorization" class="headerlink" title="Nonnegtive Matrix Factorization"></a>Nonnegtive Matrix Factorization</h2><ul>
-<li><a href="https://sites.google.com/site/igorcarron2/matrixfactorizations" target="_blank" rel="external">The Advanced Matrix Factorization Jungle</a></li>
+      <title><![CDATA[Latex Mathematical Formula]]></title>
+      <url>http://yoursite.com/2015/10/11/Latex/</url>
+      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
+<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
+<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
+</ul>
+<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
+<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> MatrixFactorization </category>
+            <category> LateX </category>
             
         </categories>
         
@@ -966,28 +988,6 @@
         <categories>
             
             <category> ComputerVision </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Latex Mathematical Formula]]></title>
-      <url>http://yoursite.com/2015/10/11/Latex/</url>
-      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
-<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
-<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
-<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
-</ul>
-<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
-<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> LateX </category>
             
         </categories>
         
@@ -1039,44 +1039,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Lisp]]></title>
-      <url>http://yoursite.com/2015/09/29/Lisp/</url>
-      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
-<ul>
-<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Lisp </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[SparkReferences]]></title>
-      <url>http://yoursite.com/2015/09/29/Spark/</url>
-      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
-<ul>
-<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
-</ul>
-<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
-<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Spark </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Ubuntu Command]]></title>
       <url>http://yoursite.com/2015/09/29/UbuntuCommand/</url>
       <content type="html"><![CDATA[<h2 id="Basic-Operation"><a href="#Basic-Operation" class="headerlink" title="Basic Operation"></a>Basic Operation</h2><h3 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h3><h4 id="Check-the-disk-partition"><a href="#Check-the-disk-partition" class="headerlink" title="Check the disk partition"></a>Check the disk partition</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hl</span><br></pre></td></tr></table></figure>
@@ -1105,11 +1067,40 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
-      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
+      <title><![CDATA[SparkReferences]]></title>
+      <url>http://yoursite.com/2015/09/29/Spark/</url>
+      <content type="html"><![CDATA[<h2 id="Spark-References"><a href="#Spark-References" class="headerlink" title="Spark References"></a>Spark References</h2><p><a href="https://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">Spark Programming Guide</a></p>
+<ul>
+<li>This guide shows each of these features in each of Spark’s supported languages. It is easiest to follow along with if you launch Spark’s interactive shell – either bin/spark-shell for the Scala shell or bin/pyspark for the Python one.</li>
+</ul>
+<p><a href="https://spark.apache.org/documentation.html" target="_blank" rel="external">Spark Documentation</a></p>
+<p><a href="https://spark.apache.org/docs/latest/api/python/index.html" target="_blank" rel="external">pySpark API documentation</a></p>
 ]]></content>
       
+        <categories>
+            
+            <category> Spark </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lisp]]></title>
+      <url>http://yoursite.com/2015/09/29/Lisp/</url>
+      <content type="html"><![CDATA[<h2 id="History-of-Lisp"><a href="#History-of-Lisp" class="headerlink" title="History of Lisp"></a>History of Lisp</h2><p><a href="http://www-formal.stanford.edu/jmc/history/lisp/lisp.html" target="_blank" rel="external">History of Lisp</a></p>
+<ul>
+<li>This draft gives insufficient mention to many people who helped implement LISP and who contributed ideas. Suggestions for improvements in that directions are particularly welcome. Facts about the history of FUNARG and uplevel addressing generally are especially needed.</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Lisp </category>
+            
+        </categories>
+        
         
     </entry>
     
@@ -1147,6 +1138,15 @@
             
         </categories>
         
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
+      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
+]]></content>
+      
         
     </entry>
     
@@ -1230,6 +1230,34 @@
             <tag> Clanguage </tag>
             
         </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Blog Configuration]]></title>
+      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
+      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
+<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
+<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
+<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
+<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
+<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BLOG </category>
+            
+        </categories>
+        
         
     </entry>
     
@@ -1321,34 +1349,6 @@
         <categories>
             
             <category> ComputerVision </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Blog Configuration]]></title>
-      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
-      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
-<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
-<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
-<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
-<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
-<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
-<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
-<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BLOG </category>
             
         </categories>
         
