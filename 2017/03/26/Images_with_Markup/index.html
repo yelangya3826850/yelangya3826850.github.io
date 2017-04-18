@@ -6,14 +6,8 @@
   <title>Images With Markup | Monaen&#39;s Wiki</title>
   <meta name="author" content="Monaen">
   
-  <meta name="description" content="Text problemsA comparison of different types of text
-
-Text as image
-Text as image over photo
-Text using Web Font
-Text as text, over photo
-
-CSS Techniq">
+  <meta name="description" content="Tips
+Add icon using icon font: Useful12345678910// first: add the import into the css file@import url(http://weloveiconfonts.com/api/?family=zocial);/">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -87,7 +81,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 
 	  <!-- content -->
-	  <h3 id="Text-problems"><a href="#Text-problems" class="headerlink" title="Text problems"></a>Text problems</h3><p>A comparison of different types of <code>text</code></p>
+	  <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ul>
+<li>Add icon using icon font: <strong>Useful</strong><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// first: add the import into the css file</span></span><br><span class="line"><span class="keyword">@import</span> url(<span class="string">http://weloveiconfonts.com/api/?family=zocial</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Then: use 'before' selector to configure</span></span><br><span class="line"><span class="selector-attr">[class*="zocial-"]</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">'zocial'</span>, sans-serif;</span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">3px</span> <span class="number">3px</span> <span class="number">3px</span> <span class="number">#aaa</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">20vw</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><h3 id="Text-problems"><a href="#Text-problems" class="headerlink" title="Text problems"></a>Text problems</h3><p>A comparison of different types of <code>text</code></p>
 <ul>
 <li><a href="/imgs/textAsImage.jpg">Text as image</a></li>
 <li><a href="/imgs/textOverImage.jpg">Text as image over photo</a></li>
@@ -115,7 +113,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </ul>
 <h3 id="Unicode-Treble-Clef"><a href="#Unicode-Treble-Clef" class="headerlink" title="Unicode Treble Clef"></a>Unicode Treble Clef</h3><ul>
 <li><p><a href="http://unicode-table.com/" target="_blank" rel="external">Here’s a big list of unicode characters</a></p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// If you want to <span class="keyword">use</span> <span class="keyword">unicode</span>, <span class="keyword">add</span> a meta tag <span class="keyword">in</span> &lt;<span class="keyword">head</span>&gt;</span><br><span class="line">&lt;meta <span class="keyword">http</span>-equiv=<span class="string">"Content-Type"</span> <span class="keyword">content</span>=<span class="string">"text/html; charset=utf-8"</span>&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// If you want to <span class="keyword">use</span> <span class="keyword">unicode</span>, <span class="keyword">add</span> a meta tag <span class="keyword">in</span> &lt;<span class="keyword">head</span>&gt;</span><br><span class="line">&lt;meta <span class="keyword">http</span>-equiv=<span class="string">"Content-Type"</span> <span class="keyword">content</span>=<span class="string">"text/html"</span> <span class="keyword">charset</span>=<span class="string">"utf-8"</span>&gt;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank" rel="external">More on meta tag charsets</a><br>Having trouble seeing unicode characters? Unfortunately, not all browsers include the fonts needed to see all unicode characters by default. <a href="http://www.alanwood.net/unicode/#links" target="_blank" rel="external">This site</a> will help you determine what characters your browser can render and <a href="http://gschoppe.com/uncategorized/fixing-unicode-support-in-google-chrome/" target="_blank" rel="external">here’s some advice</a> for enabling unicode with Chrome on Windows.</p>
 </li>
@@ -162,14 +160,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		
 	
 		
-	
-		
-	
-		
 			
-			
-		
-	
 		
 	
 		
@@ -181,6 +172,21 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		
 			
 			
+		
+	
+		
+			
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
 			
 		
 	
@@ -263,11 +269,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		
 	
 	
-		<li class="prev"><a href="/2017/03/26/Udacity/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+		<li class="prev"><a href="/2017/04/16/Udacity-Units_Formats_Environments/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next"><a href="/2017/03/17/Responsive-Images/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next"><a href="/2017/03/26/Udacity/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>

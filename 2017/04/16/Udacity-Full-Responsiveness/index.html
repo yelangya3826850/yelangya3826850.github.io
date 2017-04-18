@@ -3,15 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Ubuntu Installation Questions | Monaen&#39;s Wiki</title>
+  <title>Full Responsiveness | Monaen&#39;s Wiki</title>
   <meta name="author" content="Monaen">
   
-  <meta name="description" content="Ubuntu 14.04.4 LTS install build-essential / g++(&amp;gt;=4.8) / update errorWhen you type:  sudo apt-get update  you get the error info:12345678910111213">
+  <meta name="description" content="Tips
+Check the device pixel ratio of your device by dev tools123// open dev tool and change to terminalwindow.devicePixelRatio//1.75
+
+
+ResourcesRespon">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Ubuntu Installation Questions"/>
+  <meta property="og:title" content="Full Responsiveness"/>
   <meta property="og:site_name" content="Monaen&#39;s Wiki"/>
 
   
@@ -58,7 +62,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <div class="container" id="container">
 	<div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">Ubuntu Installation Questions</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2016-04-13</span></h1>
+  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">Full Responsiveness</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-04-16</span></h1>
 </div>		
 
 <div class="row page">
@@ -80,8 +84,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 
 	  <!-- content -->
-	  <h2 id="Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error"><a href="#Ubuntu-14-04-4-LTS-install-build-essential-g-gt-4-8-update-error" class="headerlink" title="Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error"></a>Ubuntu 14.04.4 LTS install build-essential / g++(&gt;=4.8) / update error</h2><p>When you type: <strong> sudo apt-get update </strong> you get the error info:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Fetched 32.6 MB <span class="keyword">in</span> 11s (2,824 kB/s)                                            </span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-updates/universe/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-amd64/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">W: Failed to fetch http://hk.archive.ubuntu.com/ubuntu/dists/trusty-backports/main/binary-i386/Packages  Hash Sum mismatch</span><br><span class="line"></span><br><span class="line">E: Some index files failed to download. They have been ignored, or old ones used instead.</span><br></pre></td></tr></table></figure></p>
-<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>Type this command and then type: (sudo apt-get update)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i -re <span class="string">'s/\w+\.archive\.ubuntu\.com/archive.ubuntu.com/g'</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure></p>
+	  <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ul>
+<li>Check the <code>device pixel ratio</code> of your device by dev tools<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// <span class="built_in">open</span> dev tool <span class="keyword">and</span> change <span class="built_in">to</span> terminal</span><br><span class="line">window.devicePixelRatio<span class="comment"></span><br><span class="line">//1.75</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><h3 id="Responding-To-Screen-Capability-amp-View"><a href="#Responding-To-Screen-Capability-amp-View" class="headerlink" title="Responding To Screen Capability &amp; View"></a>Responding To Screen Capability &amp; View</h3><ul>
+<li>Jason Grigsby’s article <a href="http://blog.cloudfour.com/responsive-images-audits" target="_blank" rel="external">Responsive Image Audits</a>.</li>
+</ul>
 	  
 
 	  <div>
@@ -94,7 +103,16 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 	
 		
+			
+			
+		
 	
+		
+			
+			
+			
+		
+			
 		
 	
 		
@@ -104,29 +122,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		
 	
 		
-	
+			
 		
 	
 		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
+			
 		
 	
 		
@@ -139,7 +139,28 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 		
 			
+		
+	
+		
 			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
 		
 	
 		
@@ -203,7 +224,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next"><a href="/2017/04/16/Udacity-Machine-Learning/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>
