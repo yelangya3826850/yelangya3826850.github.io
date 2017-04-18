@@ -7,10 +7,10 @@
   <meta name="author" content="Monaen">
   
   <meta name="description" content="Tips
-Check the device pixel ratio of your device by dev tools123// open dev tool and change to terminalwindow.devicePixelRatio//1.75
+Check the device pixel ratio of your device by dev tools
+123// open dev tool and change to terminalwindow.devicePixelRatio//1.75
 
-
-ResourcesRespon">
+How to use srcs">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -85,12 +85,93 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 	  <!-- content -->
 	  <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ul>
-<li>Check the <code>device pixel ratio</code> of your device by dev tools<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// <span class="built_in">open</span> dev tool <span class="keyword">and</span> change <span class="built_in">to</span> terminal</span><br><span class="line">window.devicePixelRatio<span class="comment"></span><br><span class="line">//1.75</span></span><br></pre></td></tr></table></figure>
+<li><p>Check the <code>device pixel ratio</code> of your device by dev tools</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// <span class="built_in">open</span> dev tool <span class="keyword">and</span> change <span class="built_in">to</span> terminal</span><br><span class="line">window.devicePixelRatio<span class="comment"></span><br><span class="line">//1.75</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>How to use <code>srcset</code></p>
+<ul>
+<li><a href="http://ericportis.com/posts/2014/srcset-sizes/" target="_blank" rel="external">A fun article on srcset</a> (Warning: A little bit of NSFW language)</li>
+<li>Examples: <a href="http://udacity.github.io/responsive-images/examples/3-03/srcsetWValues" target="_blank" rel="external">srcset with w values</a> and <a href="http://udacity.github.io/responsive-images/examples/3-03/srcsetWValues50vw" target="_blank" rel="external">srcset with w values, 50vw</a>, <a href="http://udacity.github.io/responsive-images/examples/srcsetAndSizes/index-quiz1-solution.html" target="_blank" rel="external">srcset quiz solution</a></li>
+</ul>
+</li>
+<li><p>Pixel Densities</p>
+<ul>
+<li><a href="https://www.html5rocks.com/en/mobile/high-dpi/" target="_blank" rel="external">High DPI Images for Variable Pixel Densities</a></li>
+</ul>
+</li>
+<li><p>How to use <code>sizes</code></p>
+</li>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-03/srcsetWValues" target="_blank" rel="external">srcset with w values</a></li>
+<li><p><a href="http://udacity.github.io/responsive-images/examples/3-03/srcsetWValues50vw" target="_blank" rel="external">srcset with w values, 50vw</a></p>
+</li>
+<li><p>General advice about alt attributes</p>
 </li>
 </ul>
+<ol>
+<li><code>alt</code> attributes should be descriptive for important images, like this body surfer. Because body surfing is important, I guess.</li>
+<li><code>alt</code> attributes should be empty for images that are just decorations, like this boiler image. Do you get the joke? It’s a boiler to represent boiler plate code, which is sometimes empty of content.</li>
+<li><code>alt</code> attributes should be set on every image, just like this pig is set on being so darn cute.</li>
+</ol>
 <h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><h3 id="Responding-To-Screen-Capability-amp-View"><a href="#Responding-To-Screen-Capability-amp-View" class="headerlink" title="Responding To Screen Capability &amp; View"></a>Responding To Screen Capability &amp; View</h3><ul>
 <li>Jason Grigsby’s article <a href="http://blog.cloudfour.com/responsive-images-audits" target="_blank" rel="external">Responsive Image Audits</a>.</li>
 </ul>
+<h3 id="Srcset"><a href="#Srcset" class="headerlink" title="Srcset"></a>Srcset</h3><p>Examples:</p>
+<ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-03/srcsetWValues" target="_blank" rel="external">srcset with w values</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-03/srcsetWValues50vw" target="_blank" rel="external">srcset with w values, 50vw</a></li>
+<li><a href="http://ericportis.com/posts/2014/srcset-sizes/" target="_blank" rel="external">A fun article on srcset</a> (Warning: A little bit of NSFW language)</li>
+<li><a href="http://pixensity.com/list/phone" target="_blank" rel="external">Device pixel density list</a></li>
+<li><a href="http://www.html5rocks.com/en/mobile/high-dpi/" target="_blank" rel="external">More information about working with pixel density</a></li>
+<li><a href="https://github.com/ResponsiveImagesCG/picture-element/issues/86" target="_blank" rel="external">Working with h units</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wallaby" target="_blank" rel="external">Wikipedia wallabies</a></li>
+</ul>
+<h4 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h4><ul>
+<li>There are two flavors of <code>srcset</code>, one using <code>x</code> to differentiate between <strong>device pixel ratios (DPR)</strong>, and the other using <code>w</code> to describe the image’s width.</li>
+</ul>
+<h5 id="Reacting-to-Device-Pixel-Ratio"><a href="#Reacting-to-Device-Pixel-Ratio" class="headerlink" title="Reacting to Device Pixel Ratio"></a>Reacting to Device Pixel Ratio</h5><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">img</span> src=<span class="string">"image_2x.jpg"</span> srcset=<span class="string">"image_2x.jpg 2x, image_1x.jpg 1x"</span> alt=<span class="string">"a cool image"</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>Set <code>srcset</code> equal to a comma separated string of <code>filename multiplier</code> pairs, where each <code>multiplier</code> must be an integer followed by an <code>x</code>.</p>
+<p>For example, <code>1x</code> represents <code>1x</code> displays and <code>2x</code> represents displays with twice the pixel density, like Apple’s Retina displays.</p>
+<p>The browser will download the image that best corresponds to its DPR .</p>
+<p>Also, note that there’s a <code>src</code> attribute as a <strong>fallback</strong>.</p>
+<h5 id="Reacting-to-Image-Width"><a href="#Reacting-to-Image-Width" class="headerlink" title="Reacting to Image Width"></a>Reacting to Image Width</h5><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">img</span> src=<span class="string">"image_200.jpg"</span> srcset=<span class="string">"image_200.jpg 200w, image_100.jpg 100w"</span> alt=<span class="string">"a cool image"</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>Set <code>srcset</code> equal to a comma separated string of <code>filename widthDescriptor</code> pairs, where each <code>widthDescriptor</code> is measured in pixels and must be an integer followed by a <code>w</code>. Here, the <code>widthDescriptor</code> gives the natural width of each image file, which enables the browser to choose the most appropriate image to request, depending on viewport size and DPR. (Without the <code>widthDescriptor</code>, the browser cannot know the width of an image without downloading it!)</p>
+<p>Also, note that there’s a <code>src</code> attribute as a <strong>fallback</strong>.</p>
+<h5 id="srcset-with-sizes-Syntax"><a href="#srcset-with-sizes-Syntax" class="headerlink" title="srcset with sizes Syntax"></a>srcset with sizes Syntax</h5><p>Here’s an example:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">img</span>  src=<span class="string">"images/great_pic_800.jpg"</span></span><br><span class="line">      sizes=<span class="string">"(max-width: 400px) 100vw, (min-width: 401px) 50vw"</span></span><br><span class="line">      srcset=<span class="string">"images/great_pic_400.jpg 400w, images/great_pic_800.jpg 800w"</span></span><br><span class="line">      alt=<span class="string">"great picture"</span>&gt;</span><br></pre></td></tr></table></figure></p>
+<p><code>sizes</code> consists of comma separated <code>mediaQuery width</code> pairs. <code>sizes</code> tells the browser early in the load process that the image will be displayed at some <code>width</code> when the <code>mediaQuery</code> is hit.</p>
+<p>In fact, if sizes is missing, the browser defaults sizes to 100vw, meaning that it expects the image will display at the full viewport width.</p>
+<p>sizes gives the browser one more piece of information to ensure that it downloads the right image file based on the eventual display width of the image. Just to be clear, it does not actually resize the image - that’s what CSS does.</p>
+<h3 id="Sizes"><a href="#Sizes" class="headerlink" title="Sizes"></a>Sizes</h3><p>Examples:</p>
+<ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-03/srcsetWValues" target="_blank" rel="external">srcset with w values</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-03/srcsetWValues50vw" target="_blank" rel="external">srcset with w values, 50vw</a><br><strong>Notice:</strong></li>
+</ul>
+<ol>
+<li>In JavaScript you can get the source of an <code>img</code> element with <code>currentSrc</code>.</li>
+<li>The <code>sizes</code> attribute gives the browser information about the display size of an image element – it does not actually cause the image to be resized. That’s done in CSS!</li>
+</ol>
+<h3 id="The-Picture-Element"><a href="#The-Picture-Element" class="headerlink" title="The Picture Element"></a>The Picture Element</h3><p>Example:</p>
+<ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-06/pictureAlternativeFormats" target="_blank" rel="external">Picture element: alternative image formats</a></li>
+<li><a href="https://developers.google.com/speed/webp/?csw=1" target="_blank" rel="external">More information about WebP</a></li>
+</ul>
+<h3 id="Accessibility"><a href="#Accessibility" class="headerlink" title="Accessibility"></a>Accessibility</h3><ul>
+<li><a href="http://invisible-island.net/lynx/" target="_blank" rel="external">Here’s Lynx</a></li>
+<li><a href="http://www.chromevox.com/" target="_blank" rel="external">Here’s ChromeVox</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-04/forARIA/index.html" target="_blank" rel="external">Here’s the site Cam uses</a></li>
+</ul>
+<h3 id="The-Full-Monty"><a href="#The-Full-Monty" class="headerlink" title="The Full Monty"></a>The Full Monty</h3><p>Examples:</p>
+<ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-08/pictureArtDirection" target="_blank" rel="external">Picture element: art direction</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-08/pictureFullMonty" target="_blank" rel="external">Picture element: with srcset and media queries</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/3-08/picturefill" target="_blank" rel="external">Picturefill polyfill</a></li>
+</ul>
+<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul>
+<li><a href="http://www.html5rocks.com/tutorials/responsive/picture-element/" target="_blank" rel="external">Built-in Browser Support for Responsive Images</a>: <strong>Useful</strong></li>
+<li>Download <strong>Picturefill</strong> <a href="http://scottjehl.github.io/picturefill/" target="_blank" rel="external">here</a></li>
+<li><a href="https://responsiveimagescg.github.io/cq-usecases/" target="_blank" rel="external">Element Queries</a> will work like Media Queries, but with reference to the size of an element’s parent container rather than viewport size. Browser implementation is in progress and in the meantime there’s a polyfill <a href="https://github.com/marcj/css-element-queries" target="_blank" rel="external">here</a>.</li>
+</ul>
+<p>Lots of other <code>&lt;picture&gt;</code> use cases, examples and code snippets are available <a href="https://dev.opera.com/articles/responsive-images/" target="_blank" rel="external">here</a>.</p>
+<p>Find out more about responsive images from the <a href="http://responsiveimages.org/" target="_blank" rel="external">Responsive Images Community Group</a>.</p>
 	  
 
 	  <div>
@@ -104,21 +185,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 		
 			
-			
-		
-	
-		
-			
-			
-			
-		
-			
-		
-	
-		
-	
-		
-	
 		
 	
 		
@@ -127,18 +193,15 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 		
 			
-		
-	
-		
-	
-		
-	
-		
-	
+			
 		
 	
 		
 			
+			
+			
+		
+	
 		
 	
 		
@@ -154,7 +217,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		
 	
 		
+			
+		
 	
+		
+	
+		
+	
+		
+	
+		
+			
 		
 	
 		
@@ -219,12 +292,20 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 		
 	
+		
 	
-		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+		
+	
+		
+	
+		
+	
+	
+		<li class="prev"><a href="/2017/04/16/Udacity-Units_Formats_Environments/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next"><a href="/2017/04/16/Udacity-Machine-Learning/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next"><a href="/2017/03/26/Images_with_Markup/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>
