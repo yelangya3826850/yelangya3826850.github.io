@@ -41,6 +41,73 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Units Formats and Environments]]></title>
+      <url>http://yoursite.com/2017/04/16/Udacity-Units_Formats_Environments/</url>
+      <content type="html"><![CDATA[<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ul>
+<li>Add images with image caption: Using <strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank" rel="external">figure</a></strong> tag – <strong>Useful</strong>.</li>
+</ul>
+<h3 id="Image-compression"><a href="#Image-compression" class="headerlink" title="Image compression"></a>Image compression</h3><ul>
+<li><strong>PageSpeed Insights</strong> is no longer part of Developer Tools. It has been <a href="https://developers.google.com/speed/pagespeed/insights_extensions" target="_blank" rel="external">deprecated</a>. The <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="external">online version</a> is still available.</li>
+<li><a href="http://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/" target="_blank" rel="external">How to use grunt to generate multi-resolution images</a>: <strong>Very useful!!!</strong></li>
+<li>How to start with grunt: <a href="http://gruntjs.com/getting-started" target="_blank" rel="external">Getting started with Grunt</a> and <a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/" target="_blank" rel="external">Grunt for People Who Think Things Like Grunt are Weird and Hard</a></li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><strong><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="external">PageSpeed Insights</a></strong>: It can provide some suggestions about how to optimize the website!<strong>Useful</strong></li>
+<li><strong><a href="https://developers.google.com/speed/pagespeed/insights/?url=simpl.info%2Fcssfilters" target="_blank" rel="external">PageSpeed Insights Example</a></strong>: <strong>Useful</strong></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank" rel="external">Learn more about the figure tag!</a>: <strong>Useful</strong></li>
+</ul>
+<h3 id="ImageMagick"><a href="#ImageMagick" class="headerlink" title="ImageMagick:"></a>ImageMagick:</h3><ul>
+<li><a href="http://www.imagemagick.org/" target="_blank" rel="external">ImageMagick</a></li>
+<li><a href="http://cactuslab.com/imagemagick/" target="_blank" rel="external">Simple ImageMagick installer for Mac</a></li>
+<li><a href="http://www.graphicsmagick.org/" target="_blank" rel="external">GraphicsMagick</a> (a fork of ImageMagick)</li>
+</ul>
+<h3 id="Grunt"><a href="#Grunt" class="headerlink" title="Grunt:"></a>Grunt:</h3><ol>
+<li>For how to start the grunt.</li>
+</ol>
+<ul>
+<li><p><a href="http://gruntjs.com/getting-started" target="_blank" rel="external">Getting started with Grunt</a></p>
+</li>
+<li><p><a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/" target="_blank" rel="external">Grunt for People Who Think Things Like Grunt are Weird and Hard</a></p>
+</li>
+</ul>
+<ol>
+<li>After start up the grunt, follow the following links to to use it.</li>
+</ol>
+<ul>
+<li><p><a href="http://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/" target="_blank" rel="external">Generate multi-resolution images with Grunt</a></p>
+</li>
+<li><p><a href="https://github.com/andismith/grunt-responsive-images" target="_blank" rel="external">Grunt plugin for generating multiple images</a></p>
+</li>
+</ul>
+<h3 id="Files-used-in-scripting-examples"><a href="#Files-used-in-scripting-examples" class="headerlink" title="Files used in scripting examples:"></a>Files used in scripting examples:</h3><ul>
+<li><a href="http://udacity.github.io/responsive-images/convert.sh" target="_blank" rel="external">convert.sh</a> (includes instructions)</li>
+<li><a href="http://udacity.github.io/responsive-images/Gruntfile.js" target="_blank" rel="external">Gruntfile.js</a> (remove line 7, engine: ‘im’, on Windows)</li>
+<li><a href="https://github.com/BBC-News/Imager.js/" target="_blank" rel="external">Imager.js</a>: responsive image loading developed for BBC News</li>
+</ul>
+<h3 id="Image-processing-tools"><a href="#Image-processing-tools" class="headerlink" title="Image processing tools:"></a>Image processing tools:</h3><ul>
+<li><a href="http://imageoptim.com/" target="_blank" rel="external">ImageOptim</a> (Mac only)</li>
+<li><a href="http://trimage.org/" target="_blank" rel="external">Trimage</a> - Similar to ImageOptim (Windows, Mac, Linux)</li>
+<li><a href="https://github.com/pornel/ImageAlpha" target="_blank" rel="external">ImageAlpha</a></li>
+</ul>
+<h3 id="Image-compression-1"><a href="#Image-compression-1" class="headerlink" title="Image compression"></a>Image compression</h3><ul>
+<li><a href="https://developers.google.com/speed/pagespeed/insights/?url=simpl.info%2Fcssfilters" target="_blank" rel="external">PageSpeed Insights example</a></li>
+<li><a href="https://www.npmjs.com/package/grunt-pagespeed" target="_blank" rel="external">Grunt PageSpeed plugin</a></li>
+<li><a href="https://github.com/addyosmani/psi/" target="_blank" rel="external">PageSpeed Node module</a></li>
+<li><a href="http://www.thegeekstuff.com/2012/04/curl-examples/" target="_blank" rel="external">cURL examples</a></li>
+<li><a href="https://github.com/addyosmani/psi/" target="_blank" rel="external">PageSpeed Insights Node module</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Udacity </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Full Responsiveness]]></title>
       <url>http://yoursite.com/2017/04/16/Udacity-Full-Responsiveness/</url>
       <content type="html"><![CDATA[<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ul>
@@ -143,73 +210,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Units Formats and Environments]]></title>
-      <url>http://yoursite.com/2017/04/16/Udacity-Units_Formats_Environments/</url>
-      <content type="html"><![CDATA[<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ul>
-<li>Add images with image caption: Using <strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank" rel="external">figure</a></strong> tag – <strong>Useful</strong>.</li>
-</ul>
-<h3 id="Image-compression"><a href="#Image-compression" class="headerlink" title="Image compression"></a>Image compression</h3><ul>
-<li><strong>PageSpeed Insights</strong> is no longer part of Developer Tools. It has been <a href="https://developers.google.com/speed/pagespeed/insights_extensions" target="_blank" rel="external">deprecated</a>. The <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="external">online version</a> is still available.</li>
-<li><a href="http://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/" target="_blank" rel="external">How to use grunt to generate multi-resolution images</a>: <strong>Very useful!!!</strong></li>
-<li>How to start with grunt: <a href="http://gruntjs.com/getting-started" target="_blank" rel="external">Getting started with Grunt</a> and <a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/" target="_blank" rel="external">Grunt for People Who Think Things Like Grunt are Weird and Hard</a></li>
-</ul>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><strong><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="external">PageSpeed Insights</a></strong>: It can provide some suggestions about how to optimize the website!<strong>Useful</strong></li>
-<li><strong><a href="https://developers.google.com/speed/pagespeed/insights/?url=simpl.info%2Fcssfilters" target="_blank" rel="external">PageSpeed Insights Example</a></strong>: <strong>Useful</strong></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank" rel="external">Learn more about the figure tag!</a>: <strong>Useful</strong></li>
-</ul>
-<h3 id="ImageMagick"><a href="#ImageMagick" class="headerlink" title="ImageMagick:"></a>ImageMagick:</h3><ul>
-<li><a href="http://www.imagemagick.org/" target="_blank" rel="external">ImageMagick</a></li>
-<li><a href="http://cactuslab.com/imagemagick/" target="_blank" rel="external">Simple ImageMagick installer for Mac</a></li>
-<li><a href="http://www.graphicsmagick.org/" target="_blank" rel="external">GraphicsMagick</a> (a fork of ImageMagick)</li>
-</ul>
-<h3 id="Grunt"><a href="#Grunt" class="headerlink" title="Grunt:"></a>Grunt:</h3><ol>
-<li>For how to start the grunt.</li>
-</ol>
-<ul>
-<li><p><a href="http://gruntjs.com/getting-started" target="_blank" rel="external">Getting started with Grunt</a></p>
-</li>
-<li><p><a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/" target="_blank" rel="external">Grunt for People Who Think Things Like Grunt are Weird and Hard</a></p>
-</li>
-</ul>
-<ol>
-<li>After start up the grunt, follow the following links to to use it.</li>
-</ol>
-<ul>
-<li><p><a href="http://addyosmani.com/blog/generate-multi-resolution-images-for-srcset-with-grunt/" target="_blank" rel="external">Generate multi-resolution images with Grunt</a></p>
-</li>
-<li><p><a href="https://github.com/andismith/grunt-responsive-images" target="_blank" rel="external">Grunt plugin for generating multiple images</a></p>
-</li>
-</ul>
-<h3 id="Files-used-in-scripting-examples"><a href="#Files-used-in-scripting-examples" class="headerlink" title="Files used in scripting examples:"></a>Files used in scripting examples:</h3><ul>
-<li><a href="http://udacity.github.io/responsive-images/convert.sh" target="_blank" rel="external">convert.sh</a> (includes instructions)</li>
-<li><a href="http://udacity.github.io/responsive-images/Gruntfile.js" target="_blank" rel="external">Gruntfile.js</a> (remove line 7, engine: ‘im’, on Windows)</li>
-<li><a href="https://github.com/BBC-News/Imager.js/" target="_blank" rel="external">Imager.js</a>: responsive image loading developed for BBC News</li>
-</ul>
-<h3 id="Image-processing-tools"><a href="#Image-processing-tools" class="headerlink" title="Image processing tools:"></a>Image processing tools:</h3><ul>
-<li><a href="http://imageoptim.com/" target="_blank" rel="external">ImageOptim</a> (Mac only)</li>
-<li><a href="http://trimage.org/" target="_blank" rel="external">Trimage</a> - Similar to ImageOptim (Windows, Mac, Linux)</li>
-<li><a href="https://github.com/pornel/ImageAlpha" target="_blank" rel="external">ImageAlpha</a></li>
-</ul>
-<h3 id="Image-compression-1"><a href="#Image-compression-1" class="headerlink" title="Image compression"></a>Image compression</h3><ul>
-<li><a href="https://developers.google.com/speed/pagespeed/insights/?url=simpl.info%2Fcssfilters" target="_blank" rel="external">PageSpeed Insights example</a></li>
-<li><a href="https://www.npmjs.com/package/grunt-pagespeed" target="_blank" rel="external">Grunt PageSpeed plugin</a></li>
-<li><a href="https://github.com/addyosmani/psi/" target="_blank" rel="external">PageSpeed Node module</a></li>
-<li><a href="http://www.thegeekstuff.com/2012/04/curl-examples/" target="_blank" rel="external">cURL examples</a></li>
-<li><a href="https://github.com/addyosmani/psi/" target="_blank" rel="external">PageSpeed Insights Node module</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Udacity </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Full Stack Web Developer]]></title>
       <url>http://yoursite.com/2017/04/16/Udacity-Full_Stack_Web_Developer/</url>
       <content type="html"><![CDATA[<h2 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h2><h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><h3 id="Webcasts-for-the-Full-Stack-Web-Developer"><a href="#Webcasts-for-the-Full-Stack-Web-Developer" class="headerlink" title="Webcasts for the Full Stack Web Developer"></a>Webcasts for the Full Stack Web Developer</h3><p><strong>Tools of the Trade</strong></p>
@@ -272,29 +272,133 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Latex Beamer]]></title>
-      <url>http://yoursite.com/2017/03/26/LateX-Beamer/</url>
-      <content type="html"><![CDATA[<h2 id="LateX-Beamer"><a href="#LateX-Beamer" class="headerlink" title="LateX Beamer"></a>LateX Beamer</h2><h3 id="Common-Error"><a href="#Common-Error" class="headerlink" title="Common Error"></a>Common Error</h3><p><br></p>
-<h4 id="Font-Warning"><a href="#Font-Warning" class="headerlink" title="Font Warning"></a>Font Warning</h4><ul>
-<li>Font Warning: Font shape `OT1/cmss/m/n’<div class="alert alert-warning"><i class="fa fa-bell"></i>  LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available(Font) size <5> substituded on input line 65</5></4></div>
-<strong>Solution:</strong> Add <code>\usepackage{lmodern}</code></li>
-</ul>
-<p><br></p>
-<h4 id="Token-not-allowed"><a href="#Token-not-allowed" class="headerlink" title="Token not allowed"></a>Token not allowed</h4><ul>
-<li>Token not allowed<div class="alert alert-warning"><i class="fa fa-bell"></i>  Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):(hyperref) removing `\\' on input line 48</div>
-<strong>Solution:</strong> Add a definition before the <code>\begin{document}</code><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">% define the line <span class="keyword">break</span> <span class="string">\\</span></span><br><span class="line"><span class="string">\pdfstringdefDisableCommands&#123;</span></span><br><span class="line">    <span class="string">\def\\&#123;&#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      <title><![CDATA[Anaconda]]></title>
+      <url>http://yoursite.com/2017/03/26/Anaconda/</url>
+      <content type="html"><![CDATA[<h2 id="Anaconda-Installation"><a href="#Anaconda-Installation" class="headerlink" title="Anaconda Installation"></a>Anaconda Installation</h2><h2 id="Anaconda-Command"><a href="#Anaconda-Command" class="headerlink" title="Anaconda Command"></a>Anaconda Command</h2><ol>
+<li>Use <code>conda</code> to create virtual environment<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda <span class="built_in">create</span> -n py2 python=<span class="number">2</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">2.</span>* installed</span><br><span class="line"></span><br><span class="line">conda <span class="built_in">create</span> -n py3 python=<span class="number">3</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">3.</span>* installed</span><br></pre></td></tr></table></figure>
 </li>
+</ol>
+<h2 id="Environments"><a href="#Environments" class="headerlink" title="Environments"></a>Environments</h2><h3 id="share-environments"><a href="#share-environments" class="headerlink" title="share environments"></a>share environments</h3><ol>
+<li><p>Generate your own <code>environment.yaml</code> file</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env <span class="keyword">export</span> &gt; environment.yaml</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>For people not using conda, share the pip <code>requirements.txt</code> file: <a href="https://pip.pypa.io/en/stable/reference/pip_freeze/" target="_blank" rel="external">more information</a></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">pip</span> <span class="selector-tag">freeze</span> &gt; <span class="selector-tag">requirements</span><span class="selector-class">.txt</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="Listing-environments"><a href="#Listing-environments" class="headerlink" title="Listing environments"></a>Listing environments</h3><ul>
+<li>Use <code>conda env list</code> to list out all the environments you’ve created. You should see a list of environments, there will be an <strong>asterisk</strong> next to the environment you’re currently in. The default environment, the environment used when you aren’t in one, is called <code>root</code>.</li>
 </ul>
-<p><br></p>
-<ul>
-<li>Token not allowed<div class="alert alert-warning"><i class="fa fa-bell"></i>  Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):(hyperref) removing `\new@ifnextchar' on input line 48</div>
-<strong>Solution:</strong> Add a definition before the <code>\begin{document}</code><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% define the commands</span></span><br><span class="line"><span class="tag">\<span class="name">pdfstringdefDisableCommands</span><span class="string">&#123;</span><br><span class="line">    \def\\&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">texttt</span></span>#1&#123;&lt;#1&gt;&#125;</span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">medskip</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">smallskip</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">vspace</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<h3 id="Removing-environments"><a href="#Removing-environments" class="headerlink" title="Removing environments"></a>Removing environments</h3><ul>
+<li>Use <code>conda env remove -n env_name</code> will remove the specified environment (here, named <code>env_name</code>).</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="http://conda.pydata.org/docs/using/index.html" target="_blank" rel="external">conda documentation</a></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> LateX </category>
+            <category> Toolbox Udacity </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Udacity Materials]]></title>
+      <url>http://yoursite.com/2017/03/26/Udacity/</url>
+      <content type="html"><![CDATA[<h2 id="Udacity-Courses"><a href="#Udacity-Courses" class="headerlink" title="Udacity Courses"></a>Udacity Courses</h2><ol>
+<li><a href="_post/">Full Stack Web Developer</a></li>
+</ol>
+<h2 id="Udacity-Materials"><a href="#Udacity-Materials" class="headerlink" title="Udacity Materials"></a>Udacity Materials</h2><ul>
+<li><p><a href="https://docs.google.com/document/d/1np1OCVktcEkiNC3vhSoNJPZi3OoTb_ZvOtWK6aEMzP0/pub?embedded=true" target="_blank" rel="external">Nanodegree Student Handbook</a></p>
+</li>
+<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a></p>
+</li>
+<li><p><a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank" rel="external">A Primer on Using LaTeX in Jupyter Notebooks</a></p>
+</li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="external">Markdown cheatsheet</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Udacity </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Images With Markup]]></title>
+      <url>http://yoursite.com/2017/03/26/Images_with_Markup/</url>
+      <content type="html"><![CDATA[<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ul>
+<li>Add icon using icon font: <strong>Useful</strong><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// first: add the import into the css file</span></span><br><span class="line"><span class="keyword">@import</span> url(<span class="string">http://weloveiconfonts.com/api/?family=zocial</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Then: use 'before' selector to configure</span></span><br><span class="line"><span class="selector-attr">[class*="zocial-"]</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">'zocial'</span>, sans-serif;</span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">3px</span> <span class="number">3px</span> <span class="number">3px</span> <span class="number">#aaa</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">20vw</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><h3 id="Text-problems"><a href="#Text-problems" class="headerlink" title="Text problems"></a>Text problems</h3><p>A comparison of different types of <code>text</code></p>
+<ul>
+<li><a href="/imgs/textAsImage.jpg">Text as image</a></li>
+<li><a href="/imgs/textOverImage.jpg">Text as image over photo</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-02/textAsText" target="_blank" rel="external">Text using Web Font</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-02/textAsTextOverPhoto" target="_blank" rel="external">Text as text, over photo</a></li>
+</ul>
+<h3 id="CSS-Techniques"><a href="#CSS-Techniques" class="headerlink" title="CSS Techniques"></a>CSS Techniques</h3><ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-04/divWithCssEffects" target="_blank" rel="external">CSS effects</a></li>
+<li><a href="http://smashingmagazine.com/2013/04/03/build-fast-loading-mobile-website" target="_blank" rel="external">How CSS affects load time</a></li>
+</ul>
+<h3 id="CSS-Background-Images"><a href="#CSS-Background-Images" class="headerlink" title="CSS Background Images"></a>CSS Background Images</h3><ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-06/divWithBackgroundImage" target="_blank" rel="external">Div with background image</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-06/backgroundSizeCover" target="_blank" rel="external">CSS background-size: cover</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-06/bodyWithBackgroundImage" target="_blank" rel="external">Body with background image</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-06/bodyWithBackgroundImageAndGradient" target="_blank" rel="external">Body with background image and gradient</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-06/bodyWithElaboratePatternPureCSS" target="_blank" rel="external">Body with elaborate background using only CSS</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-06/backgroundImageConditional" target="_blank" rel="external">Using CSS background images for conditional image display</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-06/backgroundImageAlternative" target="_blank" rel="external">Using CSS background images for alternative images</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-06/imageSet" target="_blank" rel="external">image-set()</a></li>
+</ul>
+<h3 id="Symbol-characters"><a href="#Symbol-characters" class="headerlink" title="Symbol characters"></a>Symbol characters</h3><ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-08/unicodeStar" target="_blank" rel="external">Unicode instead of an image</a></li>
+<li><a href="http://unicode-table.com/en/sets/" target="_blank" rel="external">Unicode character sets</a></li>
+<li><a href="http://en.wikipedia.org/wiki/List_of_Unicode_characters" target="_blank" rel="external">List of Unicode characters</a></li>
+</ul>
+<h3 id="Unicode-Treble-Clef"><a href="#Unicode-Treble-Clef" class="headerlink" title="Unicode Treble Clef"></a>Unicode Treble Clef</h3><ul>
+<li><p><a href="http://unicode-table.com/" target="_blank" rel="external">Here’s a big list of unicode characters</a></p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// If you want to <span class="keyword">use</span> <span class="keyword">unicode</span>, <span class="keyword">add</span> a meta tag <span class="keyword">in</span> &lt;<span class="keyword">head</span>&gt;</span><br><span class="line">&lt;meta <span class="keyword">http</span>-equiv=<span class="string">"Content-Type"</span> <span class="keyword">content</span>=<span class="string">"text/html"</span> <span class="keyword">charset</span>=<span class="string">"utf-8"</span>&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank" rel="external">More on meta tag charsets</a><br>Having trouble seeing unicode characters? Unfortunately, not all browsers include the fonts needed to see all unicode characters by default. <a href="http://www.alanwood.net/unicode/#links" target="_blank" rel="external">This site</a> will help you determine what characters your browser can render and <a href="http://gschoppe.com/uncategorized/fixing-unicode-support-in-google-chrome/" target="_blank" rel="external">here’s some advice</a> for enabling unicode with Chrome on Windows.</p>
+</li>
+</ul>
+<h3 id="Icon-Fonts"><a href="#Icon-Fonts" class="headerlink" title="Icon Fonts"></a>Icon Fonts</h3><ul>
+<li><a href="http://zocial.smcllns.com/" target="_blank" rel="external">Zocial</a></li>
+<li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank" rel="external">Font Awesome</a></li>
+<li><a href="http://weloveiconfonts.com/" target="_blank" rel="external">We Love Icon Fonts!</a></li>
+<li><a href="https://css-tricks.com/examples/IconFont/" target="_blank" rel="external">Icon fonts on CSS-Tricks</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" target="_blank" rel="external">ARIA</a>: Accessible Rich Internet Applications (ARIA) defines ways to make Web content and Web applications (especially those developed with Ajax and JavaScript) more accessible to people with disabilities. For example, ARIA enables accessible <strong>navigation landmarks</strong>, <strong>JavaScript widgets</strong>, form hints and error messages, live content updates, and more.</li>
+</ul>
+<h3 id="Inlining-Images-With-SVG-And-Data-URIs"><a href="#Inlining-Images-With-SVG-And-Data-URIs" class="headerlink" title="Inlining Images With SVG And Data URIs"></a>Inlining Images With SVG And Data URIs</h3><h5 id="Examples"><a href="#Examples" class="headerlink" title="Examples:"></a>Examples:</h5><ul>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-11/svgDataUri" target="_blank" rel="external">SVG Data URI in HTML</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-11/svgDataUriCss" target="_blank" rel="external">SVG Data URI in CSS</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-11/svgTextOnAPath" target="_blank" rel="external">SVG text on a path</a></li>
+<li><a href="http://udacity.github.io/responsive-images/examples/2-11/svgUnoptimisedAndOptimised" target="_blank" rel="external">SVG optimized and unoptimized</a></li>
+</ul>
+<p>Inline images can greatly reduce the number of file requests, but if the image will be <strong>reused</strong> many times, an <strong>external file</strong> probably makes more sense. Data URIs provide a way to include a file such as an image inline as a base64 encoded string using the following format:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">img</span> src=<span class="string">"data:image/svg+xml;base64,[data]"</span>&gt;</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><a href="http://caniuse.com/#feat=svg-html5" target="_blank" rel="external">Browser support for inline SVG</a></li>
+<li><a href="http://caniuse.com/datauri" target="_blank" rel="external">Browser support for Data URIs</a></li>
+<li><a href="http://petercollingridge.appspot.com/svg-optimiser" target="_blank" rel="external">SVG Optimiser</a></li>
+<li><a href="http://upload.wikimedia.org/wikipedia/commons/6/6c/Trajans-Column-lower-animated.svg" target="_blank" rel="external">Trajan’s Column SVG example</a></li>
+<li><a href="http://www.creativebloq.com/design/examples-svg-7112785" target="_blank" rel="external">20 examples of SVG that will make your jaw drop</a></li>
+<li><a href="http://codepen.io/chrisgannon/" target="_blank" rel="external">SVG animation examples</a>: <strong>Very useful!!!</strong></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Udacity </category>
             
         </categories>
         
@@ -376,168 +480,29 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Udacity Materials]]></title>
-      <url>http://yoursite.com/2017/03/26/Udacity/</url>
-      <content type="html"><![CDATA[<h2 id="Udacity-Courses"><a href="#Udacity-Courses" class="headerlink" title="Udacity Courses"></a>Udacity Courses</h2><ol>
-<li><a href="_post/">Full Stack Web Developer</a></li>
-</ol>
-<h2 id="Udacity-Materials"><a href="#Udacity-Materials" class="headerlink" title="Udacity Materials"></a>Udacity Materials</h2><ul>
-<li><p><a href="https://docs.google.com/document/d/1np1OCVktcEkiNC3vhSoNJPZi3OoTb_ZvOtWK6aEMzP0/pub?embedded=true" target="_blank" rel="external">Nanodegree Student Handbook</a></p>
-</li>
-<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a></p>
-</li>
-<li><p><a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank" rel="external">A Primer on Using LaTeX in Jupyter Notebooks</a></p>
-</li>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="external">Markdown cheatsheet</a></li>
+      <title><![CDATA[Latex Beamer]]></title>
+      <url>http://yoursite.com/2017/03/26/LateX-Beamer/</url>
+      <content type="html"><![CDATA[<h2 id="LateX-Beamer"><a href="#LateX-Beamer" class="headerlink" title="LateX Beamer"></a>LateX Beamer</h2><h3 id="Common-Error"><a href="#Common-Error" class="headerlink" title="Common Error"></a>Common Error</h3><p><br></p>
+<h4 id="Font-Warning"><a href="#Font-Warning" class="headerlink" title="Font Warning"></a>Font Warning</h4><ul>
+<li>Font Warning: Font shape `OT1/cmss/m/n’<div class="alert alert-warning"><i class="fa fa-bell"></i>  LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available(Font) size <5> substituded on input line 65</5></4></div>
+<strong>Solution:</strong> Add <code>\usepackage{lmodern}</code></li>
 </ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Udacity </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Anaconda]]></title>
-      <url>http://yoursite.com/2017/03/26/Anaconda/</url>
-      <content type="html"><![CDATA[<h2 id="Anaconda-Installation"><a href="#Anaconda-Installation" class="headerlink" title="Anaconda Installation"></a>Anaconda Installation</h2><h2 id="Anaconda-Command"><a href="#Anaconda-Command" class="headerlink" title="Anaconda Command"></a>Anaconda Command</h2><ol>
-<li>Use <code>conda</code> to create virtual environment<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda <span class="built_in">create</span> -n py2 python=<span class="number">2</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">2.</span>* installed</span><br><span class="line"></span><br><span class="line">conda <span class="built_in">create</span> -n py3 python=<span class="number">3</span> %% <span class="built_in">create</span> <span class="keyword">a</span> virtual environment <span class="keyword">with</span> python <span class="number">3.</span>* installed</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="Environments"><a href="#Environments" class="headerlink" title="Environments"></a>Environments</h2><h3 id="share-environments"><a href="#share-environments" class="headerlink" title="share environments"></a>share environments</h3><ol>
-<li><p>Generate your own <code>environment.yaml</code> file</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env <span class="keyword">export</span> &gt; environment.yaml</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>For people not using conda, share the pip <code>requirements.txt</code> file: <a href="https://pip.pypa.io/en/stable/reference/pip_freeze/" target="_blank" rel="external">more information</a></p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">pip</span> <span class="selector-tag">freeze</span> &gt; <span class="selector-tag">requirements</span><span class="selector-class">.txt</span></span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="Listing-environments"><a href="#Listing-environments" class="headerlink" title="Listing environments"></a>Listing environments</h3><ul>
-<li>Use <code>conda env list</code> to list out all the environments you’ve created. You should see a list of environments, there will be an <strong>asterisk</strong> next to the environment you’re currently in. The default environment, the environment used when you aren’t in one, is called <code>root</code>.</li>
-</ul>
-<h3 id="Removing-environments"><a href="#Removing-environments" class="headerlink" title="Removing environments"></a>Removing environments</h3><ul>
-<li>Use <code>conda env remove -n env_name</code> will remove the specified environment (here, named <code>env_name</code>).</li>
-</ul>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><a href="http://conda.pydata.org/docs/using/index.html" target="_blank" rel="external">conda documentation</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox Udacity </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Images With Markup]]></title>
-      <url>http://yoursite.com/2017/03/26/Images_with_Markup/</url>
-      <content type="html"><![CDATA[<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ul>
-<li>Add icon using icon font: <strong>Useful</strong><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// first: add the import into the css file</span></span><br><span class="line"><span class="keyword">@import</span> url(<span class="string">http://weloveiconfonts.com/api/?family=zocial</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Then: use 'before' selector to configure</span></span><br><span class="line"><span class="selector-attr">[class*="zocial-"]</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">'zocial'</span>, sans-serif;</span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">3px</span> <span class="number">3px</span> <span class="number">3px</span> <span class="number">#aaa</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">20vw</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<h4 id="Token-not-allowed"><a href="#Token-not-allowed" class="headerlink" title="Token not allowed"></a>Token not allowed</h4><ul>
+<li>Token not allowed<div class="alert alert-warning"><i class="fa fa-bell"></i>  Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):(hyperref) removing `\\' on input line 48</div>
+<strong>Solution:</strong> Add a definition before the <code>\begin{document}</code><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">% define the line <span class="keyword">break</span> <span class="string">\\</span></span><br><span class="line"><span class="string">\pdfstringdefDisableCommands&#123;</span></span><br><span class="line">    <span class="string">\def\\&#123;&#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><h3 id="Text-problems"><a href="#Text-problems" class="headerlink" title="Text problems"></a>Text problems</h3><p>A comparison of different types of <code>text</code></p>
+<p><br></p>
 <ul>
-<li><a href="/imgs/textAsImage.jpg">Text as image</a></li>
-<li><a href="/imgs/textOverImage.jpg">Text as image over photo</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-02/textAsText" target="_blank" rel="external">Text using Web Font</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-02/textAsTextOverPhoto" target="_blank" rel="external">Text as text, over photo</a></li>
-</ul>
-<h3 id="CSS-Techniques"><a href="#CSS-Techniques" class="headerlink" title="CSS Techniques"></a>CSS Techniques</h3><ul>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-04/divWithCssEffects" target="_blank" rel="external">CSS effects</a></li>
-<li><a href="http://smashingmagazine.com/2013/04/03/build-fast-loading-mobile-website" target="_blank" rel="external">How CSS affects load time</a></li>
-</ul>
-<h3 id="CSS-Background-Images"><a href="#CSS-Background-Images" class="headerlink" title="CSS Background Images"></a>CSS Background Images</h3><ul>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-06/divWithBackgroundImage" target="_blank" rel="external">Div with background image</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-06/backgroundSizeCover" target="_blank" rel="external">CSS background-size: cover</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-06/bodyWithBackgroundImage" target="_blank" rel="external">Body with background image</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-06/bodyWithBackgroundImageAndGradient" target="_blank" rel="external">Body with background image and gradient</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-06/bodyWithElaboratePatternPureCSS" target="_blank" rel="external">Body with elaborate background using only CSS</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-06/backgroundImageConditional" target="_blank" rel="external">Using CSS background images for conditional image display</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-06/backgroundImageAlternative" target="_blank" rel="external">Using CSS background images for alternative images</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-06/imageSet" target="_blank" rel="external">image-set()</a></li>
-</ul>
-<h3 id="Symbol-characters"><a href="#Symbol-characters" class="headerlink" title="Symbol characters"></a>Symbol characters</h3><ul>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-08/unicodeStar" target="_blank" rel="external">Unicode instead of an image</a></li>
-<li><a href="http://unicode-table.com/en/sets/" target="_blank" rel="external">Unicode character sets</a></li>
-<li><a href="http://en.wikipedia.org/wiki/List_of_Unicode_characters" target="_blank" rel="external">List of Unicode characters</a></li>
-</ul>
-<h3 id="Unicode-Treble-Clef"><a href="#Unicode-Treble-Clef" class="headerlink" title="Unicode Treble Clef"></a>Unicode Treble Clef</h3><ul>
-<li><p><a href="http://unicode-table.com/" target="_blank" rel="external">Here’s a big list of unicode characters</a></p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// If you want to <span class="keyword">use</span> <span class="keyword">unicode</span>, <span class="keyword">add</span> a meta tag <span class="keyword">in</span> &lt;<span class="keyword">head</span>&gt;</span><br><span class="line">&lt;meta <span class="keyword">http</span>-equiv=<span class="string">"Content-Type"</span> <span class="keyword">content</span>=<span class="string">"text/html"</span> <span class="keyword">charset</span>=<span class="string">"utf-8"</span>&gt;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank" rel="external">More on meta tag charsets</a><br>Having trouble seeing unicode characters? Unfortunately, not all browsers include the fonts needed to see all unicode characters by default. <a href="http://www.alanwood.net/unicode/#links" target="_blank" rel="external">This site</a> will help you determine what characters your browser can render and <a href="http://gschoppe.com/uncategorized/fixing-unicode-support-in-google-chrome/" target="_blank" rel="external">here’s some advice</a> for enabling unicode with Chrome on Windows.</p>
-</li>
-</ul>
-<h3 id="Icon-Fonts"><a href="#Icon-Fonts" class="headerlink" title="Icon Fonts"></a>Icon Fonts</h3><ul>
-<li><a href="http://zocial.smcllns.com/" target="_blank" rel="external">Zocial</a></li>
-<li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank" rel="external">Font Awesome</a></li>
-<li><a href="http://weloveiconfonts.com/" target="_blank" rel="external">We Love Icon Fonts!</a></li>
-<li><a href="https://css-tricks.com/examples/IconFont/" target="_blank" rel="external">Icon fonts on CSS-Tricks</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" target="_blank" rel="external">ARIA</a>: Accessible Rich Internet Applications (ARIA) defines ways to make Web content and Web applications (especially those developed with Ajax and JavaScript) more accessible to people with disabilities. For example, ARIA enables accessible <strong>navigation landmarks</strong>, <strong>JavaScript widgets</strong>, form hints and error messages, live content updates, and more.</li>
-</ul>
-<h3 id="Inlining-Images-With-SVG-And-Data-URIs"><a href="#Inlining-Images-With-SVG-And-Data-URIs" class="headerlink" title="Inlining Images With SVG And Data URIs"></a>Inlining Images With SVG And Data URIs</h3><h5 id="Examples"><a href="#Examples" class="headerlink" title="Examples:"></a>Examples:</h5><ul>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-11/svgDataUri" target="_blank" rel="external">SVG Data URI in HTML</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-11/svgDataUriCss" target="_blank" rel="external">SVG Data URI in CSS</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-11/svgTextOnAPath" target="_blank" rel="external">SVG text on a path</a></li>
-<li><a href="http://udacity.github.io/responsive-images/examples/2-11/svgUnoptimisedAndOptimised" target="_blank" rel="external">SVG optimized and unoptimized</a></li>
-</ul>
-<p>Inline images can greatly reduce the number of file requests, but if the image will be <strong>reused</strong> many times, an <strong>external file</strong> probably makes more sense. Data URIs provide a way to include a file such as an image inline as a base64 encoded string using the following format:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">img</span> src=<span class="string">"data:image/svg+xml;base64,[data]"</span>&gt;</span><br></pre></td></tr></table></figure></p>
-<ul>
-<li><a href="http://caniuse.com/#feat=svg-html5" target="_blank" rel="external">Browser support for inline SVG</a></li>
-<li><a href="http://caniuse.com/datauri" target="_blank" rel="external">Browser support for Data URIs</a></li>
-<li><a href="http://petercollingridge.appspot.com/svg-optimiser" target="_blank" rel="external">SVG Optimiser</a></li>
-<li><a href="http://upload.wikimedia.org/wikipedia/commons/6/6c/Trajans-Column-lower-animated.svg" target="_blank" rel="external">Trajan’s Column SVG example</a></li>
-<li><a href="http://www.creativebloq.com/design/examples-svg-7112785" target="_blank" rel="external">20 examples of SVG that will make your jaw drop</a></li>
-<li><a href="http://codepen.io/chrisgannon/" target="_blank" rel="external">SVG animation examples</a>: <strong>Very useful!!!</strong></li>
+<li>Token not allowed<div class="alert alert-warning"><i class="fa fa-bell"></i>  Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):(hyperref) removing `\new@ifnextchar' on input line 48</div>
+<strong>Solution:</strong> Add a definition before the <code>\begin{document}</code><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% define the commands</span></span><br><span class="line"><span class="tag">\<span class="name">pdfstringdefDisableCommands</span><span class="string">&#123;</span><br><span class="line">    \def\\&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">texttt</span></span>#1&#123;&lt;#1&gt;&#125;</span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">medskip</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">smallskip</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">    <span class="tag">\<span class="name">def</span></span><span class="tag">\<span class="name">vspace</span><span class="string">&#123;&#125;</span></span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
       
         <categories>
             
-            <category> Udacity </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Bootstraps]]></title>
-      <url>http://yoursite.com/2017/03/24/Bootstraps/</url>
-      <content type="html"><![CDATA[<h2 id="Framework"><a href="#Framework" class="headerlink" title="Framework"></a>Framework</h2><h3 id="Bootstrap"><a href="#Bootstrap" class="headerlink" title="Bootstrap"></a>Bootstrap</h3><ul>
-<li><a href="http://getbootstrap.com/css/" target="_blank" rel="external">Bootstrap CSS Documentation</a><br><strong>Notice:</strong></li>
-</ul>
-<ol>
-<li>You may not use all the bootstrap css style, which means you can customize import part of bootstrap. Just click the <code>Customize</code> button on top of the <a href="http://getbootstrap.com/css/" target="_blank" rel="external">Bootstrap CSS Documentation</a>, and you will jump into the <strong>Less files</strong> section and chose the options you need and finally click the <code>Compile and Download</code> at the end of this page! You will get a <code>bootstrap.zip</code> file and you can use it after unzip the downloaded file.</li>
-<li><p>The <code>***.min.css</code> is same with <code>***.css</code> expect remove all the white space in the file, which allow customers to load faster. The suggestion is load the <code>min.css</code> file but use <code>.css</code> file to edit you page(same to <code>.js</code> file).</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* To use the Bootstrap files in your project just copy the css and js folders to your project folder. Don't forget to include the files in your head element:*/</span></span><br><span class="line"></span><br><span class="line">&lt;link rel=<span class="string">"stylesheet"</span> href=<span class="string">"css/bootstrap.min.css"</span>&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"js/bootstrap.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>CSS minification does not happen automatically by default, therefore if you edit your unminified CSS file, but include the minified version in your HTML, the page will not use the updated CSS by default.<br><strong>You can manually minify your CSS using a site like <a href="http://cssminifier.com/" target="_blank" rel="external">http://cssminifier.com/</a>.</strong></p>
-</li>
-</ol>
-<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><h4 id="Other-choices-of-framework"><a href="#Other-choices-of-framework" class="headerlink" title="Other choices of framework"></a>Other choices of framework</h4><ul>
-<li><a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a></li>
-<li><a href="http://foundation.zurb.com/" target="_blank" rel="external">Foundation</a></li>
-<li><a href="http://www.yaml.de/" target="_blank" rel="external">Yaml</a></li>
-<li><a href="http://960.gs/" target="_blank" rel="external">960 Grid</a></li>
-<li><a href="http://susy.oddbird.net/" target="_blank" rel="external">Susy</a></li>
-</ul>
-<h4 id="Bootstrap-1"><a href="#Bootstrap-1" class="headerlink" title="Bootstrap"></a>Bootstrap</h4><ul>
-<li><a href="http://getbootstrap.com/css/" target="_blank" rel="external">Bootstrap CSS Documentation</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> CSS </category>
+            <category> LateX </category>
             
         </categories>
         
@@ -585,178 +550,45 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Bootstraps]]></title>
+      <url>http://yoursite.com/2017/03/24/Bootstraps/</url>
+      <content type="html"><![CDATA[<h2 id="Framework"><a href="#Framework" class="headerlink" title="Framework"></a>Framework</h2><h3 id="Bootstrap"><a href="#Bootstrap" class="headerlink" title="Bootstrap"></a>Bootstrap</h3><ul>
+<li><a href="http://getbootstrap.com/css/" target="_blank" rel="external">Bootstrap CSS Documentation</a><br><strong>Notice:</strong></li>
+</ul>
+<ol>
+<li>You may not use all the bootstrap css style, which means you can customize import part of bootstrap. Just click the <code>Customize</code> button on top of the <a href="http://getbootstrap.com/css/" target="_blank" rel="external">Bootstrap CSS Documentation</a>, and you will jump into the <strong>Less files</strong> section and chose the options you need and finally click the <code>Compile and Download</code> at the end of this page! You will get a <code>bootstrap.zip</code> file and you can use it after unzip the downloaded file.</li>
+<li><p>The <code>***.min.css</code> is same with <code>***.css</code> expect remove all the white space in the file, which allow customers to load faster. The suggestion is load the <code>min.css</code> file but use <code>.css</code> file to edit you page(same to <code>.js</code> file).</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* To use the Bootstrap files in your project just copy the css and js folders to your project folder. Don't forget to include the files in your head element:*/</span></span><br><span class="line"></span><br><span class="line">&lt;link rel=<span class="string">"stylesheet"</span> href=<span class="string">"css/bootstrap.min.css"</span>&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"js/bootstrap.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>CSS minification does not happen automatically by default, therefore if you edit your unminified CSS file, but include the minified version in your HTML, the page will not use the updated CSS by default.<br><strong>You can manually minify your CSS using a site like <a href="http://cssminifier.com/" target="_blank" rel="external">http://cssminifier.com/</a>.</strong></p>
+</li>
+</ol>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><h4 id="Other-choices-of-framework"><a href="#Other-choices-of-framework" class="headerlink" title="Other choices of framework"></a>Other choices of framework</h4><ul>
+<li><a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a></li>
+<li><a href="http://foundation.zurb.com/" target="_blank" rel="external">Foundation</a></li>
+<li><a href="http://www.yaml.de/" target="_blank" rel="external">Yaml</a></li>
+<li><a href="http://960.gs/" target="_blank" rel="external">960 Grid</a></li>
+<li><a href="http://susy.oddbird.net/" target="_blank" rel="external">Susy</a></li>
+</ul>
+<h4 id="Bootstrap-1"><a href="#Bootstrap-1" class="headerlink" title="Bootstrap"></a>Bootstrap</h4><ul>
+<li><a href="http://getbootstrap.com/css/" target="_blank" rel="external">Bootstrap CSS Documentation</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> CSS </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title></title>
       <url>http://yoursite.com/2017/03/20/Caffe-Tricks/</url>
       <content type="html"></content>
       
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[CSS Tips]]></title>
-      <url>http://yoursite.com/2017/03/17/CSS_Tips/</url>
-      <content type="html"><![CDATA[<h2 id="Suggest-Writing-Style"><a href="#Suggest-Writing-Style" class="headerlink" title="Suggest Writing Style"></a>Suggest Writing Style</h2><ul>
-<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a>: This is a writing style suggested by Udacity</p>
-</li>
-<li><p>We do suggest that first use bootstrap css style to set up your webpage framework and add some customer css style by adding your own css file (traditionally <code>css/style.css</code>) and style !</p>
-</li>
-</ul>
-<h2 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts:"></a>Concepts:</h2><ol>
-<li><p>Negative space: space that doesn’t contain anything, used for solve the space is too small between texts.</p>
-</li>
-<li><p>Element.style part: In browser devtools, this part only going to affect the tag you choose!</p>
-</li>
-<li><p>Padding is on the inside of the tag, margins are on the outside of the tag.</p>
-</li>
-</ol>
-<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="General-Tricks"><a href="#General-Tricks" class="headerlink" title="General Tricks"></a>General Tricks</h3><ol>
-<li>If you want to add many words in a small area, please set<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.*** &#123;</span><br><span class="line">   <span class="attribute">overflow</span>: auto</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>and you will find a scorebar on the corresponding area.</p>
-<ol>
-<li><p>Use <strong>Media Queries</strong> to change CSS properties depending on device, screen size and color as screen got resized. Just add the <strong>Media Query</strong> like:</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) and (orientation: landscape)&#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>start off every media query with <code>@media</code>.</li>
-<li>key word “only”: is going to help us with older browsers.</li>
-<li>key word “screen”: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
-<li>max-width: the condition tells us that the media query should apply only if the width of the screen is smaller than 300px.</li>
-<li>key word “orientation”: only correct when your screen has a landscape orientation (this happens when the width is bigger than the height).</li>
-</ol>
-</li>
-<li><p>To make the website looks same regardless browsers or operating systems: add <code>normalize.css</code> file.</p>
-</li>
-</ol>
-<h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
-<li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test-Refine routine:"></a>Code-Test-Refine routine:</h4><ol>
-<li>Look for natural boxes</li>
-<li>Look for repeated styles and semantic elements</li>
-<li>Write your HTML</li>
-<li>Apply styles (from BIGGEST to SMALLEST)</li>
-<li>Fix things</li>
-<li>repeat 3 to 5</li>
-</ol>
-<h4 id="Image-placeholder"><a href="#Image-placeholder" class="headerlink" title="Image placeholder"></a>Image placeholder</h4><ul>
-<li>If you cannot provide the images you currently use, you can use an image placeholder to replace the image from website <a href="http://placehold.it/" target="_blank" rel="external">PLACEHOLD.IT</a> or <a href="http://placekitten.com" target="_blank" rel="external">PLACEKITTEN</a> or <a href="http://placepuppy.it" target="_blank" rel="external">PLACEPUPPY</a><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/* For example */</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placehold.it/960x360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placekitten.com/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placepuppy.it/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
-<li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
-<p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
-</li>
-</ul>
-<h4 id="For-cellphone"><a href="#For-cellphone" class="headerlink" title="For cellphone"></a>For cellphone</h4><p>The button should be at least 48px(suggestions).</p>
-<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
-<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
-<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
-<li><a href="http://www.w3.org/community/webed/wiki/CSS/Properties" target="_blank" rel="external">this big list of CSS properties</a></li>
-</ul>
-<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
-<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> CSS </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Jupyter Notebook]]></title>
-      <url>http://yoursite.com/2017/03/17/JupyterNotebooks/</url>
-      <content type="html"><![CDATA[<h2 id="Keyboard-shortcuts"><a href="#Keyboard-shortcuts" class="headerlink" title="Keyboard shortcuts"></a>Keyboard shortcuts</h2><ul>
-<li><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474229_keyboard-shortcuts/keyboard-shortcuts.ipynb" target="_blank" rel="external">Keyboard Shortcuts ipynb</a></li>
-</ul>
-<h2 id="Magic-keywords"><a href="#Magic-keywords" class="headerlink" title="Magic keywords"></a>Magic keywords</h2><ul>
-<li><code>%timeit</code>: Magic command to time how long it takes for a single line function to run.</li>
-<li><code>%%timeit</code>: Magic command to time how long it takes for a whole cell to run.</li>
-<li><code>%matplotlib inline</code>: To render figures directly in the notebook, you should use the inline backend with the command.<ul>
-<li><strong>Tip:</strong> On higher resolution screens such as Retina displays, the default images in notebooks can look blurry. Use <code>%config InlineBackend.figure_format = &#39;retina&#39;</code> after <code>%matplotlib inline</code> to render higher resolution images.</li>
-<li>To select a specific <strong><a href="http://matplotlib.org/faq/usage_faq.html#what-is-a-backend" target="_blank" rel="external">backend</a></strong></li>
-</ul>
-</li>
-</ul>
-<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><ul>
-<li><code>%pdb</code>: Magic command to set up debugging environment.<ul>
-<li>[pdb documentation](<a href="https://docs.python.org/3/library/pdb.html" target="_blank" rel="external">https://docs.python.org/3/library/pdb.html</a>: Read more about <code>pdb</code> in the pdb documentation. To quit the debugger, simply enter <code>q</code> in the prompt.</li>
-</ul>
-</li>
-</ul>
-<h2 id="Convert"><a href="#Convert" class="headerlink" title="Convert"></a>Convert</h2><h3 id="Convert-ipynb-to-html"><a href="#Convert-ipynb-to-html" class="headerlink" title="Convert .ipynb to html"></a>Convert <code>.ipynb</code> to <code>html</code></h3><ul>
-<li><p>To convert a notebook to an HTML file, in your terminal use</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert --to <span class="selector-tag">html</span> notebook.ipynb</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>learn more about <code>nbconvert</code> from the <a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">documentation</a>.</p>
-</li>
-</ul>
-<h3 id="Convert-ipynb-to-slides"><a href="#Convert-ipynb-to-slides" class="headerlink" title="Convert .ipynb to slides"></a>Convert <code>.ipynb</code> to <code>slides</code></h3><ul>
-<li><p>To convert a notebook to slide file, in your terminal use</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook<span class="selector-class">.ipynb</span> --to slides</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>To convert it and immediately see it, use</p>
-<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook.ipynb --<span class="keyword">to</span> slides --post serve  <span class="comment">## This will open up the slideshow in your browser so you can present it.</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html" target="_blank" rel="external">List of all available magic commands</a></li>
-<li><a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">nbconvert Documentation</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[CSS Layout]]></title>
-      <url>http://yoursite.com/2017/03/17/CSS_Layout/</url>
-      <content type="html"><![CDATA[<h2 id="CSS-Style-Layout"><a href="#CSS-Style-Layout" class="headerlink" title="CSS Style Layout"></a>CSS Style Layout</h2><h3 id="Flexbox-Layout"><a href="#Flexbox-Layout" class="headerlink" title="Flexbox Layout"></a>Flexbox Layout</h3><h4 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h4><p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
-<p>For examples:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>This rule as-is works with Chrome 29+, IE 11+, and Mozilla 28+. In order to support Safari, the -webkit- prefix must be added:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: -webkit-flex;  <span class="comment">/*to support Safari*/</span></span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h4 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">* &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">* &#123;</span><br><span class="line">    <span class="attribute">-webkit-box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">-moz-box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">-ms-box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.grid</span> &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">    <span class="attribute">max-width</span>: <span class="number">1200px</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.row</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.col-1</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">8.33%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.col-2</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">16.66%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.col-3</span> ......</span><br></pre></td></tr></table></figure>
-<h4 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h4><ul>
-<li><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a>: The CSS <strong>flex-wrap</strong> property specifies whether flex items are forced into a single line or can be wrapped onto multiple lines. If wrapping is allowed, this property also enables you to control the direction in which lines are stacked.</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* Syntax */</span></span><br><span class="line"></span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">nowrap</span>;</span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">wrap</span>;</span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">wrap-reverse</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Global values */</span></span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">inherit</span>;</span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">initial</span>;</span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">unset</span>;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></p>
-</li>
-<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
-<li><strong><a href="https://css-tricks.com/almanac/properties/f/flex-wrap/" target="_blank" rel="external">visual demos of flex-wrap</a></strong></li>
-</ul>
-<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
-<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
-<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
-</ul>
-<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
-<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> CSS </category>
-            
-        </categories>
-        
         
     </entry>
     
@@ -936,6 +768,174 @@
     </entry>
     
     <entry>
+      <title><![CDATA[CSS Tips]]></title>
+      <url>http://yoursite.com/2017/03/17/CSS_Tips/</url>
+      <content type="html"><![CDATA[<h2 id="Suggest-Writing-Style"><a href="#Suggest-Writing-Style" class="headerlink" title="Suggest Writing Style"></a>Suggest Writing Style</h2><ul>
+<li><p><a href="http://udacity.github.io/frontend-nanodegree-styleguide/" target="_blank" rel="external">Udacity HTML/CSS/Javascript/Git Style Guide</a>: This is a writing style suggested by Udacity</p>
+</li>
+<li><p>We do suggest that first use bootstrap css style to set up your webpage framework and add some customer css style by adding your own css file (traditionally <code>css/style.css</code>) and style !</p>
+</li>
+</ul>
+<h2 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts:"></a>Concepts:</h2><ol>
+<li><p>Negative space: space that doesn’t contain anything, used for solve the space is too small between texts.</p>
+</li>
+<li><p>Element.style part: In browser devtools, this part only going to affect the tag you choose!</p>
+</li>
+<li><p>Padding is on the inside of the tag, margins are on the outside of the tag.</p>
+</li>
+</ol>
+<h2 id="Some-Tricks"><a href="#Some-Tricks" class="headerlink" title="Some Tricks"></a>Some Tricks</h2><h3 id="General-Tricks"><a href="#General-Tricks" class="headerlink" title="General Tricks"></a>General Tricks</h3><ol>
+<li>If you want to add many words in a small area, please set<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.*** &#123;</span><br><span class="line">   <span class="attribute">overflow</span>: auto</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>and you will find a scorebar on the corresponding area.</p>
+<ol>
+<li><p>Use <strong>Media Queries</strong> to change CSS properties depending on device, screen size and color as screen got resized. Just add the <strong>Media Query</strong> like:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* An example */</span></span><br><span class="line"></span><br><span class="line">@<span class="keyword">media</span> only screen and (max-width: <span class="number">300px</span>) and (orientation: landscape)&#123;</span><br><span class="line">    <span class="selector-tag">p</span> &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>start off every media query with <code>@media</code>.</li>
+<li>key word “only”: is going to help us with older browsers.</li>
+<li>key word “screen”: tells this media query applies to any screen(desktop. laptop, phone, tablet …).</li>
+<li>max-width: the condition tells us that the media query should apply only if the width of the screen is smaller than 300px.</li>
+<li>key word “orientation”: only correct when your screen has a landscape orientation (this happens when the width is bigger than the height).</li>
+</ol>
+</li>
+<li><p>To make the website looks same regardless browsers or operating systems: add <code>normalize.css</code> file.</p>
+</li>
+</ol>
+<h3 id="For-debuggering"><a href="#For-debuggering" class="headerlink" title="For debuggering"></a>For debuggering</h3><ol>
+<li>You can change the border color to red for debuggering, just add one sentence<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="For-design"><a href="#For-design" class="headerlink" title="For design"></a>For design</h3><h4 id="Code-Test-Refine-routine"><a href="#Code-Test-Refine-routine" class="headerlink" title="Code-Test-Refine routine:"></a>Code-Test-Refine routine:</h4><ol>
+<li>Look for natural boxes</li>
+<li>Look for repeated styles and semantic elements</li>
+<li>Write your HTML</li>
+<li>Apply styles (from BIGGEST to SMALLEST)</li>
+<li>Fix things</li>
+<li>repeat 3 to 5</li>
+</ol>
+<h4 id="Image-placeholder"><a href="#Image-placeholder" class="headerlink" title="Image placeholder"></a>Image placeholder</h4><ul>
+<li>If you cannot provide the images you currently use, you can use an image placeholder to replace the image from website <a href="http://placehold.it/" target="_blank" rel="external">PLACEHOLD.IT</a> or <a href="http://placekitten.com" target="_blank" rel="external">PLACEKITTEN</a> or <a href="http://placepuppy.it" target="_blank" rel="external">PLACEPUPPY</a><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/* For example */</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placehold.it/960x360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placekitten.com/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div class="col-6"&gt;</span><br><span class="line">    &lt;img src="http://placepuppy.it/960/360"/&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="icons"><a href="#icons" class="headerlink" title="icons"></a>icons</h4><ul>
+<li><p>These icons you can show on your web page so that others knows that your page complies with standards.</p>
+<p><img src="/imgs/vcss.gif" alt="css"><br><img src="/imgs/vcss-blue.gif" alt="css-blue"></p>
+</li>
+</ul>
+<h4 id="For-cellphone"><a href="#For-cellphone" class="headerlink" title="For cellphone"></a>For cellphone</h4><p>The button should be at least 48px(suggestions).</p>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
+<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
+<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
+<li><a href="http://www.w3.org/community/webed/wiki/CSS/Properties" target="_blank" rel="external">this big list of CSS properties</a></li>
+</ul>
+<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
+<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> CSS </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Jupyter Notebook]]></title>
+      <url>http://yoursite.com/2017/03/17/JupyterNotebooks/</url>
+      <content type="html"><![CDATA[<h2 id="Keyboard-shortcuts"><a href="#Keyboard-shortcuts" class="headerlink" title="Keyboard shortcuts"></a>Keyboard shortcuts</h2><ul>
+<li><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58474229_keyboard-shortcuts/keyboard-shortcuts.ipynb" target="_blank" rel="external">Keyboard Shortcuts ipynb</a></li>
+</ul>
+<h2 id="Magic-keywords"><a href="#Magic-keywords" class="headerlink" title="Magic keywords"></a>Magic keywords</h2><ul>
+<li><code>%timeit</code>: Magic command to time how long it takes for a single line function to run.</li>
+<li><code>%%timeit</code>: Magic command to time how long it takes for a whole cell to run.</li>
+<li><code>%matplotlib inline</code>: To render figures directly in the notebook, you should use the inline backend with the command.<ul>
+<li><strong>Tip:</strong> On higher resolution screens such as Retina displays, the default images in notebooks can look blurry. Use <code>%config InlineBackend.figure_format = &#39;retina&#39;</code> after <code>%matplotlib inline</code> to render higher resolution images.</li>
+<li>To select a specific <strong><a href="http://matplotlib.org/faq/usage_faq.html#what-is-a-backend" target="_blank" rel="external">backend</a></strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><ul>
+<li><code>%pdb</code>: Magic command to set up debugging environment.<ul>
+<li>[pdb documentation](<a href="https://docs.python.org/3/library/pdb.html" target="_blank" rel="external">https://docs.python.org/3/library/pdb.html</a>: Read more about <code>pdb</code> in the pdb documentation. To quit the debugger, simply enter <code>q</code> in the prompt.</li>
+</ul>
+</li>
+</ul>
+<h2 id="Convert"><a href="#Convert" class="headerlink" title="Convert"></a>Convert</h2><h3 id="Convert-ipynb-to-html"><a href="#Convert-ipynb-to-html" class="headerlink" title="Convert .ipynb to html"></a>Convert <code>.ipynb</code> to <code>html</code></h3><ul>
+<li><p>To convert a notebook to an HTML file, in your terminal use</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert --to <span class="selector-tag">html</span> notebook.ipynb</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>learn more about <code>nbconvert</code> from the <a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">documentation</a>.</p>
+</li>
+</ul>
+<h3 id="Convert-ipynb-to-slides"><a href="#Convert-ipynb-to-slides" class="headerlink" title="Convert .ipynb to slides"></a>Convert <code>.ipynb</code> to <code>slides</code></h3><ul>
+<li><p>To convert a notebook to slide file, in your terminal use</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook<span class="selector-class">.ipynb</span> --to slides</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>To convert it and immediately see it, use</p>
+<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter nbconvert notebook.ipynb --<span class="keyword">to</span> slides --post serve  <span class="comment">## This will open up the slideshow in your browser so you can present it.</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html" target="_blank" rel="external">List of all available magic commands</a></li>
+<li><a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank" rel="external">nbconvert Documentation</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CSS Layout]]></title>
+      <url>http://yoursite.com/2017/03/17/CSS_Layout/</url>
+      <content type="html"><![CDATA[<h2 id="CSS-Style-Layout"><a href="#CSS-Style-Layout" class="headerlink" title="CSS Style Layout"></a>CSS Style Layout</h2><h3 id="Flexbox-Layout"><a href="#Flexbox-Layout" class="headerlink" title="Flexbox Layout"></a>Flexbox Layout</h3><h4 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h4><p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
+<p>For examples:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>This rule as-is works with Chrome 29+, IE 11+, and Mozilla 28+. In order to support Safari, the -webkit- prefix must be added:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.app</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: -webkit-flex;  <span class="comment">/*to support Safari*/</span></span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h4 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">* &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid red <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">* &#123;</span><br><span class="line">    <span class="attribute">-webkit-box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">-moz-box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">-ms-box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.grid</span> &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">    <span class="attribute">max-width</span>: <span class="number">1200px</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.row</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.col-1</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">8.33%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.col-2</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">16.66%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.col-3</span> ......</span><br></pre></td></tr></table></figure>
+<h4 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h4><ul>
+<li><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a>: The CSS <strong>flex-wrap</strong> property specifies whether flex items are forced into a single line or can be wrapped onto multiple lines. If wrapping is allowed, this property also enables you to control the direction in which lines are stacked.</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* Syntax */</span></span><br><span class="line"></span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">nowrap</span>;</span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">wrap</span>;</span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">wrap-reverse</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Global values */</span></span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">inherit</span>;</span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">initial</span>;</span><br><span class="line"><span class="selector-tag">flex-wrap</span>: <span class="selector-tag">unset</span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></p>
+</li>
+<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
+<li><strong><a href="https://css-tricks.com/almanac/properties/f/flex-wrap/" target="_blank" rel="external">visual demos of flex-wrap</a></strong></li>
+</ul>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h3><ul>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox</a>: A Complete Guide to Flexbox.</li>
+<li><a href="http://validator.w3.org/#validate_by_input" target="_blank" rel="external">To verify HTML</a>: The website use for verify your HTML codes.</li>
+<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="external">To verify CSS</a>: The website use for verify your CSS codes.</li>
+</ul>
+<h4 id="Flex-documentation"><a href="#Flex-documentation" class="headerlink" title="Flex documentation:"></a>Flex documentation:</h4><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" rel="external">Flex</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank" rel="external">Flex-wrap</a></li>
+<li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">Another guide on flex</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> CSS </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[CSS Style Priority]]></title>
       <url>http://yoursite.com/2017/03/13/CSS_Style/</url>
       <content type="html"><![CDATA[<h2 id="CSS-Style-Priority"><a href="#CSS-Style-Priority" class="headerlink" title="CSS Style Priority"></a>CSS Style Priority</h2><h3 id="Order-Matters"><a href="#Order-Matters" class="headerlink" title="Order Matters"></a>Order Matters</h3><p>It matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, <strong>with definitions further down the list overwriting previous definitions:</strong></p>
@@ -962,6 +962,46 @@
         <categories>
             
             <category> CSS </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Software Activation]]></title>
+      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
+      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
+<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
+<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
+<li>click “Continue” and copy the request code</li>
+<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
+<li>run <code>python CalcActivationCode.py</code> to get license</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Software </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Python Toolbox]]></title>
+      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
+      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
+<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
+<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> Toolbox </category>
             
         </categories>
         
@@ -1010,46 +1050,6 @@
 <p>This file is an example to generate lmdb dataset from image. Maybe your datasets are not RGB-image, or maybe your data have higher dimension but you can still use this file with small changes.</p>
 </li>
 </ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Toolbox </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Software Activation]]></title>
-      <url>http://yoursite.com/2016/08/04/Software_Activation/</url>
-      <content type="html"><![CDATA[<h3 id="WingIDE"><a href="#WingIDE" class="headerlink" title="WingIDE"></a>WingIDE</h3><ul>
-<li><a href="/downloads/toolbox/others/CalcActivationCode.py">CalcActivationCode.py</a><br>This python file can generate valid license of WingIDE.<br>Usage:<ul>
-<li>open WingIDE and type license id: CN123-12345-12345-12345</li>
-<li>click “Continue” and copy the request code</li>
-<li>replace the <strong>RequestCode</strong> variable in CalcActivationCode.py file with the request code you copied last step</li>
-<li>run <code>python CalcActivationCode.py</code> to get license</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> Software </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Python Toolbox]]></title>
-      <url>http://yoursite.com/2016/08/04/Python_Toolbox/</url>
-      <content type="html"><![CDATA[<p>This page stores some self-made toolbox files written by multiple languages and all the files are classified into detailed different categories. </p>
-<h3 id="Normal-normalize-data"><a href="#Normal-normalize-data" class="headerlink" title="Normal: normalize data"></a>Normal: normalize data</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Normal</span><span class="params">(_data)</span>:</span></span><br><span class="line">    <span class="string">''' This function return the normalization of image data</span><br><span class="line">    </span><br><span class="line">        input :  image:               _data</span><br><span class="line">        </span><br><span class="line">        output:  normalized_image:    data</span><br><span class="line">    '''</span></span><br><span class="line">    data = _data.copy()</span><br><span class="line">    data = (data-np.min(data)) / (np.max(data) - np.min(data))</span><br><span class="line">    <span class="keyword">return</span> data</span><br></pre></td></tr></table></figure>
-<h3 id="img2uint8-convert-image-to-uint8-format"><a href="#img2uint8-convert-image-to-uint8-format" class="headerlink" title="img2uint8: convert image to uint8 format"></a>img2uint8: convert image to uint8 format</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">img2uint8</span><span class="params">(img)</span>:</span></span><br><span class="line">    <span class="string">''' This function convert image data from double to uint8</span><br><span class="line">        </span><br><span class="line">        input:   image:        img</span><br><span class="line">        </span><br><span class="line">        output:  image_uin8:   img_uint8</span><br><span class="line">    '''</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        _datatype = data.dtype</span><br><span class="line">    <span class="keyword">except</span> AttributeError:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'input should be of ndarray type.'</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> data.dtype == <span class="string">'uint8'</span>:</span><br><span class="line">        <span class="keyword">print</span> <span class="string">'the input is already of uint8 type.'</span></span><br><span class="line">        <span class="keyword">return</span> img</span><br><span class="line">    </span><br><span class="line">    img = Normal(img)</span><br><span class="line">    img_uint8 = (img * <span class="number">256</span>).astype(<span class="string">'uint8'</span>)</span><br><span class="line">    <span class="keyword">return</span> img_uint8</span><br></pre></td></tr></table></figure>
 ]]></content>
       
         <categories>
@@ -1127,11 +1127,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Mac Command]]></title>
-      <url>http://yoursite.com/2016/03/28/MacCommand/</url>
-      <content type="html"><![CDATA[<h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><h3 id="Create-a-bash-profile-on-mac"><a href="#Create-a-bash-profile-on-mac" class="headerlink" title="Create a .bash_profile on mac"></a>Create a .bash_profile on mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
-<h3 id="edit-the-bash-profile"><a href="#edit-the-bash-profile" class="headerlink" title="edit the .bash_profile"></a>edit the .bash_profile</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open <span class="_">-e</span> .bash_profile</span><br></pre></td></tr></table></figure>
-<h3 id="Reload-the-bash-profile-and-update-any-functions-you-add"><a href="#Reload-the-bash-profile-and-update-any-functions-you-add" class="headerlink" title="Reload the .bash_profile and update any functions you add"></a>Reload the .bash_profile and update any functions you add</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
+      <title><![CDATA[Python Command]]></title>
+      <url>http://yoursite.com/2016/03/28/Python/</url>
+      <content type="html"><![CDATA[<h2 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h2><h3 id="Check-python-version"><a href="#Check-python-version" class="headerlink" title="Check python version"></a>Check python version</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure>
+<h3 id="Check-available-packages-version"><a href="#Check-available-packages-version" class="headerlink" title="Check available packages version"></a>Check available packages version</h3><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="keyword">cache </span>policy pakagename</span><br><span class="line"><span class="comment"># Let's say package numpy</span></span><br><span class="line"><span class="comment"># you should type:</span></span><br><span class="line">apt-<span class="keyword">cache </span>policy python-numpy</span><br><span class="line"></span><br><span class="line"><span class="comment"># for package cpython</span></span><br><span class="line"><span class="comment"># you should type: apt-cache policy cpython</span></span><br></pre></td></tr></table></figure>
+<h2 id="Install-packages"><a href="#Install-packages" class="headerlink" title="Install packages"></a>Install packages</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip &amp; matplotlib</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-pip</span><br><span class="line">sudo apt-<span class="keyword">get</span> install matplotlib</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install numpy</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-numpy</span><br></pre></td></tr></table></figure>
+<h2 id="Install-jupyter-notebook"><a href="#Install-jupyter-notebook" class="headerlink" title="Install jupyter notebook"></a>Install jupyter notebook</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip</span></span><br><span class="line"></span><br><span class="line">curl <span class="string">"https://bootstrap.pypa.io/get-pip.py"</span> -o <span class="string">"get-pip.py"</span></span><br><span class="line">sudo python <span class="keyword">get</span>-pip.py</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install jupyter notebook</span></span><br><span class="line">pip install jupyter</span><br></pre></td></tr></table></figure>
 ]]></content>
       
         <categories>
@@ -1144,12 +1145,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Python Command]]></title>
-      <url>http://yoursite.com/2016/03/28/Python/</url>
-      <content type="html"><![CDATA[<h2 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h2><h3 id="Check-python-version"><a href="#Check-python-version" class="headerlink" title="Check python version"></a>Check python version</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure>
-<h3 id="Check-available-packages-version"><a href="#Check-available-packages-version" class="headerlink" title="Check available packages version"></a>Check available packages version</h3><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="keyword">cache </span>policy pakagename</span><br><span class="line"><span class="comment"># Let's say package numpy</span></span><br><span class="line"><span class="comment"># you should type:</span></span><br><span class="line">apt-<span class="keyword">cache </span>policy python-numpy</span><br><span class="line"></span><br><span class="line"><span class="comment"># for package cpython</span></span><br><span class="line"><span class="comment"># you should type: apt-cache policy cpython</span></span><br></pre></td></tr></table></figure>
-<h2 id="Install-packages"><a href="#Install-packages" class="headerlink" title="Install packages"></a>Install packages</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip &amp; matplotlib</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-pip</span><br><span class="line">sudo apt-<span class="keyword">get</span> install matplotlib</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install numpy</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="keyword">get</span> install python-numpy</span><br></pre></td></tr></table></figure>
-<h2 id="Install-jupyter-notebook"><a href="#Install-jupyter-notebook" class="headerlink" title="Install jupyter notebook"></a>Install jupyter notebook</h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Install pip</span></span><br><span class="line"></span><br><span class="line">curl <span class="string">"https://bootstrap.pypa.io/get-pip.py"</span> -o <span class="string">"get-pip.py"</span></span><br><span class="line">sudo python <span class="keyword">get</span>-pip.py</span><br><span class="line"></span><br><span class="line"><span class="meta"># Install jupyter notebook</span></span><br><span class="line">pip install jupyter</span><br></pre></td></tr></table></figure>
+      <title><![CDATA[Mac Command]]></title>
+      <url>http://yoursite.com/2016/03/28/MacCommand/</url>
+      <content type="html"><![CDATA[<h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><h3 id="Create-a-bash-profile-on-mac"><a href="#Create-a-bash-profile-on-mac" class="headerlink" title="Create a .bash_profile on mac"></a>Create a .bash_profile on mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
+<h3 id="edit-the-bash-profile"><a href="#edit-the-bash-profile" class="headerlink" title="edit the .bash_profile"></a>edit the .bash_profile</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open <span class="_">-e</span> .bash_profile</span><br></pre></td></tr></table></figure>
+<h3 id="Reload-the-bash-profile-and-update-any-functions-you-add"><a href="#Reload-the-bash-profile-and-update-any-functions-you-add" class="headerlink" title="Reload the .bash_profile and update any functions you add"></a>Reload the .bash_profile and update any functions you add</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
 ]]></content>
       
         <categories>
@@ -1211,23 +1211,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Mathematics]]></title>
-      <url>http://yoursite.com/2015/11/25/MatrixCalculus/</url>
-      <content type="html"><![CDATA[<h2 id="Matrix-Calculus"><a href="#Matrix-Calculus" class="headerlink" title="Matrix Calculus"></a>Matrix Calculus</h2><h3 id="Matrix-Calculus-Form"><a href="#Matrix-Calculus-Form" class="headerlink" title="Matrix Calculus Form"></a>Matrix Calculus Form</h3><p><a href="http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf" target="_blank" rel="external">Matrix Calculus</a><br><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf" target="_blank" rel="external">Matrix Differentiation</a><br><a href="http://www.math.nyu.edu/~neylon/linalgfall04/project1/dj/propofmatrixmult.htm" target="_blank" rel="external">Properties of Matrix Multiplication</a></p>
-<h3 id="Relevant-PPT"><a href="#Relevant-PPT" class="headerlink" title="Relevant PPT"></a>Relevant PPT</h3><p><a href="http://select.cs.cmu.edu/class/10725-S10/recitations/r4/Matrix_Calculus_Algebra.pdf" target="_blank" rel="external">Matrix Calculus and Algebra</a></p>
-<p>### </p>
-]]></content>
-      
-        <categories>
-            
-            <category> Matrix </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[HKU Courses]]></title>
       <url>http://yoursite.com/2015/11/25/HKUCourse/</url>
       <content type="html"><![CDATA[<h2 id="Electric-and-Electronic-Engineering"><a href="#Electric-and-Electronic-Engineering" class="headerlink" title="Electric and Electronic Engineering"></a>Electric and Electronic Engineering</h2><h3 id="Digital-signal-processing"><a href="#Digital-signal-processing" class="headerlink" title="Digital signal processing"></a><a href="http://moodle.hku.hk/course/info.php?id=27564" target="_blank" rel="external">Digital signal processing</a></h3><h4 id="Appendix-Courses"><a href="#Appendix-Courses" class="headerlink" title="Appendix Courses:"></a>Appendix Courses:</h4><p><a href="http://ocw.mit.edu/resources/res-6-008-digital-signal-processing-spring-2011/index.htm" target="_blank" rel="external">Digital Signal Processing</a></p>
@@ -1274,6 +1257,23 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Mathematics]]></title>
+      <url>http://yoursite.com/2015/11/25/MatrixCalculus/</url>
+      <content type="html"><![CDATA[<h2 id="Matrix-Calculus"><a href="#Matrix-Calculus" class="headerlink" title="Matrix Calculus"></a>Matrix Calculus</h2><h3 id="Matrix-Calculus-Form"><a href="#Matrix-Calculus-Form" class="headerlink" title="Matrix Calculus Form"></a>Matrix Calculus Form</h3><p><a href="http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf" target="_blank" rel="external">Matrix Calculus</a><br><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf" target="_blank" rel="external">Matrix Differentiation</a><br><a href="http://www.math.nyu.edu/~neylon/linalgfall04/project1/dj/propofmatrixmult.htm" target="_blank" rel="external">Properties of Matrix Multiplication</a></p>
+<h3 id="Relevant-PPT"><a href="#Relevant-PPT" class="headerlink" title="Relevant PPT"></a>Relevant PPT</h3><p><a href="http://select.cs.cmu.edu/class/10725-S10/recitations/r4/Matrix_Calculus_Algebra.pdf" target="_blank" rel="external">Matrix Calculus and Algebra</a></p>
+<p>### </p>
+]]></content>
+      
+        <categories>
+            
+            <category> Matrix </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[R Language Reference Card]]></title>
       <url>http://yoursite.com/2015/10/15/RLanguage/</url>
       <content type="html"><![CDATA[<h2 id="R-Language-Reference"><a href="#R-Language-Reference" class="headerlink" title="R - Language Reference"></a>R - Language Reference</h2><ul>
@@ -1291,6 +1291,24 @@
     </entry>
     
     <entry>
+      <title><![CDATA[HTML code style]]></title>
+      <url>http://yoursite.com/2015/10/13/HTML_Style/</url>
+      <content type="html"><![CDATA[<h3 id="Code-Template"><a href="#Code-Template" class="headerlink" title="Code Template"></a>Code Template</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"title"</span>&gt;</span>My App<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"screenshot"</span>&gt;</span>image<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"description"</span>&gt;</span>text<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h4 id="Notices"><a href="#Notices" class="headerlink" title="Notices"></a>Notices</h4><ol>
+<li>The <code>title</code> and <code>link</code> put inside <code>&lt;head&gt;</code> tag<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>We're learning selectors!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> CodeStyle </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Matrix Factorization Resource]]></title>
       <url>http://yoursite.com/2015/10/13/NMF/</url>
       <content type="html"><![CDATA[<h2 id="Nonnegtive-Matrix-Factorization"><a href="#Nonnegtive-Matrix-Factorization" class="headerlink" title="Nonnegtive Matrix Factorization"></a>Nonnegtive Matrix Factorization</h2><ul>
@@ -1301,21 +1319,6 @@
         <categories>
             
             <category> MatrixFactorization </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Beautiful Visualization]]></title>
-      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
-      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Visualization </category>
             
         </categories>
         
@@ -1354,17 +1357,36 @@
     </entry>
     
     <entry>
-      <title><![CDATA[HTML code style]]></title>
-      <url>http://yoursite.com/2015/10/13/HTML_Style/</url>
-      <content type="html"><![CDATA[<h3 id="Code-Template"><a href="#Code-Template" class="headerlink" title="Code Template"></a>Code Template</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"title"</span>&gt;</span>My App<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"app"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"screenshot"</span>&gt;</span>image<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"description"</span>&gt;</span>text<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h4 id="Notices"><a href="#Notices" class="headerlink" title="Notices"></a>Notices</h4><ol>
-<li>The <code>title</code> and <code>link</code> put inside <code>&lt;head&gt;</code> tag<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>We're learning selectors!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
-</ol>
+      <title><![CDATA[Beautiful Visualization]]></title>
+      <url>http://yoursite.com/2015/10/13/Beautiful-Visulization/</url>
+      <content type="html"><![CDATA[<p><a href="https://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/" target="_blank" rel="external">How to map connections with great circles</a></p>
 ]]></content>
       
         <categories>
             
-            <category> CodeStyle </category>
+            <category> Visualization </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Latex Mathematical Formula]]></title>
+      <url>http://yoursite.com/2015/10/11/Latex/</url>
+      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
+<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
+<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
+</ul>
+<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
+<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> LateX </category>
             
         </categories>
         
@@ -1414,28 +1436,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Latex Mathematical Formula]]></title>
-      <url>http://yoursite.com/2015/10/11/Latex/</url>
-      <content type="html"><![CDATA[<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><ul>
-<li><a href="http://reu.dimacs.rutgers.edu/Symbols.pdf" target="_blank" rel="external">Table of mathematical symbols</a></li>
-<li><a href="http://www.artofproblemsolving.com/wiki/index.php/LaTeX:Symbols" target="_blank" rel="external">LaTeX:Symbols</a></li>
-<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="external">LaTeX/Mathematics</a></li>
-</ul>
-<h2 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h2><h3 id="algorithmicx"><a href="#algorithmicx" class="headerlink" title="algorithmicx"></a>algorithmicx</h3><ul>
-<li><a href="ftp://ftp.ccu.edu.tw/pub/tex/macros/latex/contrib/algorithmicx/algorithmicx.pdf" target="_blank" rel="external">algorithmicx package document</a></li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> LateX </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Data Mining]]></title>
       <url>http://yoursite.com/2015/10/06/DataMining/</url>
       <content type="html"><![CDATA[<h2 id="Data-Mining-Software-Library"><a href="#Data-Mining-Software-Library" class="headerlink" title="Data Mining Software Library"></a>Data Mining Software Library</h2><ul>
@@ -1447,6 +1447,34 @@
         <categories>
             
             <category> DataMining </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ubuntu Command]]></title>
+      <url>http://yoursite.com/2015/09/29/UbuntuCommand/</url>
+      <content type="html"><![CDATA[<h2 id="Basic-Operation"><a href="#Basic-Operation" class="headerlink" title="Basic Operation"></a>Basic Operation</h2><h3 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h3><h4 id="Check-the-disk-partition"><a href="#Check-the-disk-partition" class="headerlink" title="Check the disk partition"></a>Check the disk partition</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hl</span><br></pre></td></tr></table></figure>
+<h4 id="Check-the-version-of-System"><a href="#Check-the-version-of-System" class="headerlink" title="Check the version of System"></a>Check the version of System</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsb_release <span class="_">-a</span></span><br></pre></td></tr></table></figure>
+<h4 id="Check-the-bit-32-or-64-of-System"><a href="#Check-the-bit-32-or-64-of-System" class="headerlink" title="Check the bit(32 or 64) of System"></a>Check the bit(32 or 64) of System</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">uname <span class="_">-a</span></span><br><span class="line">uname -i</span><br></pre></td></tr></table></figure>
+<h4 id="Check-GPU-information"><a href="#Check-GPU-information" class="headerlink" title="Check GPU information"></a>Check GPU information</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lspci -v <span class="_">-s</span> $(lspci | grep VGA | cut <span class="_">-d</span><span class="string">" "</span> <span class="_">-f</span> 1)</span><br></pre></td></tr></table></figure>
+<h3 id="Install-software"><a href="#Install-software" class="headerlink" title="Install software"></a>Install software</h3><h4 id="Install-the-ibus-google-input"><a href="#Install-the-ibus-google-input" class="headerlink" title="Install the ibus google input"></a>Install the ibus google input</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ibus-googlepinyin</span><br><span class="line">im-config</span><br></pre></td></tr></table></figure>
+<h4 id="Install-R-project"><a href="#Install-R-project" class="headerlink" title="Install R project"></a>Install R project</h4><p><strong>1. First: add a repository to etc/apt/sources.list </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sh -c <span class="string">'echo "deb https://&lt;my.favorite.cran.mirror&gt;/bin/linux/ubuntu trusty/"'</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="Install-wifi-adapter-A6-100"><a href="#Install-wifi-adapter-A6-100" class="headerlink" title="Install wifi adapter(A6 100)"></a>Install wifi adapter(A6 100)</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Download http://github.com/abperiasamy/rtl8812AU_8821AU_linux</span></span><br><span class="line"><span class="built_in">cd</span> Download/rtl8812AU_8821AU_linux-master</span><br><span class="line"><span class="comment">## sudo make clean</span></span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br><span class="line">sudo modprobe 8812au</span><br></pre></td></tr></table></figure>
+<p><strong>2. Second: running following command </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install r-base</span><br></pre></td></tr></table></figure></p>
+<p>reference website:<br>(<a href="https://cran.r-project.org/bin/linux/ubuntu/README" target="_blank" rel="external">https://cran.r-project.org/bin/linux/ubuntu/README</a>)</p>
+<p><strong>3. Set default CRAN mirror permanent in R </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">options(repos=structure(c(CRAN=<span class="string">"YOUR FAVORITE MIRROR"</span>)))</span><br></pre></td></tr></table></figure></p>
+<p>Then follow this <a href="http://jingyan.baidu.com/article/219f4bf7d4a183de442d38f2.html" target="_blank" rel="external">Link</a>.</p>
+<h3 id="Link-software"><a href="#Link-software" class="headerlink" title="Link software"></a>Link software</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// example: link the first path to the second one</span><br><span class="line"></span><br><span class="line">sudo ln <span class="_">-s</span> /usr/<span class="built_in">local</span>/MATLAB/R2013a/bin/matlab /usr/<span class="built_in">local</span>/bin/matlab</span><br></pre></td></tr></table></figure>
+<h3 id="Install-command"><a href="#Install-command" class="headerlink" title="Install command"></a>Install command</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//.deb file :</span></span><br><span class="line"></span><br><span class="line">sudo dpkg -<span class="selector-tag">i</span> deb_package</span><br></pre></td></tr></table></figure>
+<h3 id="Switch-multiple-gcc-and-g"><a href="#Switch-multiple-gcc-and-g" class="headerlink" title="Switch multiple gcc and g++"></a>Switch multiple gcc and g++</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## for people who using matconvnet and mxnet the first toolbox need</span></span><br><span class="line"><span class="comment">## g++ 4.7 and the second need g++ 4.8, thus sometimes we need to switch between them ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## First erased the current update-alternatives setup for gcc and g++:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --remove-all gcc</span><br><span class="line">sudo update-alternatives --remove-all g++</span><br><span class="line"></span><br><span class="line"><span class="comment">## Then Install Packages</span></span><br><span class="line">sudo apt-get install gcc-4.7 gcc-4.8 g++-4.7 g++-4.8</span><br><span class="line"></span><br><span class="line"><span class="comment">## Install Alternatives</span></span><br><span class="line"><span class="comment">### Symbolic links cc and c++ are installed by default. We will install symbol links</span></span><br><span class="line"><span class="comment">### for gcc and g++, then link cc and c++ to gcc and g++ respectively.</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30</span><br><span class="line">sudo update-alternatives --set cc /usr/bin/gcc</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30</span><br><span class="line">sudo update-alternatives --set c++ /usr/bin/g++</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Finally, Configure Alternatives</span></span><br><span class="line"><span class="comment">### The last step is configuring the default commands for gcc, g++. It's easy to switch</span></span><br><span class="line"><span class="comment">### between 4.7 and 4.8 interactively:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --config gcc</span><br><span class="line">sudo update-alternatives --config g++</span><br></pre></td></tr></table></figure>
+<h3 id="Create-symbolic-link-of-folder"><a href="#Create-symbolic-link-of-folder" class="headerlink" title="Create symbolic link of folder"></a>Create symbolic link of folder</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln <span class="_">-s</span> -T /usr/<span class="built_in">local</span>/cuda-8.0/ /usr/<span class="built_in">local</span>/cuda/</span><br></pre></td></tr></table></figure>]]></content>
+      
+        <categories>
+            
+            <category> Command </category>
             
         </categories>
         
@@ -1492,30 +1520,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Ubuntu Command]]></title>
-      <url>http://yoursite.com/2015/09/29/UbuntuCommand/</url>
-      <content type="html"><![CDATA[<h2 id="Basic-Operation"><a href="#Basic-Operation" class="headerlink" title="Basic Operation"></a>Basic Operation</h2><h3 id="Check"><a href="#Check" class="headerlink" title="Check"></a>Check</h3><h4 id="Check-the-disk-partition"><a href="#Check-the-disk-partition" class="headerlink" title="Check the disk partition"></a>Check the disk partition</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -hl</span><br></pre></td></tr></table></figure>
-<h4 id="Check-the-version-of-System"><a href="#Check-the-version-of-System" class="headerlink" title="Check the version of System"></a>Check the version of System</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsb_release <span class="_">-a</span></span><br></pre></td></tr></table></figure>
-<h4 id="Check-the-bit-32-or-64-of-System"><a href="#Check-the-bit-32-or-64-of-System" class="headerlink" title="Check the bit(32 or 64) of System"></a>Check the bit(32 or 64) of System</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">uname <span class="_">-a</span></span><br><span class="line">uname -i</span><br></pre></td></tr></table></figure>
-<h4 id="Check-GPU-information"><a href="#Check-GPU-information" class="headerlink" title="Check GPU information"></a>Check GPU information</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lspci -v <span class="_">-s</span> $(lspci | grep VGA | cut <span class="_">-d</span><span class="string">" "</span> <span class="_">-f</span> 1)</span><br></pre></td></tr></table></figure>
-<h3 id="Install-software"><a href="#Install-software" class="headerlink" title="Install software"></a>Install software</h3><h4 id="Install-the-ibus-google-input"><a href="#Install-the-ibus-google-input" class="headerlink" title="Install the ibus google input"></a>Install the ibus google input</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ibus-googlepinyin</span><br><span class="line">im-config</span><br></pre></td></tr></table></figure>
-<h4 id="Install-R-project"><a href="#Install-R-project" class="headerlink" title="Install R project"></a>Install R project</h4><p><strong>1. First: add a repository to etc/apt/sources.list </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sh -c <span class="string">'echo "deb https://&lt;my.favorite.cran.mirror&gt;/bin/linux/ubuntu trusty/"'</span></span><br></pre></td></tr></table></figure></p>
-<h4 id="Install-wifi-adapter-A6-100"><a href="#Install-wifi-adapter-A6-100" class="headerlink" title="Install wifi adapter(A6 100)"></a>Install wifi adapter(A6 100)</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Download http://github.com/abperiasamy/rtl8812AU_8821AU_linux</span></span><br><span class="line"><span class="built_in">cd</span> Download/rtl8812AU_8821AU_linux-master</span><br><span class="line"><span class="comment">## sudo make clean</span></span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br><span class="line">sudo modprobe 8812au</span><br></pre></td></tr></table></figure>
-<p><strong>2. Second: running following command </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install r-base</span><br></pre></td></tr></table></figure></p>
-<p>reference website:<br>(<a href="https://cran.r-project.org/bin/linux/ubuntu/README" target="_blank" rel="external">https://cran.r-project.org/bin/linux/ubuntu/README</a>)</p>
-<p><strong>3. Set default CRAN mirror permanent in R </strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">options(repos=structure(c(CRAN=<span class="string">"YOUR FAVORITE MIRROR"</span>)))</span><br></pre></td></tr></table></figure></p>
-<p>Then follow this <a href="http://jingyan.baidu.com/article/219f4bf7d4a183de442d38f2.html" target="_blank" rel="external">Link</a>.</p>
-<h3 id="Link-software"><a href="#Link-software" class="headerlink" title="Link software"></a>Link software</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// example: link the first path to the second one</span><br><span class="line"></span><br><span class="line">sudo ln <span class="_">-s</span> /usr/<span class="built_in">local</span>/MATLAB/R2013a/bin/matlab /usr/<span class="built_in">local</span>/bin/matlab</span><br></pre></td></tr></table></figure>
-<h3 id="Install-command"><a href="#Install-command" class="headerlink" title="Install command"></a>Install command</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//.deb file :</span></span><br><span class="line"></span><br><span class="line">sudo dpkg -<span class="selector-tag">i</span> deb_package</span><br></pre></td></tr></table></figure>
-<h3 id="Switch-multiple-gcc-and-g"><a href="#Switch-multiple-gcc-and-g" class="headerlink" title="Switch multiple gcc and g++"></a>Switch multiple gcc and g++</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## for people who using matconvnet and mxnet the first toolbox need</span></span><br><span class="line"><span class="comment">## g++ 4.7 and the second need g++ 4.8, thus sometimes we need to switch between them ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## First erased the current update-alternatives setup for gcc and g++:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --remove-all gcc</span><br><span class="line">sudo update-alternatives --remove-all g++</span><br><span class="line"></span><br><span class="line"><span class="comment">## Then Install Packages</span></span><br><span class="line">sudo apt-get install gcc-4.7 gcc-4.8 g++-4.7 g++-4.8</span><br><span class="line"></span><br><span class="line"><span class="comment">## Install Alternatives</span></span><br><span class="line"><span class="comment">### Symbolic links cc and c++ are installed by default. We will install symbol links</span></span><br><span class="line"><span class="comment">### for gcc and g++, then link cc and c++ to gcc and g++ respectively.</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.7 10</span><br><span class="line">sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 20</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30</span><br><span class="line">sudo update-alternatives --set cc /usr/bin/gcc</span><br><span class="line"></span><br><span class="line">sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30</span><br><span class="line">sudo update-alternatives --set c++ /usr/bin/g++</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">## Finally, Configure Alternatives</span></span><br><span class="line"><span class="comment">### The last step is configuring the default commands for gcc, g++. It's easy to switch</span></span><br><span class="line"><span class="comment">### between 4.7 and 4.8 interactively:</span></span><br><span class="line"></span><br><span class="line">sudo update-alternatives --config gcc</span><br><span class="line">sudo update-alternatives --config g++</span><br></pre></td></tr></table></figure>
-<h3 id="Create-symbolic-link-of-folder"><a href="#Create-symbolic-link-of-folder" class="headerlink" title="Create symbolic link of folder"></a>Create symbolic link of folder</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln <span class="_">-s</span> -T /usr/<span class="built_in">local</span>/cuda-8.0/ /usr/<span class="built_in">local</span>/cuda/</span><br></pre></td></tr></table></figure>]]></content>
+      <title></title>
+      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
+      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
+]]></content>
       
-        <categories>
-            
-            <category> Command </category>
-            
-        </categories>
-        
         
     </entry>
     
@@ -1553,15 +1562,6 @@
             
         </categories>
         
-        
-    </entry>
-    
-    <entry>
-      <title></title>
-      <url>http://yoursite.com/2015/09/28/BeautifulSentencesCollection/</url>
-      <content type="html"><![CDATA[<p>The fascination and interest for vision systems continues today unabated, not only due to purely intellectual<br>reasons related to basic research, but also due to the potential of such automated vision systems to drastically increase<br>the productive capacity of organizations</p>
-]]></content>
-      
         
     </entry>
     
@@ -1621,6 +1621,34 @@
         <categories>
             
             <category> HexoTrick </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Blog Configuration]]></title>
+      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
+      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
+<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
+<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
+<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
+<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
+<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> BLOG </category>
             
         </categories>
         
@@ -1736,34 +1764,6 @@
         <categories>
             
             <category> ComputerVision </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Blog Configuration]]></title>
-      <url>http://yoursite.com/2015/09/25/blog-setting/</url>
-      <content type="html"><![CDATA[<p>Tired of searching for how to install hexo every time when I reinstall the operation system, I just collect all these configuration tips here</p>
-<h2 id="Setting-the-username-and-useremail"><a href="#Setting-the-username-and-useremail" class="headerlink" title="Setting the username and useremail"></a>Setting the username and useremail</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span>  </span><br><span class="line">$ git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="Generate-key"><a href="#Generate-key" class="headerlink" title="Generate key"></a>Generate key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure>
-<h2 id="SSH-keys-check"><a href="#SSH-keys-check" class="headerlink" title="SSH keys check"></a>SSH keys check</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><h3 id="Initialization-and-Installation"><a href="#Initialization-and-Installation" class="headerlink" title="Initialization and Installation"></a>Initialization and Installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line"></span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<h3 id="Viewing-Locally"><a href="#Viewing-Locally" class="headerlink" title="Viewing Locally"></a>Viewing Locally</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<h2 id="Sync-it-to-GitHub"><a href="#Sync-it-to-GitHub" class="headerlink" title="Sync it to GitHub"></a>Sync it to GitHub</h2><h3 id="Generate-the-public-folder"><a href="#Generate-the-public-folder" class="headerlink" title="Generate the public folder"></a>Generate the public folder</h3><p>Run cmd or git bash and cd to the path of your blog and …<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
-<h3 id="Modify-your-config-yml-file"><a href="#Modify-your-config-yml-file" class="headerlink" title="Modify your _config.yml file"></a>Modify your _config.yml file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: </span><br><span class="line">github: git@github.com:yelangya3826850/yelangya3826850.github.io.git,master</span><br><span class="line">gitcafe: git@github.com:yelangya3826850/yelangya3826850.git,gitcafe-pages</span><br></pre></td></tr></table></figure>
-<p>Notice: You can put your blog in either <strong>master</strong> branch or <strong>gh-pages</strong> branch of github, but you can only put it in <strong>gh-pages</strong> branch of gitcafe. Just pick whichever you like …</p>
-<p>At last, please type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
-<p>and if uploading successfully , you’ll get some messages.<br>If you get an error message saying: <strong>ERROR Deployer not found: git</strong><br>you should reinstall the hexo-deployer-git. Just type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<h2 id="Abbreviation-of-the-Hexo-commands"><a href="#Abbreviation-of-the-Hexo-commands" class="headerlink" title="Abbreviation of the Hexo commands"></a>Abbreviation of the Hexo commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo n   <span class="comment">## new</span></span><br><span class="line">hexo g   <span class="comment">## generate</span></span><br><span class="line">hexo s   <span class="comment">## server</span></span><br></pre></td></tr></table></figure>
-<h2 id="Themes-of-Hexo"><a href="#Themes-of-Hexo" class="headerlink" title="Themes of Hexo"></a>Themes of Hexo</h2><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Offcial Themes</a><br><a href="http://hahack.com/codes/hexo-theme-wixo/" target="_blank" rel="external">Wixo</a></p>
-<h2 id="Other-useful-links"><a href="#Other-useful-links" class="headerlink" title="Other useful links"></a>Other useful links</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git Tutorial of Liaoxue feng</a><br><a href="http://izain.info/post/gitcafe%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%90%8C%E6%97%B6%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8Egitcafe%EF%BC%89/" target="_blank" rel="external">一键部署到github与gitcafe</a><br><a href="http://lucifr.com/2013/06/02/hexo-on-cloud-with-dropbox-and-vps/" target="_blank" rel="external">Hexo 服务器端布署及 Dropbox 同步</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> BLOG </category>
             
         </categories>
         
