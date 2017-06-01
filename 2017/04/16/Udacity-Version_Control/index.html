@@ -1,0 +1,321 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Version Control | Monaen&#39;s Wiki</title>
+  <meta name="author" content="Monaen">
+  
+  <meta name="description" content="Terminology [Git terms]
+Version Control System / Source Code Manager: A version control system (abbreviated as VCS) is a tool that manages different v">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Version Control"/>
+  <meta property="og:site_name" content="Monaen&#39;s Wiki"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="Monaen&#39;s Wiki" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-97047136-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">Monaen&#39;s Wiki</a><span class="split"></span><span class="title">Version Control</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-04-16</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <h2 id="Terminology-Git-terms"><a href="#Terminology-Git-terms" class="headerlink" title="Terminology [Git terms]"></a>Terminology [<a href="https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58d31eb5_ud123-git-keyterms/ud123-git-keyterms.pdf" target="_blank" rel="external">Git terms</a>]</h2><ul>
+<li><strong>Version Control System / Source Code Manager</strong>: A <strong>version control system</strong> (abbreviated as VCS) is a tool that manages different versions of source code. A source code manager (abbreviated as SCM) is another name for a version control system.</li>
+<li><strong>Commit</strong>: Every time you <strong>commit</strong> (save the state of your project in Git), it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. You can think of it as a save point in a game - it saves your project’s files and any information about them.</li>
+<li><p><strong>Repository / repo</strong>: A <strong>repository</strong> is a directory which contains your project work, as well as a few files (hidden by default on Mac OS X) which are used to communicate with Git. </p>
+</li>
+<li><p><strong>Working Directory</strong>: The <strong>Working Directory</strong> is the files that you see in your computer’s file system. When you open your project files up on a code editor, you’re working with files in the Working Directory.</p>
+</li>
+<li><p><strong>Checkout</strong>: A <strong>checkout</strong> is when content in the repository has been copied to the Working Directory.</p>
+</li>
+<li><p><strong>SHA</strong>: It is a 40-character string composed of characters (0–9 and a–f) and calculated based on the contents of a file or directory structure in Git. “SHA” is shorthand for “Secure Hash Algorithm”. </p>
+</li>
+<li><p><strong>Branch</strong>: A <strong>branch</strong> is when a new line of development is created that diverges from the main line of development. This alternative line of development can continue without altering the main line.</p>
+</li>
+</ul>
+<h3 id="Configuring-Mac’s-Terminal"><a href="#Configuring-Mac’s-Terminal" class="headerlink" title="Configuring Mac’s Terminal"></a>Configuring Mac’s Terminal</h3><p>We’re about to configure the Terminal to display helpful information when in a directory that’s under version control. This is an optional step! You do not need to re-configure your terminal for Git to work. You can complete the entire course without reconfiguring it. However, reconfiguring the Terminal makes it significantly easier to use.</p>
+<p>If you choose to configure your Terminal, here’s what it should look like when you’re finished.<br><img src="https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58a76894_ud123-l1-terminal-config-mac/ud123-l1-terminal-config-mac.png" alt="configured display"></p>
+<h5 id="Configuration-Steps"><a href="#Configuration-Steps" class="headerlink" title="Configuration Steps"></a>Configuration Steps</h5><p>To configure the terminal, we’ll perform the following steps:</p>
+<ol>
+<li>download the zipped file</li>
+<li>move the directory <code>udacity-terminal-config</code> to your home directory and name it <code>.udacity-terminal-config</code> (there’s a dot at the front, now!)</li>
+<li>move the <code>bash_profile</code> file to your home directory and name it <code>.bash_profile</code> (there’s a dot at the front, now!)<br>if you already have a <code>.bash_profile</code> file in your home directory, transfer the content from the downloaded <code>bash_profile</code> to your existing <code>.bash_profile</code></li>
+</ol>
+<p>Download the <a href="https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58d31ce3_ud123-udacity-terminal-config/ud123-udacity-terminal-config.zip" target="_blank" rel="external">zipped file</a> to get started.</p>
+<h5 id="First-Time-Git-Configuration"><a href="#First-Time-Git-Configuration" class="headerlink" title="First Time Git Configuration"></a>First Time Git Configuration</h5><p>Before you can start using Git, you need to configure it. Run each of the following lines on the command line to make sure everything is set up.<br><figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># <span class="keyword">sets</span> up <span class="comment">Git with your name</span></span><br><span class="line">git <span class="comment">config --global user.name</span> <span class="comment">"&lt;Your-Full-Name&gt;"</span></span><br><span class="line"></span><br><span class="line"># <span class="keyword">sets</span> <span class="comment">up Git with your email</span></span><br><span class="line">git <span class="comment">config --global user.email</span> <span class="comment">"&lt;your-email-address&gt;"</span></span><br><span class="line"></span><br><span class="line"># makes <span class="comment">sure that Git output is colored</span></span><br><span class="line">git <span class="comment">config --global color.ui auto</span></span><br><span class="line"></span><br><span class="line"># displays <span class="comment">the original state in a conflict</span></span><br><span class="line">git <span class="comment">config --global merge.conflictstyle diff3</span></span><br><span class="line"></span><br><span class="line">git <span class="comment">config --list</span></span><br></pre></td></tr></table></figure></p>
+<h5 id="Git-amp-Code-Editor"><a href="#Git-amp-Code-Editor" class="headerlink" title="Git &amp; Code Editor"></a>Git &amp; Code Editor</h5><p>The last step of configuration is to get Git working with your code editor. Below are three of the most popular code editors. If you use a different editor, then do a quick search on Google for “associate X text editor with Git” (replace the X with the name of your code editor).</p>
+<ul>
+<li><p><strong>Atom Editor Setup</strong></p>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> core.<span class="keyword">editor</span> <span class="string">"atom --wait"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Sublime Text Setup</strong></p>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> core.<span class="keyword">editor</span> <span class="string">"'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' -n -w"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>VSCode Setup</strong></p>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> core.<span class="keyword">editor</span> <span class="string">"code --wait"</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+			
+		
+	
+		
+			
+			
+			
+		
+			
+		
+	
+		
+			
+		
+	
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		<li class="prev"><a href="/2017/04/16/Udacity-Full-Responsiveness/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/2017/04/16/Udacity-Full_Stack_Web_Developer/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2017 Monaen
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+</html>
